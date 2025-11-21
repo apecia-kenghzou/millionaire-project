@@ -1,24 +1,23 @@
-# INARI AMERTRON BERHAD (0166.KL)
-## Individual Stock Analysis Report
+# Stock Analysis: INARI (Inari Amertron Berhad)
 
-**Analysis Date:** 2025-11-21
-**Sector:** Technology - Semiconductors (RF & Optoelectronics)
-**Yahoo Finance Symbol:** 0166.KL
-**Bursa Malaysia Code:** INARI
+**Analysis Date:** November 21, 2025 21:55:30
+**Sector:** Technology (Semiconductors - RF & Optoelectronics)
+**Last Updated:** Real-time data from Yahoo Finance
 
 ---
 
 ## 1. COMPANY OVERVIEW
 
 **Company Name:** Inari Amertron Berhad
+**Stock Code:** INARI.KL (0166.KL on Yahoo Finance)
 **Industry:** RF & Optoelectronics Semiconductor Components
-**Market Position:** Leading Malaysian semiconductor component manufacturer specializing in RF/optical technology for 5G, data centers, and telecommunications infrastructure.
+**Market Position:** Leading Malaysian semiconductor component manufacturer serving global tech giants
 
 **Business Model:**
-- High-precision RF and optical semiconductor components
-- Long-term supply agreements with global Tier-1 customers
-- Benefits from 5G rollout and data center expansion megatrends
-- Strategic positioning in high-growth semiconductor segments
+- Designs and manufactures RF (radio frequency) and optical semiconductor components
+- Serves major customers in telecommunications, data centers, and consumer electronics
+- Vertically integrated operations with in-house design capabilities
+- Long-term supply agreements with Tier-1 global technology companies
 
 ---
 
@@ -26,371 +25,204 @@
 
 | Metric | Score | Rank |
 |--------|-------|------|
-| **Composite Score** | **8.6/10** | **#7 of 14** |
-| Fundamental Score | 8.6/10 | Tied #1 (Highest) |
-| Technical Score | 5.8/10 | Weak (Oversold) |
-| Overall Rank | 7th | Mid-tier |
+| **Composite Score** | **7.48/10** | **#7 of 14** |
+| Fundamental Score | 8.6/10 | #1 (tied) |
+| Technical Score | 5.8/10 | Weak |
+| Final Ranking | #7 | Mid-tier |
 
 **Score Breakdown:**
-- Revenue Growth: 8.5/10 (14.2% CAGR)
-- Profitability: 8.8/10 (10.5% net margin)
-- ROE: 8.9/10 (16.4% ROE)
-- Debt Health: 9.5/10 (0.18x D/E - Fortress)
-- Dividend: 7.5/10 (2.8% yield, 35% payout)
-- Cash Flow: 8.6/10 (Strong conversion)
+- Revenue Growth: 8.5/10 (14.2% CAGR - Excellent)
+- Profitability: 8.8/10 (10.5% net margin - Excellent)
+- ROE: 8.9/10 (16.4% - Very Good)
+- Debt Health: 9.5/10 (0.18x D/E - Fortress balance sheet)
+- Dividend: 7.5/10 (2.8% yield - Sustainable)
+- Cash Flow: 8.6/10 (Strong FCF generation)
 
-**Why #7 Despite Highest Fundamental Score?**
-- Technical weakness (-23% from 52w high, RSI 28.85 oversold) drags composite score
-- 60/40 weighting (Fundamentals 60%, Technicals 40%) penalizes weak chart
-- Still ranked 7th due to exceptional fundamental strength offsetting technical distress
+**Composite Calculation:**
+- Fundamental: 8.6 × 60% = 5.16
+- Technical: 5.8 × 40% = 2.32
+- **Total: 7.48**
 
 ---
 
-## 3. CURRENT PRICE DATA (as of 2025-11-19)
+## 3. CURRENT PRICE DATA (November 21, 2025)
 
-| Price Metric | Value | Status |
-|--------------|-------|--------|
-| **Current Price** | **RM 2.39** | Oversold correction |
-| 52-Week High | RM 3.10 | -22.9% below high |
-| 52-Week Low | RM 1.43 | +66.9% above low |
-| SMA 20-day | RM 2.51 | Below (bearish ST) |
-| SMA 50-day | RM 2.35 | Above (bullish MT) |
-| SMA 200-day | RM 2.10 | Above (bullish LT) |
+| Price Metric | Value | Analysis |
+|-------------|--------|----------|
+| **Current Price** | **RM 2.42** | Below short-term average |
+| 20-Day SMA | RM 2.507 | Price -3.5% below (slightly weak) |
+| 50-Day SMA | RM 2.365 | Price +2.3% above (slight support) |
+| 200-Day SMA | RM 2.094 | Price +15.6% above (long-term uptrend intact) |
+| 52-Week High | RM 3.13 | -22.6% from high (significant decline) |
+| 52-Week Low | RM 1.40 | +72.6% from low (strong recovery) |
 
-**Price Position Analysis:**
-- Currently at RM2.39, down 23% from 52-week high of RM3.10
-- Price below SMA20 (bearish short-term) but above SMA50 and SMA200 (bullish medium/long-term)
-- Mixed technical picture: short-term weakness within long-term uptrend structure
+**Price Position:** Trading BELOW 20-day SMA but ABOVE 50-day and 200-day SMAs. Short-term weakness within intermediate uptrend.
+
+**Volume Analysis:**
+- Current Volume: 6,819,200 shares
+- 20-Day Average: 9,532,765 shares
+- Volume Ratio: 0.72× (28% BELOW average - LOW volume selling)
 
 ---
 
 ## 4. TECHNICAL ANALYSIS
 
-### 4.1 Momentum Indicators
+### Momentum Indicators (November 21, 2025)
 
-| Indicator | Value | Interpretation |
-|-----------|-------|----------------|
-| **RSI (14-day)** | **28.85** | **Deeply Oversold** |
-| MACD | 0.0138 | Below signal (bearish) |
-| Signal Line | 0.0434 | MACD crossing down |
-| Histogram | -0.0297 | Negative momentum |
+**RSI (14-day): 36.59**
+- **Status:** NEUTRAL to slightly bearish
+- **Interpretation:** Below 40 suggests short-term weakness, but NOT oversold
+- **Signal:** Approaching oversold territory - watch for bounce at RSI 30
 
-**RSI 28.85 Analysis:**
-- DEEPLY OVERSOLD territory (below 30)
-- Indicates selling exhaustion and potential capitulation
-- Historically, RSI below 30 often marks near-term bottoms
-- BUT: Can remain oversold in strong downtrends - not a timing signal alone
+**MACD Analysis:**
+- MACD Line: 0.0068
+- Signal Line: 0.0311
+- Histogram: -0.0243
+- **Status:** BEARISH (MACD below signal line)
+- **Interpretation:** Negative momentum, histogram shrinking suggests selling easing
 
-### 4.2 Trend Analysis
+### Trend Analysis
 
-**Current Trend:** Sideways/Mixed with conflicting signals
+**Short-term (20-day):** WEAK - Price below SMA20
+**Medium-term (50-day):** SUPPORTED - Price holding above SMA50
+**Long-term (200-day):** BULLISH - Price well above SMA200 (+15.6%)
 
-**Timeframe Analysis:**
-- **Short-term (20-day):** BEARISH - Price below SMA20, downward pressure
-- **Medium-term (50-day):** BULLISH - Price above SMA50, support holding
-- **Long-term (200-day):** BULLISH - Price above SMA200 (+14% above), uptrend intact
-
-**Trend Strength:** Weak - conflicting signals across timeframes suggest indecision
-
-### 4.3 Volume Analysis
-
-| Volume Metric | Value | Analysis |
-|---------------|-------|----------|
-| Current Volume | 276,000 shares | Very low |
-| Avg Volume (20d) | 9,169,800 shares | Normal |
-| Volume Ratio | 0.03x (97% below avg) | Extremely light |
-
-**Volume Interpretation:**
-- EXTREMELY low volume (97% below average) suggests lack of conviction
-- Selling pressure appears exhausted - no panic selling volume
-- Low volume can indicate accumulation phase or simply lack of interest
-- Watch for volume surge as confirmation of reversal
-
-### 4.4 Support & Resistance Levels
-
-**Support Levels:**
-1. **RM 2.20** - SMA50 zone, key support
-2. **RM 2.05** - SMA200 zone, major support (STOP LOSS)
-3. **RM 1.90** - Psychological support near 52w low zone
-
-**Resistance Levels:**
-1. **RM 2.50** - SMA20, immediate resistance
-2. **RM 2.70** - First profit target
-3. **RM 2.95** - Second profit target, reclaim previous high
+**Technical Verdict:** CONSOLIDATING with downside bias
+- Stock in pullback within longer-term uptrend
+- RSI 36.59 suggests more downside possible to RSI 30
+- Low volume on decline is POSITIVE (lack of panic)
+- Watch for support at RM 2.35-2.40 zone (50-day SMA)
 
 ---
 
 ## 5. FUNDAMENTAL HIGHLIGHTS
 
-### 5.1 Financial Strength (All Excellent)
+### Financial Strength (FY2024)
+- **Revenue Growth:** 14.2% CAGR over 3 years (RM 1,850M in FY2024)
+- **Net Margin:** 10.5% (industry-leading for semiconductor components)
+- **ROE:** 16.4% (excellent capital efficiency)
+- **Debt-to-Equity:** 0.18× (FORTRESS balance sheet - minimal debt risk)
+- **Current Ratio:** 3.2× (excellent liquidity)
+- **Free Cash Flow:** RM 142.8M annually (strong cash generation)
 
-| Metric | Value | Industry Comparison |
-|--------|-------|---------------------|
-| Revenue Growth (3yr CAGR) | 14.2% | Strong (vs 8-10% industry) |
-| Q3 2025 YoY Growth | 18.5% | Accelerating momentum |
-| Net Margin | 10.5% | Excellent for semiconductors |
-| ROE | 16.4% | Very strong capital efficiency |
-| Debt-to-Equity | 0.18x | Fortress balance sheet |
-| Current Ratio | 3.2x | Excellent liquidity |
-| FCF (FY2024) | RM 142.8M | Strong cash generation |
+### Latest Quarter Performance (Q3 2025)
+- Revenue Growth: +18.5% YoY (ACCELERATING!)
+- Net Profit Growth: +22.3% YoY (earnings leverage)
+- Net Margin: 11.2% (expanding from 10.5%)
+- **Momentum:** IMPROVING - Growth accelerating
 
-### 5.2 Growth Trajectory
+### Key Strengths
+1. **Fortress Balance Sheet:** 0.18× debt-to-equity provides safety and flexibility
+2. **Accelerating Growth:** Revenue growth accelerated to 18.5% YoY in Q3 2025
+3. **Margin Expansion:** Net margin improving from 10.5% to 11.2%
+4. **Excellent ROE:** 16.4% demonstrates efficient capital deployment
+5. **Secular Tailwinds:** 5G rollout, data center expansion, optical technology
+6. **Strategic Customers:** Long-term supply agreements with major tech companies
+7. **Strong Cash Generation:** OCF RM 185M with healthy FCF conversion
 
-**Historical Performance:**
-- FY2022 Revenue: RM 1,415.8M
-- FY2023 Revenue: RM 1,620.3M (+14.4% YoY)
-- FY2024 Revenue: RM 1,850.5M (+14.2% YoY)
-- Q3 2025: +18.5% YoY (Growth ACCELERATING)
-
-**Growth Drivers:**
-- 5G infrastructure rollout globally
-- Data center expansion for AI workloads
-- Optical connectivity demand from cloud providers
-- Long-term supply agreements with Tier-1 customers
-
-### 5.3 Balance Sheet Quality
-
-**Fortress Characteristics:**
-- 0.18x Debt-to-Equity ratio (nearly debt-free)
-- RM 185M operating cash flow (strong conversion)
-- Current ratio of 3.2x (ample liquidity buffer)
-- No near-term refinancing risks
+### Key Concerns
+1. **Customer Concentration:** Major customers account for significant revenue
+2. **Semiconductor Cyclicality:** Industry exposed to boom-bust cycles
+3. **Valuation Premium:** PE 21.5× slightly above sector average
+4. **Technology Risk:** Must continue winning next-generation product designs
 
 ---
 
 ## 6. ACTION RECOMMENDATION
 
-### Primary Recommendation: **SCALE IN GRADUALLY**
+### **RECOMMENDATION: SCALE IN GRADUALLY** ⚠️
 
-**Entry Timing:** IMMEDIATE (start scaling in on current weakness)
+**Entry Timing:** IMMEDIATE (begin scale-in on current weakness)
 
-**Rationale:**
-1. **Fundamentals are Excellent** - Highest fundamental score (8.6/10) among all 14 stocks
-2. **Technical Oversold** - RSI 28.85 suggests selling exhaustion
-3. **Accelerating Growth** - Q3 growth of 18.5% YoY shows momentum improving
-4. **Fortress Balance Sheet** - 0.18x D/E provides downside protection
-5. **Long-term Uptrend Intact** - Still above SMA200, correction within bull trend
+**Entry Strategy (40-40-20 Scale-In):**
+1. **First Tranche (40%):** Buy at RM 2.35-2.40 (current area around 50-day SMA)
+2. **Second Tranche (40%):** Buy at RM 2.20-2.30 (if further weakness to RSI < 30)
+3. **Final Tranche (20%):** Buy at RM 2.05-2.15 (maximum downside scenario)
 
-**Why Not Buy Full Position Now?**
-- Technical trend remains weak with bearish MACD
-- No clear reversal confirmation yet
-- Could dip further to RM2.20-2.25 support zone
-- Scale-in approach reduces risk of catching falling knife
+**Target Average Cost:** RM 2.25-2.30
 
 ---
 
 ## 7. ENTRY STRATEGY
 
-### 7.1 Scale-In Approach (40-40-20)
+### Position Sizing
+- **Portfolio Allocation:** 7% (RM 3,500 for RM 50,000 portfolio)
+- **Share Quantity (approximate):**
+  - First buy: 580 shares @ RM 2.40 = RM 1,400
+  - Second buy: 620 shares @ RM 2.25 = RM 1,400
+  - Third buy: 320 shares @ RM 2.10 = RM 700
+  - **Total:** ~1,520 shares, average cost ~RM 2.30
 
-**Total Intended Position:** RM 3,500 (7% of RM50,000 portfolio)
+### Entry Zones
+- **Zone 1 (BUY):** RM 2.35-2.40 ✓ CURRENT PRICE
+- **Zone 2 (BUY MORE):** RM 2.20-2.30 (if RSI approaches 30)
+- **Zone 3 (FINAL BUY):** RM 2.05-2.15 (max downside scenario)
 
-**Tranche 1 (40% = RM 1,400):**
-- Entry Zone: RM 2.35 - 2.40 (current area)
-- Shares: ~590 shares
-- Timing: IMMEDIATE on current weakness
-- Rationale: Start building position at oversold levels
+### Stop Loss
+- **Stop Loss:** RM 2.05
+- **Risk:** 10.9% from average cost
+- **Maximum Loss:** RM 380
 
-**Tranche 2 (40% = RM 1,400):**
-- Entry Zone: RM 2.20 - 2.30
-- Shares: ~620 shares
-- Timing: If price dips to SMA50 support
-- Rationale: Add on further weakness at key support
-
-**Tranche 3 (20% = RM 700):**
-- Entry Zone: RM 2.05 - 2.15
-- Shares: ~330 shares
-- Timing: Only if price tests SMA200 support
-- Rationale: Final tranche at major support, above stop loss
-
-**Average Entry Target:** RM 2.25 - 2.30 (blended cost)
-
-### 7.2 Position Sizing Discipline
-
-- Maximum portfolio allocation: 7% (RM 3,500)
-- Scale in over 2-4 weeks (do NOT rush)
-- Adjust tranche sizes if price action changes
-- Be patient - quality company, no rush
+### Profit Targets
+- **Target 1 (30%):** RM 2.75 (+20%)
+- **Target 2 (40%):** RM 2.95 (+28%)
+- **Target 3 (30%):** RM 3.20 (+39%)
 
 ---
 
 ## 8. RISK MANAGEMENT
 
-### 8.1 Stop Loss (CRITICAL)
+### Risk Assessment
+- **Risk Level:** MEDIUM-HIGH
+- **Why?** Weak technical setup but exceptional fundamentals
 
-**Stop Loss Level:** RM 2.05 (FIRM)
+### Risk Factors
+1. **Technical Weakness:** Short-term momentum negative
+2. **Semiconductor Cycle:** If AI/data center capex slows
+3. **Customer Concentration:** Major customer dependency
+4. **Valuation:** PE 21.5× leaves limited margin of safety
 
-**Stop Loss Rationale:**
-- Below SMA200 support zone (RM 2.10)
-- Below 52-week average price
-- Represents 14.2% risk from average entry of RM 2.39
-- Below this level, technical structure breaks down
-
-**Stop Loss Discipline:**
-- Set STOP LOSS order in broker on DAY 1 of entry
-- Do NOT move stop loss lower ("average down") if hit
-- If stopped out, accept loss and reassess
-
-### 8.2 Risk Per Position
-
-| Risk Metric | Value | Assessment |
-|-------------|-------|------------|
-| Position Size | RM 3,500 | 7% of portfolio |
-| Stop Loss | RM 2.05 | 14.2% below entry |
-| Maximum Loss | RM 497 | 1.0% of total portfolio |
-| Risk Level | Medium-High | Acceptable for quality stock |
-
-**Maximum Portfolio Risk:** 1.0% (if stop loss hit)
-
-### 8.3 Profit Targets (Take Profits Systematically)
-
-**Target 1: RM 2.70 (+13.0% gain)**
-- Exit: 30% of position (sell ~470 shares)
-- Timing: 1-3 months estimated
-- Rationale: Lock in initial gains, reduce pressure
-
-**Target 2: RM 2.95 (+23.4% gain)**
-- Exit: 40% of position (sell ~630 shares)
-- Timing: 3-6 months estimated
-- Rationale: Take majority off table at previous high retest
-
-**Target 3: RM 3.20 (+33.9% gain)**
-- Exit: Final 30% (sell ~440 shares) with trailing stop
-- Timing: 6-12 months estimated
-- Rationale: Let winners run, capture trend extension
-
-**Exit Discipline:**
-- Hit target? SELL at limit order (no exceptions)
-- Don't get greedy - take profits systematically
-- Re-evaluate thesis if targets delayed significantly
+### Risk Mitigation
+1. **Scale-in Strategy:** 40-40-20 reduces timing risk
+2. **Stop Loss:** Exit below RM 2.05
+3. **Small Allocation:** 7% prevents single stock risk
+4. **Fortress Balance Sheet:** 0.18× D/E provides stability
 
 ---
 
 ## 9. INVESTMENT THESIS
 
-### 9.1 Bull Case (Why Invest)
+**Core Thesis:**
+Premium semiconductor component manufacturer with FORTRESS BALANCE SHEET (0.18× D/E), ACCELERATING GROWTH (18.5% YoY Q3), and EXCELLENT ROE (16.4%). Positioned for 5G, data centers, and optical technology adoption.
 
-**Structural Growth Drivers:**
-1. **5G Megatrend** - Global 5G infrastructure rollout requires RF components for decades
-2. **Data Center Boom** - AI/ML driving optical connectivity demand for high-speed interconnects
-3. **Market Position** - Established Tier-1 customer relationships with high switching costs
-4. **Operational Excellence** - 16.4% ROE demonstrates efficient capital deployment
+**Why Buy Now?**
+1. Quality on sale: -22.6% from highs despite improving fundamentals
+2. Accelerating growth: Q3 +18.5% YoY
+3. Best fundamentals: #1 score (8.6/10)
+4. Fortress balance sheet: 0.18× D/E
+5. Secular tailwinds: 5G, data centers, AI
 
-**Financial Strength:**
-- Fortress balance sheet (0.18x D/E) provides recession resilience
-- Strong cash generation (RM 142.8M FCF) funds R&D and capacity expansion
-- Accelerating growth (18.5% YoY Q3) shows competitive position strengthening
-- Sustainable dividend (2.8% yield, 35% payout) with growth potential
-
-**Valuation Opportunity:**
-- Stock down 23% from highs despite accelerating fundamentals
-- Technical oversold (RSI 28.85) creates entry opportunity
-- PE 21.5x reasonable for 14-18% growth profile
-- Risk/reward favorable at current oversold levels
-
-### 9.2 Bear Case (Key Risks)
-
-**Cyclical Semiconductor Risk:**
-- Semiconductor industry is cyclical - capex cycles can reverse quickly
-- If 5G/AI spending slows, demand for components would decline
-- Customer inventory adjustments can cause revenue volatility
-
-**Customer Concentration:**
-- Top 3-4 customers likely represent significant revenue percentage
-- Loss of major customer would materially impact results
-- Limited pricing power against large global customers
-
-**Technology Evolution:**
-- Rapid technology shifts in semiconductors create obsolescence risk
-- Requires continuous R&D investment to stay competitive
-- Next-generation product wins not guaranteed
-
-**Valuation Risk:**
-- PE 21.5x represents premium to sector average of 19x
-- If growth disappoints, valuation multiple could compress
-- Stock could fall further before bottoming (RSI can go lower)
-
-### 9.3 Thesis Summary
-
-**Core Thesis:** World-class semiconductor component manufacturer with fortress balance sheet, accelerating growth, and exceptional ROE trading at oversold technical levels due to sector-wide selling pressure. Long-term secular tailwinds (5G, AI data centers) support sustained growth. Current weakness creates opportunity to accumulate quality company at discounted valuation.
-
-**Confidence Level:** HIGH (on fundamentals), MEDIUM (on near-term technicals)
-
-**Time Horizon:** 12-18 months to realize full thesis
+**Expected Outcome (12-month):**
+- **Base Case:** 25-30% upside to RM 2.95-3.20
+- **Bull Case:** 40-50% upside to RM 3.20-3.50
+- **Bear Case:** 10-15% downside to RM 2.05-2.15
 
 ---
 
-## 10. WARNINGS & CRITICAL NOTES
+## 10. WARNINGS & NOTES
 
-### 10.1 Critical Warnings
+### ⚠️ CRITICAL WARNINGS
 
-**Do NOT Buy Full Position Immediately:**
-- RSI 28.85 oversold but no reversal confirmation yet
-- MACD still bearish, no bullish crossover signal
-- Could dip further to RM 2.20-2.25 before stabilizing
-- SCALE IN gradually over 2-4 weeks
+1. **DO NOT Buy Full Position Now** - Use 40-40-20 scale-in
+2. **RESPECT Stop Loss at RM 2.05** - Don't average down below
+3. **Monitor Semiconductor Cycle** - Watch quarterly earnings
 
-**Technical Risk Remains High:**
-- Downtrend could continue despite oversold RSI
-- No guarantee of reversal at current levels
-- Be prepared for further downside to RM 2.05 stop loss zone
+### 📊 Key Metrics to Monitor
 
-**Stop Loss is MANDATORY:**
-- Set stop loss at RM 2.05 on FIRST tranche entry
-- Do NOT remove or lower stop loss if price declines
-- Accept loss if stopped out - capital preservation first
-
-### 10.2 Monitoring Checklist
-
-**Weekly Review (Every Sunday):**
-- [ ] Check RSI - has it recovered above 35? (reversal signal)
-- [ ] Check MACD - any bullish crossover? (momentum shift)
-- [ ] Check volume - any surge confirming buyers returning?
-- [ ] Review semiconductor sector news for industry trends
-
-**Quarterly Review (Post-Earnings):**
-- [ ] Revenue growth still accelerating or decelerating?
-- [ ] Customer concentration increasing or diversifying?
-- [ ] Margins stable or compressing?
-- [ ] Management commentary on order book and visibility?
-
-### 10.3 Exit Triggers (Beyond Stop Loss)
-
-**Fundamental Deterioration:**
-- Revenue growth decelerates below 10% YoY for 2 consecutive quarters
-- Major customer loss announced (>15% of revenue)
-- Debt levels increase materially (D/E above 0.5x)
-- Margins compress below 8% (sign of pricing pressure)
-
-**Technical Breakdown:**
-- Break below RM 2.05 stop loss (SMA200 support failure)
-- Failed rally attempt unable to reclaim RM 2.50 (SMA20) resistance
-- Volume surge on down days (distribution pattern)
+**Weekly:** Price at RM 2.35-2.40 support, RSI approaching 30
+**Monthly:** Q4 2025 earnings (Jan 2026), order book trends
+**Quarterly:** Revenue growth, margin trends, cash flow
 
 ---
 
-## 11. SUMMARY & QUICK REFERENCE
-
-| Aspect | Detail |
-|--------|--------|
-| **Current Price** | RM 2.39 |
-| **Recommendation** | SCALE IN (40-40-20) |
-| **Entry Zone** | RM 2.05 - 2.40 (scale in) |
-| **Stop Loss** | RM 2.05 (firm, non-negotiable) |
-| **Target 1** | RM 2.70 (exit 30%) |
-| **Target 2** | RM 2.95 (exit 40%) |
-| **Target 3** | RM 3.20 (exit 30%) |
-| **Position Size** | 7% (RM 3,500) |
-| **Max Risk** | 1.0% of portfolio |
-| **Time Horizon** | 12-18 months |
-| **Risk Level** | Medium-High |
-
-**Bottom Line:** INARI is the highest quality fundamental stock (8.6 score) in the portfolio but currently suffering technical weakness. Scale in gradually over 2-4 weeks to build position at oversold levels. Stop loss at RM 2.05 is MANDATORY. Long-term secular trends (5G, AI data centers) support thesis. Be patient and disciplined with scale-in approach.
-
----
-
-**Disclaimer:** This analysis is for informational purposes only and does not constitute financial advice. Conduct your own due diligence and consult a licensed financial advisor before making investment decisions. Past performance does not guarantee future results. All investments carry risk of loss.
-
-**Report Generated:** 2025-11-21
-**Valid For:** 3-6 months (review after Q4 2025 earnings)
-**Next Review:** February 2026 earnings season
+**SUMMARY:** HIGHEST fundamental quality (8.6/10) but weak technicals (5.8/10) create SCALE-IN opportunity. Start buying at RM 2.35-2.40, average down to RM 2.20-2.30 if needed. Stop RM 2.05. Target RM 2.95-3.20 (+25-35%) in 12 months.

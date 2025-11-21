@@ -1,148 +1,185 @@
-# Daily Stock Analysis - November 21, 2025
+# Daily Stock Analysis - November 21, 2025 ✅ UPDATED
 
-**Analysis Date:** 2025-11-21
+**Analysis Date:** 2025-11-21 21:55:30
+**Data Source:** Yahoo Finance (Real-time)
 **Total Stocks Analyzed:** 14
 **Capital Allocated:** RM 50,000
-**Status:** ✅ Complete
+**Status:** ✅ Complete with Current Market Data
 
 ---
 
 ## 📊 Executive Summary
 
-### Portfolio Allocation Strategy
-- **Immediate Buy:** 40% (RM 20,000) - 4 stocks
+### Portfolio Allocation Strategy (UPDATED)
+- **Immediate Buy:** 47% (RM 23,500) - 7 stocks ⬆️ FROM 40%
 - **Scale In:** 13% (RM 6,500) - 2 stocks
-- **Small Positions:** 15% (RM 7,500) - 4 stocks
-- **Watchlist:** 12% (RM 6,000) - 2 stocks waiting for correction
-- **Watchlist:** 12% (RM 6,000) - 2 stocks waiting for stabilization
+- **Small Positions:** 7% (RM 3,500) - 1 stock
+- **Watchlist (Wait):** 13% (RM 6,500) - 3 stocks
 - **Cash Reserve:** 20% (RM 10,000)
+
+### 🔥 MAJOR CHANGES FROM NOV 19:
+- **PENTA**: RSI 8.1→31.9 ✅ NOW BUYABLE! (was WAIT)
+- **GASMSIA**: RSI 44→30 💰 NOW OVERSOLD ENTRY! (was HOLD)
+- **MAXIS**: RSI 84.3→75.0 (still overbought, continue waiting)
+- **GREATEC**: RSI 8.8→21.1 (improving, wait for > 25)
 
 ---
 
-## 🏆 TOP 3 IMMEDIATE BUY RECOMMENDATIONS
+## 🏆 TOP 3 IMMEDIATE BUY RECOMMENDATIONS (UPDATED)
 
 ### 1. PBBANK - Public Bank Berhad ⭐ **#1 RANKED**
 - **Score:** 7.82/10 (Fundamental 8.5 | Technical 6.8)
-- **Current Price:** RM 4.25
-- **Entry Zone:** RM 4.20-4.28
+- **Current Price:** RM 4.30 (↑ from RM 4.25)
+- **RSI:** 59.5 (healthy bullish)
+- **Entry Zone:** RM 4.25-4.35
 - **Allocation:** 13% (RM 6,500) - LARGEST position
 - **Action:** **BUY NOW** - Highest priority
-- **Why:** Best banking fundamentals, bullish MACD crossover, tight stop (4.7%)
-- **Stop Loss:** RM 4.05 | **Target:** RM 4.68 (+10.1%)
+- **Why:** Best banking fundamentals, price broke above consolidation
+- **Stop Loss:** RM 4.05 | **Target:** RM 4.75 (+10.5%)
 - [Full Analysis →](finance/PBBANK.md)
 
 ### 2. PGAS - Petronas Gas Berhad
 - **Score:** 7.30/10 (Fundamental 8.5 | Technical 5.5)
-- **Current Price:** RM 18.18
-- **Entry Zone:** RM 17.80-18.30
+- **Current Price:** RM 18.36 (↑ from RM 18.18)
+- **RSI:** 45.7 (neutral, was oversold)
+- **Entry Zone:** RM 18.00-18.50
 - **Allocation:** 12% (RM 6,000)
-- **Action:** **BUY NOW** - Oversold entry
-- **Why:** Best utility fundamentals, gas monopoly, oversold RSI 34.85
-- **Stop Loss:** RM 17.00 | **Target:** RM 19.50 (+7.3%)
+- **Action:** **BUY NOW** - Recovering from oversold
+- **Why:** Best utility fundamentals, gas monopoly
+- **Stop Loss:** RM 17.00 | **Target:** RM 19.80 (+7.8%)
 - [Full Analysis →](utilities/PGAS.md)
 
 ### 3. MAYBANK - Malayan Banking Berhad
 - **Score:** 7.90/10 (Fundamental 8.1 | Technical 7.6)
-- **Current Price:** RM 9.94
+- **Current Price:** RM 9.94 (unchanged)
+- **RSI:** 48.0 (neutral, cooled from 58.6)
 - **Entry Zone:** RM 9.80-9.95
 - **Allocation:** 12% (RM 6,000)
-- **Action:** **BUY NOW** on pullback
-- **Why:** Strongest technical setup, Malaysia's largest bank, confirmed uptrend
+- **Action:** **BUY NOW** - RSI cooled to better entry
+- **Why:** Malaysia's largest bank, improved RSI entry
 - **Stop Loss:** RM 9.50 | **Target:** RM 10.80 (+8.7%)
 - [Full Analysis →](finance/MAYBANK.md)
 
 ---
 
-## 📈 ANALYSIS BY SECTOR
+## 🆕 NEW OPPORTUNITIES (NOV 21 UPDATE)
+
+### 4. PENTA - Pentamaster Corporation 🔥 **NOW BUYABLE!**
+- **Score:** 6.96/10 (Fundamental 8.6 | Technical 4.5)
+- **Current Price:** RM 3.85 (↑ +3.22% from RM 3.73)
+- **RSI:** 31.9 (✅ RECOVERED from 8.1!)
+- **Entry Zone:** RM 3.75-3.90
+- **Allocation:** 7% (RM 3,500)
+- **Action:** **BUY NOW** - RSI stabilized above 25
+- **Why:** HIGHEST fundamental (8.6), RSI recovered from panic
+- **Stop Loss:** RM 3.50 | **Target:** RM 4.60 (+19.5%)
+- [Full Analysis →](technology/PENTA.md)
+
+### 5. GASMSIA - Gas Malaysia Berhad 💰 **OVERSOLD ENTRY!**
+- **Score:** 7.02/10 (Fundamental 7.7 | Technical 6.0)
+- **Current Price:** RM 4.29 (↓ -2.50% from RM 4.40)
+- **RSI:** 30.0 (oversold, was 44)
+- **Entry Zone:** RM 4.20-4.35
+- **Allocation:** 4% (RM 2,000)
+- **Action:** **BUY NOW** - New oversold entry
+- **Why:** Weakness creates opportunity, gas distribution utility
+- **Stop Loss:** RM 4.00 | **Target:** RM 4.70 (+9.6%)
+- [Full Analysis →](utilities/GASMSIA.md)
+
+---
+
+## 📈 ANALYSIS BY SECTOR (UPDATED)
 
 ### Technology Sector (4 Stocks)
-| Stock | Code | Score | Price | Status | Action | Allocation |
-|-------|------|-------|-------|--------|--------|------------|
-| **INARI** | 0166.KL | 7.48 | RM 2.39 | Oversold | SCALE IN | 7% (RM 3,500) |
-| **UNISEM** | 5005.KL | 7.00 | RM 3.19 | Oversold | SCALE IN | 6% (RM 3,000) |
-| **PENTA** | 7160.KL | 6.96 | RM 3.73 | ⚠️ Capitulation | WAIT RSI>25 | 0% (Watchlist) |
-| **GREATEC** | GREATEC.KL | 6.60 | RM 1.82 | ⚠️ Capitulation | WAIT RSI>20 | 0% (Watchlist) |
+| Stock | Code | Score | Price | RSI | Status | Action | Allocation |
+|-------|------|-------|-------|-----|--------|--------|------------|
+| **PENTA** 🔥 | 7160.KL | 6.96 | RM 3.85 | 31.9 | ✅ Recovered | **BUY NOW** | 7% (RM 3,500) |
+| **INARI** | 0166.KL | 7.48 | RM 2.42 | 36.6 | Oversold | SCALE IN | 7% (RM 3,500) |
+| **UNISEM** | 5005.KL | 7.00 | RM 3.18 | 40.2 | Neutral | SCALE IN | 6% (RM 3,000) |
+| **GREATEC** | GREATEC.KL | 6.60 | RM 1.85 | 21.1 | ⚠️ Improving | WAIT RSI>25 | 0% (Watchlist) |
 
-**Sector Summary:** Mixed - 2 stocks in severe oversold capitulation (PENTA/GREATEC RSI <10), 2 in correction phase ready for scaling. INARI has HIGHEST fundamental score (8.6).
+**Sector Summary:** **PENTA NOW BUYABLE!** RSI recovered from 8.1→31.9. INARI and UNISEM remain good scale-in opportunities. GREATEC improving but needs more time.
 
 ---
 
 ### Finance Sector (5 Stocks)
-| Stock | Code | Score | Price | Status | Action | Allocation |
-|-------|------|-------|-------|--------|--------|------------|
-| **PBBANK** | PBBANK.KL | 7.82 ⭐ | RM 4.25 | Consolidation | **BUY NOW** | 13% (RM 6,500) |
-| **MAYBANK** | 1155.KL | 7.90 | RM 9.94 | Uptrend | **BUY NOW** | 12% (RM 6,000) |
-| **CIMB** | 1023.KL | 7.74 | RM 7.53 | Uptrend | **BUY NOW** | 11% (RM 5,500) |
-| **HLBANK** | 5819.KL | 7.68 | RM 21.00 | Uptrend | BUY Small | 5% (RM 2,500) |
-| **MAXIS** | 6012.KL | 7.58 | RM 4.18 | ⚠️ Overbought | WAIT Pullback | 0% (Watchlist) |
+| Stock | Code | Score | Price | RSI | Status | Action | Allocation |
+|-------|------|-------|-------|-----|--------|--------|------------|
+| **PBBANK** ⭐ | PBBANK.KL | 7.82 | RM 4.30 | 59.5 | Strong | **BUY NOW** | 13% (RM 6,500) |
+| **MAYBANK** | 1155.KL | 7.90 | RM 9.94 | 48.0 | Neutral | **BUY NOW** | 12% (RM 6,000) |
+| **CIMB** | 1023.KL | 7.74 | RM 7.46 | 52.2 | Neutral | **BUY NOW** | 11% (RM 5,500) |
+| **HLBANK** | 5819.KL | 7.68 | RM 21.00 | 52.6 | Neutral | BUY Small | 5% (RM 2,500) |
+| **MAXIS** | 6012.KL | 7.58 | RM 4.13 | 75.0 | ⚠️ Overbought | WAIT | 0% (Watchlist) |
 
-**Sector Summary:** STRONGEST sector - 3 banks in confirmed uptrends. MAXIS RSI 84.31 extreme overbought (DO NOT CHASE). Banking showing relative strength.
+**Sector Summary:** STRONGEST sector - 4 banks buyable. PBBANK price rising with RSI strength. MAYBANK RSI cooled to better entry. MAXIS still overbought but improving.
 
 ---
 
 ### Utilities Sector (5 Stocks)
-| Stock | Code | Score | Price | Status | Action | Allocation |
-|-------|------|-------|-------|--------|--------|------------|
-| **PGAS** | 6033.KL | 7.30 | RM 18.18 | Oversold | **BUY NOW** | 12% (RM 6,000) |
-| **VSOLAR** | 0215.KL | 7.52 | RM 3.07 | Extended | WAIT Pullback | 0% (Watchlist) |
-| **GASMSIA** | 5209.KL | 7.02 | RM 4.40 | Support | Small BUY | 4% (RM 2,000) |
-| **TENAGA** | 5347.KL | 6.76 | RM 13.18 | Consolidation | BUY on Dip | 6% (RM 3,000) |
-| **YTLPOWR** | YTLPOWR.KL | 6.56 | RM 3.72 | Oversold | SCALE IN | 4% (RM 2,000) |
+| Stock | Code | Score | Price | RSI | Status | Action | Allocation |
+|-------|------|-------|-------|-----|--------|--------|------------|
+| **PGAS** | 6033.KL | 7.30 | RM 18.36 | 45.7 | Neutral | **BUY NOW** | 12% (RM 6,000) |
+| **GASMSIA** 💰 | 5209.KL | 7.02 | RM 4.29 | 30.0 | Oversold | **BUY NOW** | 4% (RM 2,000) |
+| **TENAGA** | 5347.KL | 6.76 | RM 13.10 | 35.7 | Weak | SCALE IN | 6% (RM 3,000) |
+| **YTLPOWR** | YTLPOWR.KL | 6.56 | RM 3.83 | 34.0 | Weak | SCALE IN | 4% (RM 2,000) |
+| **VSOLAR** | 0215.KL | 7.52 | RM 3.04 | 50.0 | Extended | WAIT | 0% (Watchlist) |
 
-**Sector Summary:** Mixed - PGAS (best fundamentals) oversold offers best entry. VSOLAR extended after doubling (+99%). Mostly in correction but above long-term SMAs.
+**Sector Summary:** **GASMSIA NEW OPPORTUNITY!** Dropped -2.5% with RSI 30. PGAS solid buy. TENAGA and YTLPOWR good scale-in plays.
 
 ---
 
-## ⚠️ CRITICAL WARNINGS
+## ⚠️ CRITICAL WARNINGS (UPDATED)
 
-### DO NOT BUY NOW:
-1. **PENTA.KL** - RSI 8.11 EXTREME oversold (panic selling ongoing) → WAIT for RSI > 25
-2. **GREATEC.KL** - RSI 8.82 EXTREME oversold (capitulation) → WAIT for RSI > 20
-3. **MAXIS.KL** - RSI 84.31 EXTREME overbought at 52w high → WAIT for 10-15% correction to RM 3.80-3.95
-4. **VSOLAR.KL** - Stock doubled (+99%) → WAIT for 10-15% pullback to RM 2.80-2.95
+### 🟢 NOW BUYABLE (Status Changed):
+1. **PENTA.KL** ✅ - RSI recovered from 8.1→31.9 → **NOW BUY at RM 3.85**
+2. **GASMSIA.KL** 💰 - RSI dropped to 30 (oversold) → **BUY ON WEAKNESS at RM 4.29**
 
-### LIQUIDITY WARNING:
+### ⚠️ STILL WAIT:
+1. **GREATEC.KL** - RSI improved 8.8→21.1 but still < 25 → WAIT for RSI > 25
+2. **MAXIS.KL** - RSI cooled 84.3→75.0 but still overbought → WAIT for RSI < 65
+3. **VSOLAR.KL** - Stock doubled (+99%) → WAIT for 10-15% pullback
+
+### 🔵 LIQUIDITY WARNING:
 - **HLBANK.KL** - Extremely low volume (1.57M avg) → Maximum 5% position only
 
 ---
 
-## 💰 PORTFOLIO CONSTRUCTION
+## 💰 UPDATED PORTFOLIO CONSTRUCTION (RM 50,000)
 
-### Phase 1: Immediate Deployment (Day 1)
-**Deploy RM 20,000 (40%)**
-1. PBBANK - RM 6,500 @ 4.20-4.28
-2. PGAS - RM 6,000 @ 17.80-18.30
+### Phase 1: Immediate Deployment (47% = RM 23,500) ⬆️
+**Deploy NOW**
+1. PBBANK - RM 6,500 @ 4.25-4.35 ⭐
+2. PGAS - RM 6,000 @ 18.00-18.50
 3. MAYBANK - RM 6,000 @ 9.80-9.95
 4. CIMB - RM 5,500 @ 7.40-7.50
+5. **PENTA - RM 3,500 @ 3.75-3.90** 🔥 NEW!
+6. **GASMSIA - RM 2,000 @ 4.20-4.35** 💰 NEW!
+7. HLBANK - RM 2,500 @ 20.60-21.10 (small due to liquidity)
 
-### Phase 2: Scale In Positions (Week 1-2)
-**Deploy RM 6,500 (13%)**
-5. INARI - RM 3,500 (40-40-20 scaling)
-6. UNISEM - RM 3,000 (40-40-20 scaling)
+### Phase 2: Scale In Positions (13% = RM 6,500)
+**Deploy Week 1-2**
+8. INARI - RM 3,500 (40-40-20 scaling from RM 2.35-2.45)
+9. UNISEM - RM 3,000 (40-40-20 scaling from RM 3.10-3.20)
 
-### Phase 3: Small Positions (Week 1-3)
-**Deploy RM 7,500 (15%)**
-7. HLBANK - RM 2,500 @ 20.60-20.90
-8. TENAGA - RM 3,000 @ 12.80-13.10
-9. GASMSIA - RM 2,000 @ 4.30-4.45
-10. YTLPOWR - RM 2,000 @ 3.60-3.75
+### Phase 3: Dip Buying (7% = RM 3,500)
+**Deploy when conditions met**
+10. TENAGA - RM 3,500 (wait for dip to RM 12.80-13.00)
 
-### Phase 4: Wait for Opportunities
-**Reserve RM 6,000 (12%) - Deploy when conditions met**
-11. MAXIS - RM 4,000 AFTER correction to 3.80-3.95
-12. VSOLAR - RM 2,500 AFTER pullback to 2.80-2.95
+### Phase 4: Watchlist - Wait for Conditions (13% = RM 6,500)
+**Reserve for future deployment**
+11. MAXIS - RM 4,000 AFTER RSI < 65 (was 75.0, improving)
+12. VSOLAR - RM 2,500 AFTER pullback to RM 2.80-2.95
+13. GREATEC - RM 2,500 AFTER RSI > 25 (was 21.1, close!)
+14. YTLPOWR - RM 2,000 scale-in at RM 3.70-3.85
 
-### Phase 5: Wait for Stabilization
-**Reserve RM 6,000 (12%) - Deploy when conditions met**
-13. PENTA - RM 3,500 AFTER RSI > 25
-14. GREATEC - RM 2,500 AFTER RSI > 20
-
-### Cash Buffer
-**RM 10,000 (20%)** - For averaging down, new opportunities, risk management
+### Cash Buffer (20% = RM 10,000)
+- For averaging down
+- New opportunities
+- Risk management
 
 ---
 
-## 📊 KEY METRICS
+## 📊 KEY METRICS (UPDATED)
 
 ### Portfolio Characteristics
 - **Weighted Average Composite Score:** 7.22/10
@@ -151,29 +188,24 @@
 - **Weighted Average Dividend Yield:** 4.9%
 - **Weighted Average ROE:** 13.8%
 
-### Sector Allocation
-- **Finance:** 41% (RM 20,500) - 4 stocks
-- **Utilities:** 30% (RM 15,000) - 5 stocks
-- **Technology:** 13% (RM 6,500) - 2 stocks (immediate)
+### Sector Allocation (Current Deployable)
+- **Finance:** 43% (RM 21,500) - 5 stocks
+- **Utilities:** 24% (RM 12,000) - 3 stocks
+- **Technology:** 13% (RM 6,500) - 2 stocks (PENTA now included!)
 - **Cash:** 20% (RM 10,000)
-
-### Risk Profile
-- **Overall Risk:** Medium
-- **Income Generation:** Strong (4.9% portfolio yield)
-- **Growth Potential:** Moderate (6-8% annual earnings growth expected)
 
 ---
 
-## 🔍 DETAILED STOCK ANALYSES
+## 🔍 DETAILED STOCK ANALYSES (ALL UPDATED NOV 21)
 
 ### Technology Sector
+- [PENTA - Pentamaster Corporation 🔥](technology/PENTA.md) **NEW: NOW BUYABLE!**
 - [INARI - Inari Amertron Berhad](technology/INARI.md)
 - [UNISEM - Unisem (M) Berhad](technology/UNISEM.md)
-- [PENTA - Pentamaster Corporation](technology/PENTA.md)
 - [GREATEC - Greatech Technology](technology/GREATEC.md)
 
 ### Finance Sector
-- [PBBANK - Public Bank Berhad](finance/PBBANK.md) ⭐
+- [PBBANK - Public Bank Berhad ⭐](finance/PBBANK.md)
 - [MAYBANK - Malayan Banking Berhad](finance/MAYBANK.md)
 - [CIMB - CIMB Group Holdings](finance/CIMB.md)
 - [HLBANK - Hong Leong Bank](finance/HLBANK.md)
@@ -181,43 +213,43 @@
 
 ### Utilities Sector
 - [PGAS - Petronas Gas Berhad](utilities/PGAS.md)
-- [VSOLAR - Vortex Solar Berhad](utilities/VSOLAR.md)
-- [GASMSIA - Gas Malaysia Berhad](utilities/GASMSIA.md)
+- [GASMSIA - Gas Malaysia Berhad 💰](utilities/GASMSIA.md) **NEW: OVERSOLD ENTRY!**
 - [TENAGA - Tenaga Nasional Berhad](utilities/TENAGA.md)
 - [YTLPOWR - YTL Power International](utilities/YTLPOWR.md)
+- [VSOLAR - Vortex Solar Berhad](utilities/VSOLAR.md)
 
 ---
 
-## 📅 EXECUTION TIMELINE
+## 📅 EXECUTION TIMELINE (UPDATED)
 
-### Day 1 (Today)
-- Deploy RM 20,000 into 4 immediate buy stocks
-- Start first tranche of INARI and UNISEM scale-in
+### Day 1 (TODAY - Nov 21)
+- Deploy RM 23,500 into 7 immediate buy stocks
+- **PRIORITY:** PBBANK, PGAS, MAYBANK, CIMB
+- **NEW:** PENTA and GASMSIA now buyable!
 
 ### Week 1
-- Complete INARI and UNISEM scaling (monitor RSI)
-- Add HLBANK, GASMSIA small positions
-- Monitor PENTA/GREATEC for RSI recovery
+- Complete INARI and UNISEM scaling (40-40-20)
+- Monitor GREATEC for RSI > 25
+- Watch MAXIS for RSI < 65
 
 ### Week 2-3
 - Add TENAGA on dip to 12.80-13.00
-- Add YTLPOWR scaling
-- Monitor MAXIS/VSOLAR for correction
+- Continue INARI/UNISEM if still scaling
 
 ### Week 4+
-- Add MAXIS if corrects to 3.80-3.95
+- Add MAXIS if RSI < 65 and price corrects
 - Add VSOLAR if pulls back to 2.80-2.95
-- Add PENTA if RSI > 25
-- Add GREATEC if RSI > 20
+- Add GREATEC if RSI > 25
 
 ---
 
 ## 📝 NOTES
 
-- All prices and data as of 2025-11-19 (latest Yahoo Finance data)
-- Technical scores reflect REAL market conditions (not estimated)
-- Fundamental scores based on 3-5 years historical financial data
-- Always verify current prices before execution
+- ✅ All prices and data as of **November 21, 2025 21:55:30** (CURRENT)
+- ✅ Technical scores reflect REAL market conditions
+- ✅ Fetched from Yahoo Finance (same as KLSE app)
+- ⚠️ **2 NEW OPPORTUNITIES:** PENTA and GASMSIA now buyable!
+- ⚠️ Always verify current prices before execution
 - This is educational analysis, not financial advice
 - Consult licensed financial advisor before investing
 
@@ -225,17 +257,17 @@
 
 ## 🔄 NEXT ANALYSIS
 
-**Next Update:** 2025-11-22
+**Next Update:** 2025-11-22 (or weekly)
 **Frequency:** Daily (or weekly as preferred)
-**Focus:** Monitor positions, update recommendations, identify new opportunities
+**Focus:** Monitor PENTA, GASMSIA, watch GREATEC/MAXIS for entry
 
 ---
 
-**Generated:** 2025-11-21
+**Generated:** 2025-11-21 21:55:30
 **Data Source:** Yahoo Finance (Real Market Data)
 **Analysis Framework:** 7-Stage Investment Analysis System
-**Status:** ✅ Ready for Execution
+**Status:** ✅ Ready for Execution with Current Prices
 
 ---
 
-*Let's get rich together! 🚀💰*
+*Let's get rich together with REAL current data! 🚀💰*

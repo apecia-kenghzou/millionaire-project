@@ -1,121 +1,152 @@
-# MAXIS BERHAD (6012.KL)
-## Individual Stock Analysis Report
+# Stock Analysis: MAXIS (Maxis Berhad)
 
-**Date:** 2025-11-21 | **Sector:** Finance (Telco) | **Symbol:** 6012.KL | **Rank:** #5 of 14
+**Analysis Date:** November 21, 2025 21:55:30
+**Sector:** Finance - Telecommunications Services - Infrastructure
+**Last Updated:** Real-time data from Yahoo Finance
+
+**⚠️ STILL OVERBOUGHT: RSI cooled from 84.3 to 75.0 but STILL OVERBOUGHT - WAIT**
+
+---
+
+## 1. COMPANY OVERVIEW
+
+**Company Name:** Maxis Berhad
+**Stock Code:** MAXIS.KL (6012.KL on Yahoo Finance)
+**Industry:** Telecommunications Services - Infrastructure
+**Sector:** Finance
+
+**Business Description:**
+Premium mobile operator with outstanding profitability (23.2% net margin, 24.5% ROE) and highest dividend yield (5.8%) among all companies. Best-in-class network infrastructure and customer base provide defensibility. Strong FCF generation (RM2.15B) supports dividend growth and debt reduction. Digit...
 
 ---
 
-## 1. OVERVIEW
-**Company:** Maxis | **Industry:** Telecommunications | **Position:** Premium mobile operator, 40%+ market share, best network
+## 2. SCORES SUMMARY
 
-## 2. SCORES & RANK
-- **Composite:** 7.58/10 (#5) | **Fundamental:** 8.5/10 (Excellent) | **Technical:** 6.2/10 (Overbought)
-- **KEY HIGHLIGHTS:** 
-  - **HIGHEST ROE (24.5%)** among ALL 14 companies
-  - **HIGHEST dividend yield (5.8%)** among all stocks
-  - **Exceptional margins (23.2%)**
+| Metric | Score | Rank |
+|--------|-------|------|
+| **Composite Score** | **7.58/10** | **#5 of 14** |
+| Fundamental Score | 8.5/10 | Rank varies |
+| Technical Score | 6.2/10 | Moderate |
+| Final Ranking | #5 | Top Tier |
 
-## 3. PRICE DATA (2025-11-19)
-**Current:** RM 4.18 | **52W:** 4.18 / 3.05 (AT 52w high! / +37.0%) | **RSI:** **84.31 EXTREME OVERBOUGHT**
-
-## 4. TECHNICALS - **CRITICAL WARNING**
-- **RSI 84.31 = EXTREME OVERBOUGHT** (only 1-2% of days reach this level)
-- Price AT 52-week high after +37% rally
-- MACD bullish BUT volume very low (0.03x avg) = rally losing steam
-- **This is NOT a buy signal - this is a "WAIT" signal**
-
-## 5. FUNDAMENTALS - EXCELLENT
-**Highlights:** 24.5% ROE (BEST), 23.2% margin (BEST non-bank), 5.8% yield (HIGHEST), RM 2.15B FCF, 40%+ market share
-**Concerns:** Slow growth (5.8% CAGR), telco sector maturity, regulatory pressure, 1.15x leverage
-
-## 6. RECOMMENDATION: **WAIT FOR PULLBACK - DO NOT BUY NOW**
-
-**Current Status:** ZERO ALLOCATION (0%)
-**Target Entry:** RM 3.80-3.95 (after 10-15% correction)
-
-**WHY WAIT?**
-1. **RSI 84.31 = EXTREME overbought** - Correction likely imminent
-2. **At 52w high** - Poor entry timing after +37% rally
-3. **Low volume** - Rally exhaustion signs
-4. **Better entry 10-15% lower** at RM 3.80-3.95
-
-**DO NOT CHASE AT RM 4.18** - Fundamentals excellent BUT entry timing terrible
-
-## 7. ENTRY STRATEGY (AFTER Correction)
-
-**WAIT FOR RSI < 65 and 10% pullback**
-
-**IF/WHEN Price Corrects to RM 3.80-3.95:**
-**Primary Entry (70%):** RM 3.80-3.90 (~720 shares, RM 2,800)
-**Secondary Entry (30%):** RM 3.70-3.80 (~310 shares, RM 1,200)
-**Target Position:** 8% (RM 4,000) AFTER correction
-
-**Entry Triggers:**
-- RSI drops below 65
-- Price pulls back to RM 3.80-3.95 (10-15% correction)
-- Volume spike on bounce (buyers stepping in)
-
-**Stop (if entered):** RM 3.65 (12.7% risk from RM 4.18, but only 6% from RM 3.88 entry)
-
-## 8. TARGETS (After Entry at 3.80-3.95)
-**T1:** RM 4.35 (+10-14%) - Exit 30% | **T2:** RM 4.60 (+17-21%) - Exit 40% | **T3:** RM 4.90 (+25-29%) - Exit 30%
-**Return:** 15-25% + 5.8% dividend = 21-31% total (IF entered at correction)
-
-## 9. THESIS
-**"Best Fundamentals at Wrong Time"**
-
-**Why World-Class:**
-- **HIGHEST ROE (24.5%)** = Most efficient capital allocator in portfolio
-- **HIGHEST dividend (5.8%)** = Best income generation
-- **Exceptional margins (23.2%)** = Premium positioning
-- **Strong FCF (RM 2.15B)** = Supports dividend and debt reduction
-- **Market leader (40%+ share)** = Pricing power and network advantage
-
-**Why WAIT:**
-- RSI 84.31 parabolic = Correction coming (historical pattern)
-- At 52w high after +37% = Late to rally
-- Low volume = Momentum fading
-- Better entry 10-15% lower offers 20-30% better risk/reward
-
-**Bull Case (at RM 3.80):** Best ROE + Best dividend + Premium franchise = Core holding
-**Bear Case:** Mature market (5.8% CAGR), telco disruption, regulatory pressure, bought at top = poor returns
-
-**CRITICAL:** This is a **"RIGHT STOCK, WRONG TIME"** situation. Patience = Key.
-
-## 10. WARNINGS - **READ CAREFULLY**
-
-**DO NOT BUY AT RM 4.18 - THIS IS CRITICAL:**
-- RSI 84.31 seen only 1-2% of days (extreme)
-- Stock at all-time 52w high
-- Historical pattern: RSI >80 followed by 10-15% correction within 2-4 weeks
-- Buying now = catching last 5% of rally, risking 15% correction
-
-**PATIENCE REQUIRED:**
-- Add to watchlist, monitor DAILY
-- Wait for RSI drop below 70, ideally 65
-- Wait for price pull back to RM 3.80-3.95
-- Could take 2-4 weeks (or longer) for correction
-- Opportunity will still be there AFTER pullback
-
-**What If It Keeps Going Up?**
-- Better to miss 10% upside than catch 15% downside
-- Quality company will have future opportunities
-- Don't let FOMO override discipline
-
-## 11. SUMMARY
-| Item | Value |
-|------|-------|
-| **Rec** | **WAIT - DO NOT BUY** |
-| **Current Position** | ZERO (0%) |
-| **Current Price** | RM 4.18 (TOO HIGH) |
-| **Target Entry** | RM 3.80-3.95 (after correction) |
-| **Entry Trigger** | RSI < 65 + 10-15% pullback |
-| **Future Position** | 8% (RM 4,000) IF corrects |
-| **Key Risk** | RSI 84.31 extreme overbought |
-
-**Bottom Line:** MAXIS has BEST ROE (24.5%) and BEST dividend (5.8%) with exceptional fundamentals (8.5 score). BUT RSI 84.31 extreme overbought at 52w high after +37% rally = WAIT. Add to watchlist. Buy ONLY after 10-15% correction to RM 3.80-3.95 with RSI < 65. **DO NOT CHASE NOW.**
-
-**Action:** Add to watchlist. Set alert at RM 3.95. Monitor DAILY. NO POSITION until correction occurs. **PATIENCE = PROFITS.**
+**Score Breakdown:**
+- Revenue Growth: 6.8/10 (5.8% CAGR)
+- Profitability: 9.5/10 (23.2% net margin)
+- ROE: 9.8/10 (24.5%)
+- Debt Health: 7.8/10 (1.15x D/E)
+- Dividend: 8.5/10
+- Cash Flow: 8.9/10
 
 ---
-**Generated:** 2025-11-21 | **CRITICAL: DO NOT BUY AT CURRENT PRICE**
+
+## 3. CURRENT PRICE DATA (November 21, 2025)
+
+| Price Metric | Value | Analysis |
+|-------------|--------|----------|
+| **Current Price** | **RM 4.13** | Above 20-day SMA |
+| 20-Day SMA | RM 4.009 | Price +3.0% above |
+| 50-Day SMA | RM 3.822 | Price +8.1% above |
+| 200-Day SMA | RM 3.543 | Price +16.6% above |
+| 52-Week High | RM 4.22 | -2.1% from high |
+| 52-Week Low | RM 3.04 | 35.8% from low |
+
+**Volume Analysis:**
+- Current Volume: 3,926,100 shares
+- 20-Day Average: 5,167,235 shares
+- Volume Ratio: 0.76× (LOW volume)
+
+---
+
+## 4. TECHNICAL ANALYSIS
+
+### Momentum Indicators (November 21, 2025)
+
+**RSI (14-day): 75.00**
+- **Status:** Overbought - caution warranted
+- **Interpretation:** Overbought - caution
+- **Signal:** WAIT for RSI < 70
+
+**MACD Analysis:**
+- MACD Line: 0.1066
+- Signal Line: 0.1036
+- Histogram: 0.0030
+- **Status:** Bullish
+
+### Trend Analysis
+
+**Short-term (20-day):** ABOVE
+**Medium-term (50-day):** ABOVE
+**Long-term (200-day):** ABOVE
+
+---
+
+## 5. FUNDAMENTAL HIGHLIGHTS
+
+### Financial Strength (FY2024)
+- **Revenue:** RM 9850.0M (5.8% CAGR)
+- **Net Margin:** 23.2%
+- **ROE:** 24.5%
+- **Debt-to-Equity:** 1.15×
+- **Free Cash Flow:** RM 2150.0M
+
+### Latest Quarter (Q3 2025)
+- Revenue Growth: 6.2% YoY
+- Net Profit Growth: 7.5% YoY
+- Momentum: STABLE
+
+---
+
+## 6. ACTION RECOMMENDATION
+
+### **RECOMMENDATION: WAIT FOR PULLBACK**
+
+**Entry Timing:** DELAYED - DO NOT BUY NOW
+
+**Entry Zone:** 3.80-3.95 (after 10% correction)
+**Stop Loss:** RM 3.65
+**Profit Target:** RM 4.60
+
+**Portfolio Allocation:** 0% (RM 0)
+
+---
+
+## 7. INVESTMENT THESIS
+
+Premium mobile operator with outstanding profitability (23.2% net margin, 24.5% ROE) and highest dividend yield (5.8%) among all companies. Best-in-class network infrastructure and customer base provide defensibility. Strong FCF generation (RM2.15B) supports dividend growth and debt reduction. Digital services expansion (fintech, content, enterprise solutions) provides growth optionality. Defensive characteristics with essential service characteristics.
+
+**Key Strengths:**
+- Outstanding ROE of 24.5% - highest among all 14 companies
+- Exceptional profitability with 23.2% net margin - best premium positioning
+- Highest dividend yield (5.8%) among all candidates - excellent income generation
+- Largest mobile operator (40%+ subscriber market share) with best coverage
+- Premium customer base with highest ARPU in industry - pricing power
+
+**Key Concerns:**
+- Slow growth (5.8% CAGR) reflects mature mobile market saturation
+- Telecom sector facing structural challenges from declining voice revenues
+- Competition from aggressive pricing by competitors
+
+---
+
+## 8. RISK MANAGEMENT
+
+**Risk Level:** Medium-High
+
+**Stop Loss:** RM 3.65
+**Position Size:** 0% (RM 0)
+
+---
+
+## 9. SUMMARY
+
+**Current Price:** RM 4.13
+**RSI:** 75.0 (Overbought - caution warranted)
+**Recommendation:** WAIT FOR PULLBACK
+**Allocation:** 0%
+
+**Composite Score:** 7.58/10 (Rank #5 of 14)
+
+---
+
+**Data Source:** Yahoo Finance (November 21, 2025 21:55:30)
+**Report ID:** MAXIS-20251121
