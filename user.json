@@ -1,0 +1,8 @@
+{
+  "user_id": "analysis_001",
+  "name": "keng hzou",
+  "investment_capital_rm": 50000,
+  "risk_tolerance": "Medium",
+  "time_horizon_months": 12,
+  "preferred_sectors": ["Technology", "Finance", "Utilities"]
+}

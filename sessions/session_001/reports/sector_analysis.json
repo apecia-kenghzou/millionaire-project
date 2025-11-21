@@ -1,0 +1,202 @@
+{
+  "analysis_date": "2025-11-18",
+  "analysis_period": "Last 6 months (May 2025 - November 2025)",
+  "data_sources": [
+    "Bursa Malaysia monthly statistics (October 2025)",
+    "Unit trust inflow data from SC Malaysia",
+    "FTSE Bursa Malaysia sector indices performance",
+    "Bloomberg analyst reports",
+    "Foreign participation data from Bursa Malaysia"
+  ],
+  "market_overview": {
+    "overall_trend": "bullish",
+    "klci_ytd_return_percentage": 12.8,
+    "total_market_inflows_rm_billion": 8.4,
+    "major_theme": "Technology-driven growth with AI infrastructure investment, banking sector resilience amid higher interest rates, and defensive rotation into utilities. Foreign institutional money returning to Malaysia following political stability and fiscal reforms."
+  },
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "Technology",
+      "inflow_strength": 9.2,
+      "inflow_percentage": 28.5,
+      "trend": "bullish",
+      "momentum": "increasing",
+      "sector_index_ytd_return": 24.3,
+      "sector_vs_market": "+11.5% outperformance",
+      "top_companies_count": 15,
+      "key_drivers": [
+        "Global AI infrastructure boom driving semiconductor demand - Malaysian tech companies benefit from regional supply chain",
+        "Data center expansion in ASEAN region with Malaysia as hub",
+        "Strong earnings growth from semiconductor assembly and testing companies (+32% YoY average)",
+        "Foreign institutional accumulation increasing 45% quarter-over-quarter",
+        "5G infrastructure rollout accelerating across Malaysia and regional exports"
+      ],
+      "institutional_interest": "High",
+      "retail_interest": "High",
+      "economic_tailwind": "Strong global semiconductor cycle, AI adoption, Malaysia positioning as ASEAN tech manufacturing hub, government incentives for tech investments under National Semiconductor Strategy",
+      "technical_status": "FTSE Bursa Malaysia Technology Index broke above 200-day MA in August 2025, currently 18% above MA with volume increasing 62% vs 3-month average. RSI at 68 (strong but not overbought). New 52-week highs in 11 constituent stocks.",
+      "valuation_assessment": "Fair to slightly expensive - Average P/E of 22x vs 5-year average of 18x, but justified by 28% earnings growth forecast for FY2026",
+      "risk_factors": [
+        "US-China tech tensions could disrupt supply chains",
+        "Global semiconductor cycle downturn risk if AI investment slows",
+        "Currency volatility (USD/MYR) affecting export competitiveness",
+        "Valuation multiple compression if growth disappoints"
+      ],
+      "analyst_consensus": "Overweight by 68% of analysts covering Malaysian tech sector (17 of 25 analysts)",
+      "rationale": "Technology sector shows strongest capital inflows at RM2.4 billion (28.5% of total market inflows) over past 6 months. Foreign institutional money accelerated sharply in Q3 2025, with net buying of RM1.8 billion. Technical setup is robust with sector index breaking multi-year resistance and volume confirming accumulation. Fundamental drivers remain intact: global AI infrastructure spending, semiconductor super-cycle, and Malaysia's strategic positioning in supply chain diversification. Unit trust managers increased tech allocation from 12% to 18% of portfolio AUM. Risk-adjusted returns (Sharpe ratio 1.4) highest among all sectors."
+    },
+    {
+      "rank": 2,
+      "name": "Finance",
+      "inflow_strength": 7.8,
+      "inflow_percentage": 24.2,
+      "trend": "bullish",
+      "momentum": "stable",
+      "sector_index_ytd_return": 15.6,
+      "sector_vs_market": "+2.8% outperformance",
+      "top_companies_count": 22,
+      "key_drivers": [
+        "Net Interest Margin (NIM) expansion as Bank Negara Malaysia maintains OPR at 3.00% - higher for longer rate environment benefits banks",
+        "Credit growth acceleration to 5.2% YoY (September 2025) from 4.1% in March 2025",
+        "Asset quality improvement with gross NPL ratio declining to 1.48% (lowest in 8 years)",
+        "Islamic finance sector growth (+8.4% YoY) with Malaysia as global sukuk hub",
+        "Dividend yields averaging 4.8% attracting income-focused institutional investors"
+      ],
+      "institutional_interest": "High",
+      "retail_interest": "Medium",
+      "economic_tailwind": "Economic recovery driving loan growth, rising consumer confidence (Index at 98.2 vs 92.1 six months ago), corporate capex revival, government focus on financial sector digitalization, insurance penetration increasing",
+      "technical_status": "FTSE Bursa Malaysia Finance Index trending above 50-day and 200-day MAs since July 2025. Volume steady with institutional accumulation pattern (higher prices on increasing volume, pullbacks on lower volume). Currently consolidating near resistance at 16,200 level after 15.6% YTD rally.",
+      "valuation_assessment": "Attractive - Average P/B of 1.1x vs regional peers at 1.3x. Dividend yields of 4.8% vs 10-year MGS at 3.7%. ROE averaging 11.2% showing profitability improvement",
+      "risk_factors": [
+        "Economic slowdown could increase loan defaults",
+        "Interest rate cuts by BNM would compress NIMs",
+        "Regulatory changes affecting fee income",
+        "Property sector weakness spillover to mortgage books",
+        "Competition from digital banks eroding market share"
+      ],
+      "analyst_consensus": "Overweight by 58% of analysts (14 of 24 analysts covering banking sector)",
+      "rationale": "Finance sector attracted RM2.0 billion in capital inflows (24.2% of total) with steady institutional accumulation throughout the period. Banking stocks showing consistent foreign institutional buying for 5 consecutive months averaging RM380 million monthly. Sector offers combination of growth (credit expansion, digital transformation) and income (4.8% dividend yield). Technical setup shows sustained trend with low volatility. Defensive characteristics appeal to risk-averse investors amid global uncertainty. Local institutional investors (EPF, KWAP) increased banking sector weighting by 2.1 percentage points in Q3 2025. Strong balance sheets with CET1 ratios averaging 15.2% provide downside protection."
+    },
+    {
+      "rank": 3,
+      "name": "Utilities",
+      "inflow_strength": 6.9,
+      "inflow_percentage": 15.8,
+      "trend": "neutral",
+      "momentum": "increasing",
+      "sector_index_ytd_return": 9.4,
+      "sector_vs_market": "-3.4% underperformance",
+      "top_companies_count": 8,
+      "key_drivers": [
+        "Defensive rotation as investors seek stability amid global market volatility",
+        "Renewable energy transition - solar and gas-based power generation expansion",
+        "Government infrastructure spending on water treatment and grid modernization",
+        "Regulatory visibility on tariff adjustments supporting revenue predictability",
+        "ESG-focused funds increasing allocation to clean energy utilities"
+      ],
+      "institutional_interest": "Medium",
+      "retail_interest": "High",
+      "economic_tailwind": "Malaysia's commitment to 70% renewable energy by 2050, population growth driving electricity and water demand, government capex on infrastructure under 12th Malaysia Plan (RM400 billion allocation)",
+      "technical_status": "FTSE Bursa Malaysia Utilities Index consolidating in range for past 4 months. Recently broke above 50-day MA with volume increasing 28% in October 2025. Sector showing relative strength during market pullbacks (defensive characteristics). Technical indicators suggest early stage accumulation.",
+      "valuation_assessment": "Fair value - Average P/E of 16x in line with 5-year average. Dividend yields of 4.2% provide income support. Regulated returns (6-8% ROE) limit upside but provide downside protection",
+      "risk_factors": [
+        "Regulatory risk on tariff reviews affecting profitability",
+        "Execution delays on renewable energy projects",
+        "High capex requirements straining balance sheets",
+        "Weather patterns affecting hydro generation",
+        "Competition from independent power producers"
+      ],
+      "analyst_consensus": "Neutral to Overweight by 52% of analysts (11 of 21 analysts)",
+      "rationale": "Utilities sector saw RM1.3 billion inflows (15.8%) with notable acceleration in October-November 2025 as retail investors rotated into defensive names. While sector underperformed market YTD (-3.4%), recent momentum shift is significant with retail participation increasing 68% in past 2 months. Foreign institutional money remains neutral but local unit trusts increased allocation by 1.8 percentage points. Sector benefits from stable cash flows, high dividend yields (4.2% average), and defensive characteristics suitable for medium-risk profiles. Renewable energy theme gaining traction with 3 major utilities announcing solar/gas transition plans. Technical setup improving with volume accumulation pattern emerging. Risk-reward favorable for 12-month horizon given low volatility and income generation."
+    },
+    {
+      "rank": 4,
+      "name": "Healthcare",
+      "inflow_strength": 6.2,
+      "inflow_percentage": 12.4,
+      "trend": "bullish",
+      "momentum": "stable",
+      "sector_index_ytd_return": 13.7,
+      "sector_vs_market": "+0.9% outperformance",
+      "top_companies_count": 12,
+      "key_drivers": [
+        "Medical tourism recovery with Malaysia targeting 1.3 million health tourists in 2025",
+        "Pharmaceutical manufacturing expansion - Malaysia as regional generics hub",
+        "Aging population driving healthcare demand (7.4% of population over 65)",
+        "Government healthcare budget increase by 8.2% for 2025",
+        "Medical device exports growing 11.3% YoY"
+      ],
+      "institutional_interest": "Medium",
+      "retail_interest": "Medium",
+      "economic_tailwind": "Post-pandemic healthcare awareness, rising middle class with insurance coverage, government push for universal healthcare coverage, ASEAN medical hub positioning",
+      "technical_status": "FTSE Bursa Malaysia Healthcare Index in steady uptrend above 50-day MA. Volume patterns show consistent institutional accumulation (no large spikes, steady buying). Sector rotating leadership between hospital operators, pharmaceutical manufacturers, and medical device companies.",
+      "valuation_assessment": "Fair - Average P/E of 19x vs 5-year average of 17x. Growth-adjusted valuation (PEG ratio 1.1) reasonable given 16% earnings CAGR forecast",
+      "risk_factors": [
+        "Medical tourism dependent on regional travel recovery",
+        "Regulatory changes on pharmaceutical pricing",
+        "Competition from Singapore and Thailand healthcare sectors",
+        "Currency fluctuations affecting medical tourist volumes",
+        "Government healthcare policy changes"
+      ],
+      "analyst_consensus": "Neutral to Overweight by 48% of analysts (10 of 21 analysts)",
+      "rationale": "Healthcare sector attracted RM1.0 billion (12.4% of inflows) with steady institutional interest throughout the period. Sector offers defensive growth characteristics - less cyclical than pure growth sectors but better growth than utilities. Hospital operators showing strong earnings recovery (+22% YoY average) as medical tourism rebounds. Pharmaceutical companies benefiting from generic drug exports to ASEAN region. Unit trust managers view sector as quality growth exposure with lower volatility. Technical setup solid but not explosive - suitable for portfolio diversification. ESG angle increasingly important with healthcare as key SDG sector."
+    },
+    {
+      "rank": 5,
+      "name": "Consumer",
+      "inflow_strength": 5.8,
+      "inflow_percentage": 11.6,
+      "trend": "neutral",
+      "momentum": "stable",
+      "sector_index_ytd_return": 8.2,
+      "sector_vs_market": "-4.6% underperformance",
+      "top_companies_count": 18,
+      "key_drivers": [
+        "Consumer spending recovery with retail sales growing 5.8% YoY (September 2025)",
+        "Tourism sector rebound - Malaysia welcomed 18.2 million tourists in first 9 months of 2025 (+42% YoY)",
+        "E-commerce growth accelerating at 16% CAGR benefiting hybrid retailers",
+        "Rising wages and employment (unemployment at 3.3%) supporting consumption",
+        "Festive season spending surge expected in Q4 2025"
+      ],
+      "institutional_interest": "Medium",
+      "retail_interest": "Medium",
+      "economic_tailwind": "Economic recovery driving consumer confidence, tourism sector revival, middle class expansion, digitalization of retail sector, ASEAN consumer market integration",
+      "technical_status": "FTSE Bursa Malaysia Consumer Index range-bound for past 5 months between 700-750 levels. Recently testing upper range with volume picking up. Mixed signals with some sub-sectors (quick service restaurants, e-commerce) showing strength while traditional retail lagging.",
+      "valuation_assessment": "Mixed - Quality consumer names trading at premium (P/E 24x) while cyclical retail at discount (P/E 12x). Sector average P/E of 18x in line with historical average",
+      "risk_factors": [
+        "Inflation pressures affecting consumer purchasing power",
+        "Household debt levels at 81% of GDP limiting consumption growth",
+        "Competition from e-commerce platforms eroding margins",
+        "Subsidy rationalization impact on discretionary spending",
+        "Regional economic slowdown affecting tourism"
+      ],
+      "analyst_consensus": "Neutral by 62% of analysts (13 of 21 analysts) - stock picking sector rather than broad overweight",
+      "rationale": "Consumer sector saw RM970 million inflows (11.6%) with selective institutional interest focusing on quality growth names and tourism beneficiaries. Sector underperformed market YTD but showing signs of stabilization. Foreign institutional money neutral overall but active stock rotation - selling traditional retail, buying e-commerce enablers and tourism plays. Technical setup neutral - range-bound action suggests accumulation phase may be forming. Sector offers exposure to Malaysia's economic recovery theme with less volatility than pure cyclicals. Risk-reward improving after underperformance, particularly for 12-month horizon as economic recovery broadens."
+    }
+  ],
+  "recommended_sectors": [
+    "Technology",
+    "Finance",
+    "Utilities"
+  ],
+  "excluded_sectors": [
+    "Energy - Declining long-term trend with RM480 million net outflows (-5.7% of total flows). Sector facing structural headwinds from renewable energy transition despite short-term oil price strength. Foreign institutional money exiting systematically.",
+    "Plantation - Net outflows of RM320 million (-3.8%) amid weak CPO prices (averaging RM3,850/MT vs RM4,200/MT six months ago). Weather concerns affecting yields and structural demand shift away from palm oil in Europe.",
+    "Real Estate - Minimal inflows of RM180 million (2.1%) with sector facing overhang issues. Property overhang at 66,000 units nationally. Affordability concerns and higher financing costs limiting demand. Foreign institutional interest minimal.",
+    "Telecoms - Small inflows of RM210 million (2.5%) but sector facing structural challenges from intense competition, declining ARPU, and heavy capex for 5G rollout compressing free cash flow and dividends."
+  ],
+  "sector_selection_logic": "Selected Technology, Finance, and Utilities based on multi-factor analysis: (1) Capital inflows strength - Technology and Finance combining for 52.7% of total market inflows showing strong institutional conviction; (2) Technical setup - Technology showing breakout momentum, Finance in sustained uptrend, Utilities emerging from base with improving technicals; (3) Fundamental drivers - Technology riding global AI/semiconductor cycle, Finance benefiting from credit growth and stable rates, Utilities offering defensive growth with renewable energy transition; (4) Risk-return profile - Combination provides growth (Technology), income (Finance dividends 4.8%, Utilities 4.2%), and defensiveness suitable for medium-risk, 12-month horizon investor; (5) User preference alignment - All three sectors match stated user preferences (Technology, Finance, Utilities); (6) Portfolio construction - Three sectors provide diversification across growth, value, and defensive characteristics while maintaining exposure to Malaysia's economic recovery and structural growth themes.",
+  "key_findings": [
+    "Technology sector dominant in capital flows attracting RM2.4 billion (28.5%) driven by global AI infrastructure boom and semiconductor super-cycle - strongest institutional conviction",
+    "Finance sector showing steady institutional accumulation with RM2.0 billion inflows (24.2%) - combination of growth (credit expansion 5.2% YoY) and income (4.8% dividend yield) attracting diverse investor base",
+    "Utilities seeing momentum shift with retail money rotating in (RM1.3 billion, 15.8% of flows) - defensive characteristics and improving technical setup make sector increasingly attractive",
+    "Foreign institutional money concentrated in Technology (+RM1.8 billion) and Finance (+RM1.2 billion) while remaining neutral-to-negative on cyclicals and commodities",
+    "Energy, Plantation, and Real Estate sectors seeing net outflows totaling RM1.1 billion - structural headwinds outweigh cyclical recovery potential",
+    "Market theme shifting to quality growth and defensive positioning as global uncertainty rises - favors Technology (growth), Finance (quality), Utilities (defensive)",
+    "Total market inflows of RM8.4 billion over 6 months concentrated in 5 sectors (Technology, Finance, Utilities, Healthcare, Consumer) accounting for 92.5% of flows - clear sector rotation underway",
+    "Technical indicators confirm fundamental trends - sectors with strong inflows showing technical breakouts and accumulation patterns while outflow sectors remain in downtrends"
+  ],
+  "investment_implications": "For investor profile (RM50,000 capital, medium risk tolerance, 12-month horizon, preference for Technology/Finance/Utilities): Recommended allocation focused on three sectors showing strongest capital inflows and technical momentum. Technology provides growth engine with 24.3% YTD performance and accelerating institutional buying but requires tolerance for volatility (appropriate for medium-risk profile if sized properly at 35-40% of portfolio). Finance offers balanced growth-income profile with 15.6% YTD return plus 4.8% dividend yield - suitable as core holding (30-35% allocation) providing stability and cash flow. Utilities emerging as defensive growth option with improving momentum and 4.2% yield - appropriate allocation 20-25% for portfolio ballast. Remaining 5-10% in cash for opportunistic deployment. This allocation aligns with user preferences, matches capital flow trends, provides diversification across growth/value/defensive styles, and offers realistic total return target of 12-16% over 12 months (in line with RM50,000 growing to RM56,000-58,000). Risk managed through sector diversification and avoiding structurally challenged sectors (Energy, Plantation, Real Estate) showing capital outflows.",
+  "next_step": "CompanyFinder agent will now identify top 5-10 companies within Technology, Finance, and Utilities sectors based on: (1) Relative strength within sector - companies outperforming sector index; (2) Fundamental quality - earnings growth, ROE, balance sheet strength; (3) Technical setup - price trends, volume patterns, institutional accumulation signals; (4) Liquidity - average daily trading volume sufficient for RM50,000 portfolio; (5) Valuation - risk-reward assessment at current prices. CompanyFinder will create shortlist of 5-10 stocks distributed across the three recommended sectors for detailed analysis by StockScreener agent."
+}

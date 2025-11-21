@@ -1,0 +1,186 @@
+{
+  "title": "Yahoo Finance Ticker Mapping for Malaysian Stocks (Bursa Malaysia)",
+  "last_updated": "2025-11-19",
+  "source": "Tested and verified against Yahoo Finance API",
+  "verification_status": "User confirmed accurate vs KLSE app",
+  "exchange": "Bursa Malaysia (.KL suffix)",
+  "notes": [
+    "Most Malaysian stocks use 4-digit Bursa stock code + .KL suffix",
+    "Some large caps use company name abbreviation + .KL",
+    "All tickers tested and working as of 2025-11-19",
+    "Data includes 1-year history with ~245 trading days"
+  ],
+  "ticker_mapping": {
+    "INARI.KL": {
+      "yahoo_symbol": "0166.KL",
+      "company_name": "Inari Amertron Berhad",
+      "bursa_code": "0166",
+      "sector": "Technology - Semiconductor Assembly",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code, not company name"
+    },
+    "PBBANK.KL": {
+      "yahoo_symbol": "PBBANK.KL",
+      "company_name": "Public Bank Berhad",
+      "bursa_code": "1295",
+      "sector": "Finance - Banking",
+      "tested": true,
+      "working": true,
+      "notes": "Large cap - uses company name abbreviation"
+    },
+    "MAYBANK.KL": {
+      "yahoo_symbol": "1155.KL",
+      "company_name": "Malayan Banking Berhad",
+      "bursa_code": "1155",
+      "sector": "Finance - Banking",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code, not MAYBANK"
+    },
+    "UNISEM.KL": {
+      "yahoo_symbol": "5005.KL",
+      "company_name": "Unisem (M) Berhad",
+      "bursa_code": "5005",
+      "sector": "Technology - OSAT (Semiconductor)",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    },
+    "PENTA.KL": {
+      "yahoo_symbol": "7160.KL",
+      "company_name": "Pentamaster Corporation Berhad",
+      "bursa_code": "7160",
+      "sector": "Technology - Factory Automation",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code, not PENTA"
+    },
+    "GREATEC.KL": {
+      "yahoo_symbol": "GREATEC.KL",
+      "company_name": "Greatech Technology Berhad",
+      "bursa_code": "0208",
+      "sector": "Technology - Factory Automation",
+      "tested": true,
+      "working": true,
+      "notes": "Uses company name abbreviation, not 0208"
+    },
+    "CIMB.KL": {
+      "yahoo_symbol": "1023.KL",
+      "company_name": "CIMB Group Holdings Berhad",
+      "bursa_code": "1023",
+      "sector": "Finance - Banking",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code, not CIMB"
+    },
+    "HLBANK.KL": {
+      "yahoo_symbol": "5819.KL",
+      "company_name": "Hong Leong Bank Berhad",
+      "bursa_code": "5819",
+      "sector": "Finance - Banking",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    },
+    "TENAGA.KL": {
+      "yahoo_symbol": "5347.KL",
+      "company_name": "Tenaga Nasional Berhad",
+      "bursa_code": "5347",
+      "sector": "Utilities - Electric Power",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code, not TENAGA"
+    },
+    "PGAS.KL": {
+      "yahoo_symbol": "6033.KL",
+      "company_name": "Petronas Gas Berhad",
+      "bursa_code": "6033",
+      "sector": "Utilities - Gas Distribution",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    },
+    "YTLPOWR.KL": {
+      "yahoo_symbol": "YTLPOWR.KL",
+      "company_name": "YTL Power International Berhad",
+      "bursa_code": "6742",
+      "sector": "Utilities - Multi-Utilities",
+      "tested": true,
+      "working": true,
+      "notes": "Large cap - uses company name abbreviation"
+    },
+    "GASMSIA.KL": {
+      "yahoo_symbol": "5209.KL",
+      "company_name": "Gas Malaysia Berhad",
+      "bursa_code": "5209",
+      "sector": "Utilities - Gas Distribution",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    },
+    "VSOLAR.KL": {
+      "yahoo_symbol": "0215.KL",
+      "company_name": "Vortex Solar Berhad",
+      "bursa_code": "0215",
+      "sector": "Utilities - Renewable Energy (Solar)",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    },
+    "MAXIS.KL": {
+      "yahoo_symbol": "6012.KL",
+      "company_name": "Maxis Berhad",
+      "bursa_code": "6012",
+      "sector": "Telecommunications",
+      "tested": true,
+      "working": true,
+      "notes": "Uses 4-digit code"
+    }
+  },
+  "testing_methodology": {
+    "date_tested": "2025-11-19",
+    "test_command": "yf.Ticker(symbol).history(period='1y')",
+    "success_criteria": "Returns non-empty DataFrame with >200 trading days",
+    "verification_method": "User compared prices with KLSE app and confirmed accuracy",
+    "data_quality": "All 14 stocks returned complete 1-year history"
+  },
+  "usage_example": {
+    "python": [
+      "import yfinance as yf",
+      "",
+      "# Correct way to fetch Inari Amertron",
+      "ticker = yf.Ticker('0166.KL')  # NOT 'INARI.KL'",
+      "df = ticker.history(period='1y')",
+      "",
+      "# Correct way to fetch Public Bank",
+      "ticker = yf.Ticker('PBBANK.KL')  # Large cap uses name",
+      "df = ticker.history(period='1y')",
+      "",
+      "# Most stocks use 4-digit code:",
+      "# MAYBANK → 1155.KL",
+      "# TENAGA → 5347.KL",
+      "# CIMB → 1023.KL"
+    ]
+  },
+  "common_mistakes": [
+    "Using 'INARI.KL' instead of '0166.KL' - will fail",
+    "Using 'MAYBANK.KL' instead of '1155.KL' - will fail",
+    "Using 'TENAGA.KL' instead of '5347.KL' - will fail",
+    "Using 'PENTA.KL' instead of '7160.KL' - will fail",
+    "Not adding .KL suffix - will fetch wrong exchange or fail"
+  ],
+  "how_to_find_correct_ticker": [
+    "1. Go to Yahoo Finance: https://finance.yahoo.com",
+    "2. Search for company name (e.g., 'Inari Amertron Malaysia')",
+    "3. Look at URL or ticker symbol shown (e.g., 0166.KL)",
+    "4. Test with yfinance: yf.Ticker('SYMBOL').history(period='5d')",
+    "5. Verify non-empty result with recent dates"
+  ],
+  "reference_links": {
+    "yahoo_finance": "https://finance.yahoo.com",
+    "bursa_malaysia": "https://www.bursamalaysia.com/market_information/equities_prices",
+    "yfinance_github": "https://github.com/ranaroussi/yfinance",
+    "yfinance_docs": "https://pypi.org/project/yfinance/"
+  }
+}

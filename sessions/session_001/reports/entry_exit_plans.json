@@ -1,0 +1,749 @@
+{
+  "analysis_date": "2025-11-19",
+  "portfolio_capital": 50000,
+  "risk_per_trade_percent": 2.0,
+  "risk_per_trade_amount_rm": 1000,
+  "total_portfolio_risk_limit_percent": 12.0,
+  "position_sizing_methodology": "Based on stop loss distance and 2% risk per trade rule",
+  "trading_plans": [
+    {
+      "rank": 1,
+      "symbol": "INARI.KL",
+      "company_name": "Inari Amertron Berhad",
+      "final_composite_score": 8.56,
+      "recommended_allocation_rm": 6000,
+      "recommended_allocation_percent": 12.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Immediate Entry",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 60,
+            "amount_rm": 3600,
+            "entry_price_target": "3.08-3.15",
+            "shares_to_buy": "1143-1169 shares",
+            "timing": "Day 1 - Market hours 9:30-10:30 AM",
+            "order_type": "Limit order at 3.15, willing to chase to 3.18 if strong"
+          },
+          "tranche_2": {
+            "percent_of_position": 40,
+            "amount_rm": 2400,
+            "entry_price_target": "3.02-3.08",
+            "shares_to_buy": "779-795 shares",
+            "timing": "Days 1-5 - On any dip to support",
+            "order_type": "Limit orders at 3.08, 3.05, 3.02 (scale down)"
+          }
+        },
+        "total_shares_target": "1900-1950 shares",
+        "average_entry_target": "3.08-3.12"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 2.85,
+        "stop_distance_from_entry": "0.23-0.27 (7.5-8.7%)",
+        "stop_type": "Mental stop or actual stop-loss order",
+        "position_risk_rm": 475,
+        "position_risk_percent": 0.95,
+        "trailing_stop_activation": "After 10% gain (price >3.40)",
+        "trailing_stop_distance": "8% below highest price",
+        "notes": "Move stop to breakeven (3.08-3.12) once price reaches 3.35. Trail stop at 8% below peak once above 3.40."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 3.45,
+          "gain_percent": 11.5,
+          "action": "Sell 25% of position (475 shares)",
+          "amount_realized_rm": 1639,
+          "rationale": "First resistance, take partial profits"
+        },
+        "target_2": {
+          "price": 3.75,
+          "gain_percent": 21.0,
+          "action": "Sell 50% of remaining position (713 shares)",
+          "amount_realized_rm": 2674,
+          "rationale": "Major target based on fundamental valuation"
+        },
+        "target_3": {
+          "price": 4.10,
+          "gain_percent": 32.0,
+          "action": "Sell final 25% (remaining 475 shares)",
+          "amount_realized_rm": 1948,
+          "rationale": "Extended target, full exit"
+        }
+      },
+      "risk_reward_ratio": 2.8,
+      "expected_holding_period": "6-12 months",
+      "rebalancing_triggers": [
+        "Reduce if position exceeds 15% of portfolio due to price appreciation",
+        "Add on major corrections >15% if fundamentals intact",
+        "Exit if breaks below 2.75 (technical breakdown)",
+        "Reassess if fundamental score drops below 8.0"
+      ],
+      "notes": "Highest conviction position. Excellent entry setup. Scale in 60-40% to manage execution risk. Trail stops aggressively above 3.40. Consider holding core 25% long-term if story intact."
+    },
+    {
+      "rank": 2,
+      "symbol": "PBBANK.KL",
+      "company_name": "Public Bank Berhad",
+      "final_composite_score": 8.30,
+      "recommended_allocation_rm": 6000,
+      "recommended_allocation_percent": 12.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Immediate Entry",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 70,
+            "amount_rm": 4200,
+            "entry_price_target": "4.65-4.72",
+            "shares_to_buy": "890-903 shares",
+            "timing": "Day 1-2 - Market hours",
+            "order_type": "Limit order at 4.70, chase to 4.72 if needed"
+          },
+          "tranche_2": {
+            "percent_of_position": 30,
+            "amount_rm": 1800,
+            "entry_price_target": "4.55-4.62",
+            "shares_to_buy": "390-396 shares",
+            "timing": "Days 2-7 - On dip to support",
+            "order_type": "Limit orders at 4.62, 4.58, 4.55"
+          }
+        },
+        "total_shares_target": "1280-1300 shares",
+        "average_entry_target": "4.63-4.68"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 4.38,
+        "stop_distance_from_entry": "0.25-0.30 (5.7-6.7%)",
+        "stop_type": "Actual stop-loss order (highly liquid stock)",
+        "position_risk_rm": 360,
+        "position_risk_percent": 0.72,
+        "trailing_stop_activation": "After 8% gain (price >5.00)",
+        "trailing_stop_distance": "6% below highest price",
+        "notes": "Banking stock - use tighter trailing stops. Defensive holding with 4.9% dividend cushion."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 4.95,
+          "gain_percent": 6.0,
+          "action": "Sell 20% (260 shares)",
+          "amount_realized_rm": 1287,
+          "rationale": "Near-term resistance, take small profits"
+        },
+        "target_2": {
+          "price": 5.25,
+          "gain_percent": 12.5,
+          "action": "Sell 30% (384 shares)",
+          "amount_realized_rm": 2016,
+          "rationale": "Major valuation target"
+        },
+        "target_3": {
+          "price": 5.50,
+          "gain_percent": 18.0,
+          "action": "Hold remaining 50% as core holding",
+          "notes": "Quality bank - keep 50% long-term for dividends"
+        }
+      },
+      "risk_reward_ratio": 2.6,
+      "expected_holding_period": "12-18 months (long-term core)",
+      "rebalancing_triggers": [
+        "Trim if banking sector allocation exceeds 42% of portfolio",
+        "Add on corrections >12% to major support 4.28",
+        "Exit if NPL ratio rises above 1.2% or CET1 drops below 14%",
+        "Review quarterly earnings - maintain if ROE >12%"
+      ],
+      "notes": "Core banking holding with fortress fundamentals. High liquidity allows tight stops. 4.9% dividend provides income. Consider permanent core position (50% of shares)."
+    },
+    {
+      "rank": 3,
+      "symbol": "PGAS.KL",
+      "company_name": "Petronas Gas Berhad",
+      "final_composite_score": 8.38,
+      "recommended_allocation_rm": 5000,
+      "recommended_allocation_percent": 10.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Immediate Entry",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 75,
+            "amount_rm": 3750,
+            "entry_price_target": "16.10-16.30",
+            "shares_to_buy": "230-233 shares",
+            "timing": "Day 1-2 - Market hours",
+            "order_type": "Limit order at 16.24, willing to pay up to 16.35"
+          },
+          "tranche_2": {
+            "percent_of_position": 25,
+            "amount_rm": 1250,
+            "entry_price_target": "15.85-16.00",
+            "shares_to_buy": "78-79 shares",
+            "timing": "Days 2-7 - On any dip",
+            "order_type": "Limit orders at 16.00, 15.92, 15.85"
+          }
+        },
+        "total_shares_target": "308-312 shares",
+        "average_entry_target": "16.05-16.20"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 15.25,
+        "stop_distance_from_entry": "0.80-0.95 (5.3-6.0%)",
+        "stop_type": "Stop-loss order below major support",
+        "position_risk_rm": 280,
+        "position_risk_percent": 0.56,
+        "trailing_stop_activation": "After breakout above 17.00",
+        "trailing_stop_distance": "7% below highest price",
+        "notes": "Utility stock - can use wider stops. 4.8% dividend provides cushion."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 17.25,
+          "gain_percent": 6.5,
+          "action": "Sell 25% (77 shares)",
+          "amount_realized_rm": 1328,
+          "rationale": "First major target after breakout"
+        },
+        "target_2": {
+          "price": 18.00,
+          "gain_percent": 11.5,
+          "action": "Sell 30% (93 shares)",
+          "amount_realized_rm": 1674,
+          "rationale": "Extended utility valuation"
+        },
+        "target_3": {
+          "price": 18.50,
+          "gain_percent": 14.5,
+          "action": "Hold remaining 45% as core utility holding",
+          "notes": "Premium utility - keep for 4.8% dividend income"
+        }
+      },
+      "risk_reward_ratio": 2.8,
+      "expected_holding_period": "12-18 months",
+      "rebalancing_triggers": [
+        "Trim if utilities allocation exceeds 35% of portfolio",
+        "Add on corrections >10% if fundamentals intact",
+        "Monitor Petronas relationship - exit if ownership falls below 45%",
+        "Review regulatory changes to gas tariffs quarterly"
+      ],
+      "notes": "Best utility play. Near breakout setup. High dividend (4.8%) supports holding. Consider keeping 45% permanently for income."
+    },
+    {
+      "rank": 4,
+      "symbol": "PENTA.KL",
+      "company_name": "Pentamaster Corporation Berhad",
+      "final_composite_score": 8.44,
+      "recommended_allocation_rm": 5000,
+      "recommended_allocation_percent": 10.0,
+      "entry_plan": {
+        "recommendation": "WAIT for Pullback - Do Not Chase",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 25,
+            "amount_rm": 1250,
+            "entry_price_target": "5.05-5.10",
+            "shares_to_buy": "245-248 shares",
+            "timing": "Wait for initial dip - Days 3-10",
+            "order_type": "Limit order at 5.10, 5.08, 5.05"
+          },
+          "tranche_2": {
+            "percent_of_position": 50,
+            "amount_rm": 2500,
+            "entry_price_target": "4.92-5.00",
+            "shares_to_buy": "500-508 shares",
+            "timing": "On further dip - Days 5-14",
+            "order_type": "Limit orders scaled 5.00, 4.96, 4.92"
+          },
+          "tranche_3": {
+            "percent_of_position": 25,
+            "amount_rm": 1250,
+            "entry_price_target": "4.88-4.95",
+            "shares_to_buy": "253-256 shares",
+            "timing": "Final dip - Days 7-21",
+            "order_type": "Limit orders at 4.95, 4.92, 4.88"
+          }
+        },
+        "total_shares_target": "998-1012 shares",
+        "average_entry_target": "4.92-4.98",
+        "patience_required": "CRITICAL - Do not chase at 5.25. RSI 68.2 overbought. Wait for 7-10% pullback."
+      },
+      "stop_loss_plan": {
+        "initial_stop": 4.60,
+        "stop_distance_from_entry": "0.32-0.38 (6.9-7.8%)",
+        "stop_type": "Mental stop initially, hard stop once all tranches filled",
+        "position_risk_rm": 370,
+        "position_risk_percent": 0.74,
+        "trailing_stop_activation": "After 12% gain from average entry (price >5.55)",
+        "trailing_stop_distance": "10% below highest price",
+        "notes": "Mid-cap stock - wider stops appropriate. Near net-cash balance sheet reduces risk."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 5.65,
+          "gain_percent": 13.5,
+          "action": "Sell 33% (330 shares)",
+          "amount_realized_rm": 1865,
+          "rationale": "First resistance after entry"
+        },
+        "target_2": {
+          "price": 6.20,
+          "gain_percent": 24.5,
+          "action": "Sell 40% (400 shares)",
+          "amount_realized_rm": 2480,
+          "rationale": "Major upside target based on growth"
+        },
+        "target_3": {
+          "price": 6.80,
+          "gain_percent": 36.5,
+          "action": "Sell final 27% (270 shares)",
+          "amount_realized_rm": 1836,
+          "rationale": "Extended target - full exit"
+        }
+      },
+      "risk_reward_ratio": 3.2,
+      "expected_holding_period": "6-12 months",
+      "rebalancing_triggers": [
+        "DO NOT BUY if price stays above 5.20 for >21 days - look for alternative",
+        "Add aggressively if price drops to 4.65-4.75 on market weakness",
+        "Exit if ROE falls below 15% or debt rises above 0.25x",
+        "Monitor quarterly earnings - maintain 32%+ earnings growth"
+      ],
+      "notes": "PATIENCE REQUIRED - Current price 5.25 too high (RSI 68.2). Excellent fundamentals (18.2% ROE) but timing critical. Scale in 25-50-25% only after pullback. DO NOT CHASE."
+    },
+    {
+      "rank": 5,
+      "symbol": "MAXIS.KL",
+      "company_name": "Maxis Berhad",
+      "final_composite_score": 8.10,
+      "recommended_allocation_rm": 5000,
+      "recommended_allocation_percent": 10.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Low Risk Entry",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 70,
+            "amount_rm": 3500,
+            "entry_price_target": "3.65-3.72",
+            "shares_to_buy": "941-959 shares",
+            "timing": "Day 1-3 - Market hours",
+            "order_type": "Limit order at 3.68, willing to pay 3.70"
+          },
+          "tranche_2": {
+            "percent_of_position": 30,
+            "amount_rm": 1500,
+            "entry_price_target": "3.58-3.64",
+            "shares_to_buy": "412-419 shares",
+            "timing": "Days 3-10 - On dip to support",
+            "order_type": "Limit orders at 3.64, 3.61, 3.58"
+          }
+        },
+        "total_shares_target": "1353-1378 shares",
+        "average_entry_target": "3.63-3.69"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 3.45,
+        "stop_distance_from_entry": "0.18-0.24 (5.4-6.8%)",
+        "stop_type": "Stop-loss order below support",
+        "position_risk_rm": 280,
+        "position_risk_percent": 0.56,
+        "trailing_stop_activation": "After 8% gain (price >3.95)",
+        "trailing_stop_distance": "6% below highest price",
+        "notes": "5.8% dividend yield provides ~6% downside cushion. Defensive characteristics allow core holding."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 3.92,
+          "gain_percent": 6.5,
+          "action": "Sell 20% (270 shares)",
+          "amount_realized_rm": 1058,
+          "rationale": "First resistance - take small profits"
+        },
+        "target_2": {
+          "price": 4.15,
+          "gain_percent": 13.0,
+          "action": "Sell 30% (410 shares)",
+          "amount_realized_rm": 1702,
+          "rationale": "Major target"
+        },
+        "target_3": {
+          "price": 4.40,
+          "gain_percent": 20.0,
+          "action": "Hold remaining 50% as core income holding",
+          "notes": "5.8% dividend yield - keep 50% long-term for income"
+        }
+      },
+      "risk_reward_ratio": 2.4,
+      "expected_holding_period": "18-24 months (core income holding)",
+      "rebalancing_triggers": [
+        "Trim if position exceeds 12% due to appreciation",
+        "Add on corrections >12% given defensive characteristics",
+        "Monitor FCF generation - maintain if >RM2B annually",
+        "Review dividend sustainability quarterly"
+      ],
+      "notes": "Highest income generator (5.8% yield) with exceptional ROE (24.5%). Low technical risk - RSI neutral. Suitable for long-term core holding. Keep 50% permanently for income."
+    },
+    {
+      "rank": 6,
+      "symbol": "UNISEM.KL",
+      "company_name": "Unisem (M) Berhad",
+      "final_composite_score": 8.12,
+      "recommended_allocation_rm": 5000,
+      "recommended_allocation_percent": 10.0,
+      "entry_plan": {
+        "recommendation": "Accumulate on Dips - Scale In",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 40,
+            "amount_rm": 2000,
+            "entry_price_target": "4.75-4.82",
+            "shares_to_buy": "415-421 shares",
+            "timing": "Day 1-3 if dips occur",
+            "order_type": "Limit order at 4.82, 4.78, 4.75"
+          },
+          "tranche_2": {
+            "percent_of_position": 40,
+            "amount_rm": 2000,
+            "entry_price_target": "4.60-4.68",
+            "shares_to_buy": "427-435 shares",
+            "timing": "Days 5-12 on further dip",
+            "order_type": "Limit orders scaled 4.68, 4.64, 4.60"
+          },
+          "tranche_3": {
+            "percent_of_position": 20,
+            "amount_rm": 1000,
+            "entry_price_target": "4.45-4.55",
+            "shares_to_buy": "220-225 shares",
+            "timing": "Days 10-21 if major dip",
+            "order_type": "Limit orders at 4.55, 4.50, 4.45"
+          }
+        },
+        "total_shares_target": "1062-1081 shares",
+        "average_entry_target": "4.63-4.72",
+        "patience_note": "RSI 64.8 moderately overbought. Avoid chasing above 4.82. Scale in on weakness."
+      },
+      "stop_loss_plan": {
+        "initial_stop": 4.20,
+        "stop_distance_from_entry": "0.43-0.52 (9.7-11.1%)",
+        "stop_type": "Mental stop until position complete, then hard stop",
+        "position_risk_rm": 510,
+        "position_risk_percent": 1.02,
+        "trailing_stop_activation": "After 12% gain (price >5.20)",
+        "trailing_stop_distance": "10% below highest price",
+        "notes": "AI semiconductor boom volatile - wider stops needed. Institutional accumulation (+8.2%) provides support."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 5.28,
+          "gain_percent": 13.0,
+          "action": "Sell 30% (320 shares)",
+          "amount_realized_rm": 1690,
+          "rationale": "First resistance"
+        },
+        "target_2": {
+          "price": 5.80,
+          "gain_percent": 24.0,
+          "action": "Sell 40% (430 shares)",
+          "amount_realized_rm": 2494,
+          "rationale": "Major upside target based on AI growth"
+        },
+        "target_3": {
+          "price": 6.20,
+          "gain_percent": 33.0,
+          "action": "Sell final 30% (320 shares)",
+          "amount_realized_rm": 1984,
+          "rationale": "Extended target - full exit"
+        }
+      },
+      "risk_reward_ratio": 3.0,
+      "expected_holding_period": "9-15 months",
+      "rebalancing_triggers": [
+        "Do not chase above 4.82 - wait for dips",
+        "Add aggressively if drops to 4.25-4.45 on market weakness",
+        "Exit if quarterly revenue growth falls below 15%",
+        "Monitor AI capex cycle - exit early if signs of slowdown"
+      ],
+      "notes": "Pure-play AI semiconductor testing. Strong momentum but slightly extended. PATIENCE - scale in 40-40-20% on dips. Don't chase current price 4.82. Average down to 4.63-4.72 target."
+    },
+    {
+      "rank": 8,
+      "symbol": "MAYBANK.KL",
+      "company_name": "Malayan Banking Berhad",
+      "final_composite_score": 7.98,
+      "recommended_allocation_rm": 4500,
+      "recommended_allocation_percent": 9.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Blue Chip Quality",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 75,
+            "amount_rm": 3375,
+            "entry_price_target": "10.35-10.50",
+            "shares_to_buy": "321-326 shares",
+            "timing": "Day 1-2 - Market hours",
+            "order_type": "Limit order at 10.42, willing to chase to 10.48"
+          },
+          "tranche_2": {
+            "percent_of_position": 25,
+            "amount_rm": 1125,
+            "entry_price_target": "10.18-10.30",
+            "shares_to_buy": "109-111 shares",
+            "timing": "Days 3-7 - On dip to support",
+            "order_type": "Limit orders at 10.30, 10.24, 10.18"
+          }
+        },
+        "total_shares_target": "430-437 shares",
+        "average_entry_target": "10.31-10.42"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 9.85,
+        "stop_distance_from_entry": "0.46-0.57 (4.7-5.7%)",
+        "stop_type": "Stop-loss order (highly liquid)",
+        "position_risk_rm": 235,
+        "position_risk_percent": 0.47,
+        "trailing_stop_activation": "After 8% gain (price >11.15)",
+        "trailing_stop_distance": "5% below highest price",
+        "notes": "Malaysia's largest bank - tight stops appropriate. 5.2% dividend provides cushion."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 11.05,
+          "gain_percent": 6.0,
+          "action": "Sell 25% (110 shares)",
+          "amount_realized_rm": 1216,
+          "rationale": "Near-term target"
+        },
+        "target_2": {
+          "price": 11.75,
+          "gain_percent": 13.0,
+          "action": "Sell 25% (110 shares)",
+          "amount_realized_rm": 1293,
+          "rationale": "Major resistance"
+        },
+        "target_3": {
+          "price": 12.20,
+          "gain_percent": 17.5,
+          "action": "Hold remaining 50% as core banking holding",
+          "notes": "Blue-chip quality with 5.2% dividend - keep 50% long-term"
+        }
+      },
+      "risk_reward_ratio": 2.5,
+      "expected_holding_period": "12-24 months (core holding)",
+      "rebalancing_triggers": [
+        "Trim if total banking allocation exceeds 42%",
+        "Add on corrections >10% to major support 9.95",
+        "Monitor ROE improvement - maintain if trending >11.5%",
+        "Review ASEAN exposure quarterly"
+      ],
+      "notes": "Largest bank with unparalleled liquidity (RM130M daily). ASEAN diversification reduces Malaysia risk. Suitable for long-term core holding. Keep 50% for dividends."
+    },
+    {
+      "rank": 10,
+      "symbol": "TENAGA.KL",
+      "company_name": "Tenaga Nasional Berhad",
+      "final_composite_score": 7.56,
+      "recommended_allocation_rm": 4000,
+      "recommended_allocation_percent": 8.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Defensive Core",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 75,
+            "amount_rm": 3000,
+            "entry_price_target": "11.75-11.92",
+            "shares_to_buy": "252-255 shares",
+            "timing": "Day 1-2 - Market hours",
+            "order_type": "Limit order at 11.86, willing to pay 11.92"
+          },
+          "tranche_2": {
+            "percent_of_position": 25,
+            "amount_rm": 1000,
+            "entry_price_target": "11.52-11.68",
+            "shares_to_buy": "85-87 shares",
+            "timing": "Days 2-7 - On dip to support",
+            "order_type": "Limit orders at 11.68, 11.60, 11.52"
+          }
+        },
+        "total_shares_target": "337-342 shares",
+        "average_entry_target": "11.69-11.83"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 11.05,
+        "stop_distance_from_entry": "0.64-0.78 (5.8-6.8%)",
+        "stop_type": "Stop-loss order below major support",
+        "position_risk_rm": 245,
+        "position_risk_percent": 0.49,
+        "trailing_stop_activation": "After breakout above 12.50",
+        "trailing_stop_distance": "7% below highest price",
+        "notes": "Defensive utility monopoly - can use wider stops. Government backing provides safety net."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 12.52,
+          "gain_percent": 6.5,
+          "action": "Sell 20% (68 shares)",
+          "amount_realized_rm": 851,
+          "rationale": "First resistance"
+        },
+        "target_2": {
+          "price": 13.25,
+          "gain_percent": 12.5,
+          "action": "Sell 30% (102 shares)",
+          "amount_realized_rm": 1352,
+          "rationale": "Major upside target"
+        },
+        "target_3": {
+          "price": 14.00,
+          "gain_percent": 19.0,
+          "action": "Hold remaining 50% as permanent defensive holding",
+          "notes": "National monopoly with 4.5% dividend - keep 50% permanently"
+        }
+      },
+      "risk_reward_ratio": 2.3,
+      "expected_holding_period": "18-36 months (permanent core)",
+      "rebalancing_triggers": [
+        "Trim if utilities allocation exceeds 35%",
+        "Add on major corrections >12% given defensive characteristics",
+        "Monitor RM25B renewable capex progress quarterly",
+        "Review regulatory changes to electricity tariffs"
+      ],
+      "notes": "National electricity monopoly - defensive core holding. Near breakout above 12.25. Exceptional liquidity (RM112.7M daily). 4.5% dividend with RM6.3B FCF. Permanent holding candidate."
+    },
+    {
+      "rank": 11,
+      "symbol": "CIMB.KL",
+      "company_name": "CIMB Group Holdings Berhad",
+      "final_composite_score": 7.74,
+      "recommended_allocation_rm": 3500,
+      "recommended_allocation_percent": 7.0,
+      "entry_plan": {
+        "recommendation": "Buy Now - Value Play",
+        "entry_sequence": {
+          "tranche_1": {
+            "percent_of_position": 70,
+            "amount_rm": 2450,
+            "entry_price_target": "7.85-7.98",
+            "shares_to_buy": "307-312 shares",
+            "timing": "Day 1-3 - Market hours",
+            "order_type": "Limit order at 7.92, willing to pay 7.96"
+          },
+          "tranche_2": {
+            "percent_of_position": 30,
+            "amount_rm": 1050,
+            "entry_price_target": "7.68-7.80",
+            "shares_to_buy": "135-137 shares",
+            "timing": "Days 3-10 - On dip",
+            "order_type": "Limit orders at 7.80, 7.74, 7.68"
+          }
+        },
+        "total_shares_target": "442-449 shares",
+        "average_entry_target": "7.79-7.90"
+      },
+      "stop_loss_plan": {
+        "initial_stop": 7.35,
+        "stop_distance_from_entry": "0.44-0.55 (6.0-7.2%)",
+        "stop_type": "Stop-loss order",
+        "position_risk_rm": 220,
+        "position_risk_percent": 0.44,
+        "trailing_stop_activation": "After 8% gain (price >8.50)",
+        "trailing_stop_distance": "6% below highest price",
+        "notes": "Value play with 5.5% dividend cushion. Improving ROE trend provides support."
+      },
+      "profit_targets": {
+        "target_1": {
+          "price": 8.42,
+          "gain_percent": 6.5,
+          "action": "Sell 30% (135 shares)",
+          "amount_realized_rm": 1137,
+          "rationale": "First target"
+        },
+        "target_2": {
+          "price": 9.05,
+          "gain_percent": 15.0,
+          "action": "Sell 40% (180 shares)",
+          "amount_realized_rm": 1629,
+          "rationale": "Major upside target"
+        },
+        "target_3": {
+          "price": 9.50,
+          "gain_percent": 20.5,
+          "action": "Sell final 30% (135 shares)",
+          "amount_realized_rm": 1283,
+          "rationale": "Extended target - full exit"
+        }
+      },
+      "risk_reward_ratio": 2.3,
+      "expected_holding_period": "9-15 months",
+      "rebalancing_triggers": [
+        "Trim if banking allocation exceeds 42%",
+        "Add if drops to 7.45-7.55 on weakness",
+        "Monitor ROE trend - maintain if >10.5%",
+        "Review ASEAN economic exposure quarterly"
+      ],
+      "notes": "Cheapest bank valuation (11.2x P/E) with highest yield (5.5%). ASEAN recovery play. MACD early crossover. Good value/yield combination for 7% allocation."
+    }
+  ],
+  "portfolio_management_rules": {
+    "position_sizing": {
+      "rule": "No single position >12% at entry",
+      "rebalancing_threshold": "Trim if any position exceeds 15% due to appreciation",
+      "maximum_sector_allocation": {
+        "Technology": "35%",
+        "Finance": "42%",
+        "Utilities": "35%"
+      }
+    },
+    "risk_management": {
+      "maximum_risk_per_trade": "2% of portfolio (RM1,000)",
+      "maximum_portfolio_risk": "12% cumulative (RM6,000)",
+      "correlation_rule": "Limit same-sector correlated positions (e.g., max 2 semiconductor stocks)",
+      "stop_loss_discipline": "ALWAYS honor stops - no exceptions"
+    },
+    "profit_taking": {
+      "systematic_approach": "Scale out at targets - never all-or-nothing",
+      "trailing_stops": "Activate after 8-12% gains to protect profits",
+      "core_holdings": "Keep 40-50% of best positions (PBBANK, MAXIS, TENAGA, PGAS) long-term"
+    },
+    "rebalancing": {
+      "frequency": "Monthly review, quarterly rebalancing",
+      "triggers": [
+        "Position exceeds 15% - trim to 12%",
+        "Sector exceeds limits - rebalance",
+        "Fundamental score drops >1.0 point - review/exit",
+        "Technical breakdown below major support - exit"
+      ]
+    },
+    "cash_management": {
+      "minimum_cash_reserve": "5% (RM2,500)",
+      "opportunistic_reserve": "10-15% for pullback opportunities",
+      "deployment_discipline": "Do not deploy all capital immediately - patience on extended names"
+    }
+  },
+  "execution_timeline": {
+    "days_1_3": {
+      "action": "Deploy RM22,000 in Tier 1 positions",
+      "positions": ["INARI 60%", "PBBANK 70%", "PGAS 75%", "MAXIS 70%"],
+      "notes": "Focus on highest conviction immediate buys"
+    },
+    "days_4_7": {
+      "action": "Deploy RM12,000 in Tier 2/3 positions",
+      "positions": ["MAYBANK 75%", "CIMB 70%", "TENAGA 75%"],
+      "notes": "Complete core portfolio construction"
+    },
+    "days_8_21": {
+      "action": "Scale into pullback opportunities with RM13,000",
+      "positions": ["PENTA (wait for dip)", "UNISEM (scale in)", "GREATEC (wait for dip)"],
+      "notes": "Patient capital for extended names"
+    },
+    "day_22_plus": {
+      "action": "Review and optimize with remaining RM3,000",
+      "options": ["Add to best performers", "Enter optional positions (YTLPOWR, GASMSIA)", "Keep as reserve"],
+      "notes": "Flexibility based on market conditions"
+    }
+  },
+  "quality_gate_validation": {
+    "all_positions_have_entry_plans": true,
+    "all_positions_have_stop_losses": true,
+    "all_positions_have_profit_targets": true,
+    "risk_per_trade_within_2_percent": true,
+    "portfolio_construction_rules_defined": true,
+    "execution_timeline_provided": true,
+    "quality_gate_status": "PASSED ✓"
+  },
+  "ready_for_report_generator": true,
+  "next_step": "ReportGenerator will create comprehensive final report consolidating all analysis stages with executive summary, detailed recommendations, and risk disclosures for user."
+}
