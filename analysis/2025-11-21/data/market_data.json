@@ -1,0 +1,497 @@
+{
+  "fetch_date": "2025-11-21 21:55:30",
+  "total_stocks": 14,
+  "data_source": "Yahoo Finance (yfinance library)",
+  "stocks": [
+    {
+      "symbol": "INARI",
+      "yahoo_symbol": "0166.KL",
+      "sector": "Technology",
+      "fetch_date": "2025-11-21 21:55:29",
+      "current_price_rm": 2.42,
+      "price_data": {
+        "current_price_rm": 2.42,
+        "sma_20": 2.507,
+        "sma_50": 2.365,
+        "sma_200": 2.094,
+        "high_52w": 3.13,
+        "low_52w": 1.4,
+        "distance_from_52w_high_percent": -22.6,
+        "distance_from_52w_low_percent": 72.6
+      },
+      "momentum_indicators": {
+        "rsi_14": 36.59,
+        "rsi_interpretation": "Neutral to slightly bearish",
+        "macd": 0.0068,
+        "signal_line": 0.0311,
+        "histogram": -0.0243,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 6819200,
+        "avg_volume_20d": 9532765,
+        "volume_ratio": 0.72
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "UNISEM",
+      "yahoo_symbol": "5005.KL",
+      "sector": "Technology",
+      "fetch_date": "2025-11-21 21:55:29",
+      "current_price_rm": 3.18,
+      "price_data": {
+        "current_price_rm": 3.18,
+        "sma_20": 3.407,
+        "sma_50": 3.242,
+        "sma_200": 2.451,
+        "high_52w": 3.73,
+        "low_52w": 1.77,
+        "distance_from_52w_high_percent": -14.7,
+        "distance_from_52w_low_percent": 79.6
+      },
+      "momentum_indicators": {
+        "rsi_14": 40.17,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": -0.0096,
+        "signal_line": 0.0379,
+        "histogram": -0.0475,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 543200,
+        "avg_volume_20d": 1076560,
+        "volume_ratio": 0.5
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "PENTA",
+      "yahoo_symbol": "7160.KL",
+      "sector": "Technology",
+      "fetch_date": "2025-11-21 21:55:29",
+      "current_price_rm": 3.85,
+      "price_data": {
+        "current_price_rm": 3.85,
+        "sma_20": 4.029,
+        "sma_50": 4.0,
+        "sma_200": 3.309,
+        "high_52w": 4.46,
+        "low_52w": 1.86,
+        "distance_from_52w_high_percent": -13.7,
+        "distance_from_52w_low_percent": 107.0
+      },
+      "momentum_indicators": {
+        "rsi_14": 31.88,
+        "rsi_interpretation": "Neutral to slightly bearish",
+        "macd": -0.0651,
+        "signal_line": -0.0385,
+        "histogram": -0.0265,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 794200,
+        "avg_volume_20d": 1344115,
+        "volume_ratio": 0.59
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "GREATEC",
+      "yahoo_symbol": "GREATEC.KL",
+      "sector": "Technology",
+      "fetch_date": "2025-11-21 21:55:29",
+      "current_price_rm": 1.85,
+      "price_data": {
+        "current_price_rm": 1.85,
+        "sma_20": 1.991,
+        "sma_50": 2.096,
+        "sma_200": 1.813,
+        "high_52w": 2.45,
+        "low_52w": 1.1,
+        "distance_from_52w_high_percent": -24.5,
+        "distance_from_52w_low_percent": 68.2
+      },
+      "momentum_indicators": {
+        "rsi_14": 21.05,
+        "rsi_interpretation": "Oversold - potential buying opportunity",
+        "macd": -0.0793,
+        "signal_line": -0.0611,
+        "histogram": -0.0183,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 1411800,
+        "avg_volume_20d": 3737000,
+        "volume_ratio": 0.38
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "PBBANK",
+      "yahoo_symbol": "PBBANK.KL",
+      "sector": "Finance",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 4.3,
+      "price_data": {
+        "current_price_rm": 4.3,
+        "sma_20": 4.261,
+        "sma_50": 4.269,
+        "sma_200": 4.253,
+        "high_52w": 4.47,
+        "low_52w": 3.93,
+        "distance_from_52w_high_percent": -3.9,
+        "distance_from_52w_low_percent": 9.4
+      },
+      "momentum_indicators": {
+        "rsi_14": 59.52,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": 0.0086,
+        "signal_line": 0.0053,
+        "histogram": 0.0034,
+        "macd_status": "Bullish"
+      },
+      "volume_analysis": {
+        "current_volume": 19983000,
+        "avg_volume_20d": 10989355,
+        "volume_ratio": 1.82
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Above",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "MAYBANK",
+      "yahoo_symbol": "1155.KL",
+      "sector": "Finance",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 9.94,
+      "price_data": {
+        "current_price_rm": 9.94,
+        "sma_20": 9.917,
+        "sma_50": 9.904,
+        "sma_200": 9.689,
+        "high_52w": 10.15,
+        "low_52w": 9.04,
+        "distance_from_52w_high_percent": -2.0,
+        "distance_from_52w_low_percent": 10.0
+      },
+      "momentum_indicators": {
+        "rsi_14": 48.0,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": 0.0126,
+        "signal_line": 0.016,
+        "histogram": -0.0034,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 16576200,
+        "avg_volume_20d": 10393095,
+        "volume_ratio": 1.59
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Above",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "CIMB",
+      "yahoo_symbol": "1023.KL",
+      "sector": "Finance",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 7.46,
+      "price_data": {
+        "current_price_rm": 7.46,
+        "sma_20": 7.494,
+        "sma_50": 7.419,
+        "sma_200": 7.038,
+        "high_52w": 8.02,
+        "low_52w": 6.05,
+        "distance_from_52w_high_percent": -7.0,
+        "distance_from_52w_low_percent": 23.4
+      },
+      "momentum_indicators": {
+        "rsi_14": 52.17,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": 0.0394,
+        "signal_line": 0.0496,
+        "histogram": -0.0102,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 8280700,
+        "avg_volume_20d": 11159140,
+        "volume_ratio": 0.74
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "HLBANK",
+      "yahoo_symbol": "5819.KL",
+      "sector": "Finance",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 21.0,
+      "price_data": {
+        "current_price_rm": 21.0,
+        "sma_20": 20.888,
+        "sma_50": 20.423,
+        "sma_200": 19.494,
+        "high_52w": 21.34,
+        "low_52w": 17.83,
+        "distance_from_52w_high_percent": -1.6,
+        "distance_from_52w_low_percent": 17.8
+      },
+      "momentum_indicators": {
+        "rsi_14": 52.56,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": 0.1676,
+        "signal_line": 0.1845,
+        "histogram": -0.0169,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 1156900,
+        "avg_volume_20d": 1775640,
+        "volume_ratio": 0.65
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Above",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "MAXIS",
+      "yahoo_symbol": "6012.KL",
+      "sector": "Finance",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 4.13,
+      "price_data": {
+        "current_price_rm": 4.13,
+        "sma_20": 4.009,
+        "sma_50": 3.822,
+        "sma_200": 3.543,
+        "high_52w": 4.22,
+        "low_52w": 3.04,
+        "distance_from_52w_high_percent": -2.1,
+        "distance_from_52w_low_percent": 35.8
+      },
+      "momentum_indicators": {
+        "rsi_14": 75.0,
+        "rsi_interpretation": "Overbought - caution warranted",
+        "macd": 0.1066,
+        "signal_line": 0.1036,
+        "histogram": 0.003,
+        "macd_status": "Bullish"
+      },
+      "volume_analysis": {
+        "current_volume": 3926100,
+        "avg_volume_20d": 5167235,
+        "volume_ratio": 0.76
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Above",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "PGAS",
+      "yahoo_symbol": "6033.KL",
+      "sector": "Utilities",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 18.36,
+      "price_data": {
+        "current_price_rm": 18.36,
+        "sma_20": 18.508,
+        "sma_50": 18.561,
+        "sma_200": 17.652,
+        "high_52w": 19.3,
+        "low_52w": 14.94,
+        "distance_from_52w_high_percent": -4.9,
+        "distance_from_52w_low_percent": 22.9
+      },
+      "momentum_indicators": {
+        "rsi_14": 45.71,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": -0.0696,
+        "signal_line": -0.0391,
+        "histogram": -0.0305,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 138000,
+        "avg_volume_20d": 421665,
+        "volume_ratio": 0.33
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "VSOLAR",
+      "yahoo_symbol": "0215.KL",
+      "sector": "Utilities",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 3.04,
+      "price_data": {
+        "current_price_rm": 3.04,
+        "sma_20": 3.086,
+        "sma_50": 2.967,
+        "sma_200": 2.186,
+        "high_52w": 3.25,
+        "low_52w": 1.52,
+        "distance_from_52w_high_percent": -6.5,
+        "distance_from_52w_low_percent": 100.0
+      },
+      "momentum_indicators": {
+        "rsi_14": 50.0,
+        "rsi_interpretation": "Neutral - balanced momentum",
+        "macd": 0.0351,
+        "signal_line": 0.05,
+        "histogram": -0.0149,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 4479400,
+        "avg_volume_20d": 3254430,
+        "volume_ratio": 1.38
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Above",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "GASMSIA",
+      "yahoo_symbol": "5209.KL",
+      "sector": "Utilities",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 4.29,
+      "price_data": {
+        "current_price_rm": 4.29,
+        "sma_20": 4.475,
+        "sma_50": 4.414,
+        "sma_200": 4.157,
+        "high_52w": 4.82,
+        "low_52w": 3.53,
+        "distance_from_52w_high_percent": -10.9,
+        "distance_from_52w_low_percent": 21.7
+      },
+      "momentum_indicators": {
+        "rsi_14": 30.0,
+        "rsi_interpretation": "Oversold - potential buying opportunity",
+        "macd": -0.0205,
+        "signal_line": 0.0037,
+        "histogram": -0.0242,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 1968200,
+        "avg_volume_20d": 1158255,
+        "volume_ratio": 1.7
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    },
+    {
+      "symbol": "TENAGA",
+      "yahoo_symbol": "5347.KL",
+      "sector": "Utilities",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 13.1,
+      "price_data": {
+        "current_price_rm": 13.1,
+        "sma_20": 13.283,
+        "sma_50": 13.211,
+        "sma_200": 13.371,
+        "high_52w": 14.7,
+        "low_52w": 12.42,
+        "distance_from_52w_high_percent": -10.9,
+        "distance_from_52w_low_percent": 5.5
+      },
+      "momentum_indicators": {
+        "rsi_14": 35.71,
+        "rsi_interpretation": "Neutral to slightly bearish",
+        "macd": -0.0092,
+        "signal_line": 0.0193,
+        "histogram": -0.0286,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 6558600,
+        "avg_volume_20d": 4311645,
+        "volume_ratio": 1.52
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Below"
+      }
+    },
+    {
+      "symbol": "YTLPOWR",
+      "yahoo_symbol": "YTLPOWR.KL",
+      "sector": "Utilities",
+      "fetch_date": "2025-11-21 21:55:30",
+      "current_price_rm": 3.83,
+      "price_data": {
+        "current_price_rm": 3.83,
+        "sma_20": 3.864,
+        "sma_50": 4.019,
+        "sma_200": 3.679,
+        "high_52w": 4.46,
+        "low_52w": 2.77,
+        "distance_from_52w_high_percent": -14.1,
+        "distance_from_52w_low_percent": 38.2
+      },
+      "momentum_indicators": {
+        "rsi_14": 34.0,
+        "rsi_interpretation": "Neutral to slightly bearish",
+        "macd": -0.0661,
+        "signal_line": -0.0642,
+        "histogram": -0.0019,
+        "macd_status": "Bearish"
+      },
+      "volume_analysis": {
+        "current_volume": 3848400,
+        "avg_volume_20d": 8187700,
+        "volume_ratio": 0.47
+      },
+      "trend_analysis": {
+        "price_vs_sma20": "Below",
+        "price_vs_sma50": "Below",
+        "price_vs_sma200": "Above"
+      }
+    }
+  ]
+}
