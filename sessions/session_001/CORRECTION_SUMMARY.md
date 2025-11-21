@@ -94,7 +94,7 @@ The final report has been **completely regenerated** using:
 - **Cash Reserve:** RM10,000 (20%)
 - **Total Positions:** 10 active + 3 future opportunities
 
----
+--- 
 
 ## Sector Allocation (CORRECTED)
 
