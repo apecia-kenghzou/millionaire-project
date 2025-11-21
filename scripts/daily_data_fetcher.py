@@ -203,6 +203,14 @@ def save_data(data_list, date_str):
         json.dump(output, f, indent=2)
 
     print(f"\n💾 Data saved to: {output_file}")
+
+    # Also save to a fixed location that Claude can easily read
+    fixed_output_file = Path("current_market_data.json")
+    with open(fixed_output_file, 'w') as f:
+        json.dump(output, f, indent=2)
+
+    print(f"💾 Data also saved to: {fixed_output_file} (for Claude to read)")
+
     return output_file
 
 
