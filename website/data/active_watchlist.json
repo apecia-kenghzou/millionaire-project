@@ -1,0 +1,398 @@
+{
+  "watchlist_date": "2025-11-21",
+  "session_id": "session_001",
+  "watchlist_type": "ACTIVE_TRADING_WATCHLIST",
+  "market_conditions": "Mixed - Some oversold opportunities (PENTA, GASMSIA), some overbought (MAXIS), banking sector strong",
+  "total_stocks_tracked": 14,
+
+  "category_1_buy_now": {
+    "category": "TOP BUY NOW - Immediate Purchase",
+    "count": 6,
+    "total_allocation_rm": 32000,
+    "stocks": [
+      {
+        "symbol": "PENTA.KL",
+        "company_name": "Pentamaster Corporation Berhad",
+        "sector": "Technology",
+        "current_price_rm": 3.85,
+        "composite_score": 6.96,
+        "fundamental_score": 8.6,
+        "rsi_14": 31.88,
+        "action": "BUY NOW",
+        "urgency": "HIGH",
+        "entry_zone_rm": "3.70-3.90",
+        "stop_loss_rm": 3.50,
+        "profit_target_rm": 4.50,
+        "allocation_rm": 4000,
+        "allocation_percent": 8,
+        "priority": 1,
+        "key_reason": "RSI RECOVERED from EXTREME 8.11 to 31.9 - panic over. Outstanding fundamentals (8.6 score, 18.2% ROE). TOP OPPORTUNITY on Nov 21.",
+        "expected_return_12m": "25-30%",
+        "risk_level": "Medium",
+        "monitoring_trigger": "Sell if RSI drops back below 25 (panic resumes)"
+      },
+      {
+        "symbol": "GASMSIA.KL",
+        "company_name": "Gas Malaysia Berhad",
+        "sector": "Utilities",
+        "current_price_rm": 4.29,
+        "composite_score": 7.02,
+        "fundamental_score": 7.7,
+        "rsi_14": 30.0,
+        "action": "BUY NOW",
+        "urgency": "HIGH",
+        "entry_zone_rm": "4.25-4.35",
+        "stop_loss_rm": 4.05,
+        "profit_target_rm": 4.80,
+        "allocation_rm": 3000,
+        "allocation_percent": 6,
+        "priority": 2,
+        "key_reason": "RSI 30.0 OVERSOLD entry. High volume (1.70x) suggests accumulation. Solid fundamentals with 7.5% growth and 4.2% yield.",
+        "expected_return_12m": "15-18%",
+        "risk_level": "Low-Medium",
+        "monitoring_trigger": "Take profit at RM4.75-4.80 (RSI > 65)"
+      },
+      {
+        "symbol": "PBBANK.KL",
+        "company_name": "Public Bank Berhad",
+        "sector": "Finance",
+        "current_price_rm": 4.30,
+        "composite_score": 7.82,
+        "fundamental_score": 8.5,
+        "rsi_14": 59.52,
+        "action": "BUY NOW",
+        "urgency": "MEDIUM",
+        "entry_zone_rm": "4.20-4.28",
+        "stop_loss_rm": 4.05,
+        "profit_target_rm": 4.68,
+        "allocation_rm": 6500,
+        "allocation_percent": 13,
+        "priority": 3,
+        "key_reason": "#1 ranked. Best banking fundamentals (0.89% NPL, 18.8% margin). Bullish MACD with high volume. 4.9% yield cushion.",
+        "expected_return_12m": "12-15%",
+        "risk_level": "Low-Medium",
+        "monitoring_trigger": "Add on dip to RM4.10-4.15"
+      },
+      {
+        "symbol": "PGAS.KL",
+        "company_name": "Petronas Gas Berhad",
+        "sector": "Utilities",
+        "current_price_rm": 18.36,
+        "composite_score": 7.30,
+        "fundamental_score": 8.5,
+        "rsi_14": 45.71,
+        "action": "BUY NOW",
+        "urgency": "MEDIUM",
+        "entry_zone_rm": "17.80-18.40",
+        "stop_loss_rm": 17.00,
+        "profit_target_rm": 19.50,
+        "allocation_rm": 5000,
+        "allocation_percent": 10,
+        "priority": 4,
+        "key_reason": "Best utility fundamentals (8.5 score). Gas monopoly. RSI recovering from oversold. 4.8% yield. Defensive quality.",
+        "expected_return_12m": "12-15%",
+        "risk_level": "Low-Medium",
+        "monitoring_trigger": "Add on dip to RM17.80-18.00"
+      },
+      {
+        "symbol": "MAYBANK.KL",
+        "company_name": "Malayan Banking Berhad",
+        "sector": "Finance",
+        "current_price_rm": 9.94,
+        "composite_score": 7.90,
+        "fundamental_score": 8.1,
+        "rsi_14": 48.0,
+        "action": "BUY NOW",
+        "urgency": "MEDIUM",
+        "entry_zone_rm": "9.80-9.95",
+        "stop_loss_rm": 9.50,
+        "profit_target_rm": 10.80,
+        "allocation_rm": 5000,
+        "allocation_percent": 10,
+        "priority": 5,
+        "key_reason": "Malaysia's banking leader. Improving ROE (10.2%→11.8%). 5.2% yield. ASEAN diversification. Strong uptrend.",
+        "expected_return_12m": "12-15%",
+        "risk_level": "Low",
+        "monitoring_trigger": "Take profit at RM10.70-10.80"
+      },
+      {
+        "symbol": "CIMB.KL",
+        "company_name": "CIMB Group Holdings Berhad",
+        "sector": "Finance",
+        "current_price_rm": 7.46,
+        "composite_score": 7.74,
+        "fundamental_score": 7.9,
+        "rsi_14": 52.17,
+        "action": "BUY NOW",
+        "urgency": "MEDIUM",
+        "entry_zone_rm": "7.40-7.50",
+        "stop_loss_rm": 7.10,
+        "profit_target_rm": 8.20,
+        "allocation_rm": 4500,
+        "allocation_percent": 9,
+        "priority": 6,
+        "key_reason": "Highest dividend yield (5.5%). ASEAN exposure. Improving ROE. Strong uptrend +21.8% from 52w low.",
+        "expected_return_12m": "12-15%",
+        "risk_level": "Low-Medium",
+        "monitoring_trigger": "Take profit at RM8.10-8.20"
+      }
+    ]
+  },
+
+  "category_2_scale_in": {
+    "category": "SCALE IN GRADUALLY - Accumulate on Weakness",
+    "count": 3,
+    "total_allocation_rm": 6000,
+    "stocks": [
+      {
+        "symbol": "INARI.KL",
+        "company_name": "Inari Amertron Berhad",
+        "sector": "Technology",
+        "current_price_rm": 2.42,
+        "composite_score": 7.48,
+        "fundamental_score": 8.6,
+        "rsi_14": 36.59,
+        "action": "SCALE IN GRADUALLY",
+        "urgency": "MEDIUM",
+        "scale_in_strategy": {
+          "tranche_1": {"price_rm": "2.40-2.45", "allocation_rm": 1200, "percent": 40},
+          "tranche_2": {"price_rm": "2.30-2.35", "allocation_rm": 1200, "percent": 40},
+          "tranche_3": {"price_rm": "2.15-2.25", "allocation_rm": 600, "percent": 20}
+        },
+        "stop_loss_rm": 2.05,
+        "profit_target_rm": 2.85,
+        "allocation_rm": 3000,
+        "allocation_percent": 6,
+        "key_reason": "HIGHEST fundamental score (8.6). Fortress balance sheet (0.18x D/E). Weak technicals require averaging. 5G/AI secular trends.",
+        "expected_return_12m": "18-22%",
+        "risk_level": "Medium",
+        "monitoring_trigger": "If RSI drops below 30, pause scaling and reassess"
+      },
+      {
+        "symbol": "UNISEM.KL",
+        "company_name": "Unisem (M) Berhad",
+        "sector": "Technology",
+        "current_price_rm": 3.18,
+        "composite_score": 7.00,
+        "fundamental_score": 8.2,
+        "rsi_14": 40.17,
+        "action": "SCALE IN GRADUALLY",
+        "urgency": "LOW",
+        "scale_in_strategy": {
+          "tranche_1": {"price_rm": "3.15-3.19", "allocation_rm": 1200, "percent": 40},
+          "tranche_2": {"price_rm": "3.00-3.10", "allocation_rm": 1200, "percent": 40},
+          "tranche_3": {"price_rm": "2.85-2.95", "allocation_rm": 600, "percent": 20}
+        },
+        "stop_loss_rm": 2.75,
+        "profit_target_rm": 3.75,
+        "allocation_rm": 3000,
+        "allocation_percent": 6,
+        "key_reason": "Pure-play OSAT benefiting from AI semiconductors. Strong growth 16.8% CAGR accelerating to 21.5%. Good ROE 14.8%.",
+        "expected_return_12m": "15-20%",
+        "risk_level": "Medium-High",
+        "monitoring_trigger": "Pause if RSI drops below 30"
+      },
+      {
+        "symbol": "TENAGA.KL",
+        "company_name": "Tenaga Nasional Berhad",
+        "sector": "Utilities",
+        "current_price_rm": 13.10,
+        "composite_score": 6.76,
+        "fundamental_score": 7.4,
+        "rsi_14": 35.71,
+        "action": "SCALE IN on dips",
+        "urgency": "LOW",
+        "scale_in_strategy": {
+          "tranche_1": {"price_rm": "12.80-13.00", "allocation_rm": 2250, "percent": 75},
+          "tranche_2": {"price_rm": "12.50-12.70", "allocation_rm": 750, "percent": 25}
+        },
+        "stop_loss_rm": 12.30,
+        "profit_target_rm": 14.30,
+        "allocation_rm": 0,
+        "allocation_percent": 0,
+        "key_reason": "National electricity monopoly. Exceptional FCF (RM6.3B). 4.5% yield. Wait for dip to better entry.",
+        "expected_return_12m": "10-12%",
+        "risk_level": "Low",
+        "monitoring_trigger": "Buy first tranche if dips to 12.80-13.00"
+      }
+    ]
+  },
+
+  "category_3_wait_for_pullback": {
+    "category": "WAIT FOR PULLBACK - Do Not Chase",
+    "count": 3,
+    "reserved_cash_rm": 9500,
+    "stocks": [
+      {
+        "symbol": "MAXIS.KL",
+        "company_name": "Maxis Berhad",
+        "sector": "Finance",
+        "current_price_rm": 4.18,
+        "composite_score": 7.58,
+        "fundamental_score": 8.5,
+        "rsi_14": 75.0,
+        "action": "WAIT - DO NOT BUY",
+        "urgency": "CRITICAL AVOID",
+        "current_status": "EXTREME OVERBOUGHT",
+        "target_entry_rm": "3.80-3.95",
+        "required_pullback_percent": 10,
+        "target_allocation_rm": 4000,
+        "target_allocation_percent": 8,
+        "stop_loss_rm": 3.65,
+        "profit_target_rm": 4.60,
+        "key_reason": "EXTREME RSI 75.0 (only 1-2% of days). Outstanding fundamentals (8.5 score, 24.5% ROE, 5.8% yield) but TERRIBLE timing. DO NOT CHASE.",
+        "expected_return_12m": "12-15% (if entry at 3.80-3.95)",
+        "risk_level": "Medium-High (if bought now: HIGH)",
+        "monitoring_trigger": "Set alert for RSI < 65 and price 3.80-3.95. Then BUY.",
+        "critical_warning": "DO NOT BUY AT CURRENT PRICE RM4.18. Stock at 52w high after +37% rally. Wait for 10-15% correction. PATIENCE REQUIRED."
+      },
+      {
+        "symbol": "VSOLAR.KL",
+        "company_name": "Vortex Solar Berhad",
+        "sector": "Utilities",
+        "current_price_rm": 3.04,
+        "composite_score": 7.52,
+        "fundamental_score": 8.0,
+        "rsi_14": 50.0,
+        "action": "WAIT - DO NOT BUY",
+        "urgency": "AVOID",
+        "current_status": "EXTENDED RALLY",
+        "target_entry_rm": "2.80-2.95",
+        "required_pullback_percent": 10,
+        "target_allocation_rm": 2500,
+        "target_allocation_percent": 5,
+        "stop_loss_rm": 2.60,
+        "profit_target_rm": 3.60,
+        "key_reason": "Stock DOUBLED (+99%) from lows. Exceptional growth (24.5% CAGR, 28.5% Q3). Good fundamentals but extended. Wait for pullback.",
+        "expected_return_12m": "18-22% (if entry at 2.80-2.95)",
+        "risk_level": "Medium-High",
+        "monitoring_trigger": "Set alert for price 2.80-2.95. Then consider small 5% allocation.",
+        "valuation_warning": "Stock doubled in past year. Extended rally creates correction risk. Consider small allocation only AFTER pullback."
+      },
+      {
+        "symbol": "GREATEC.KL",
+        "company_name": "Greatech Technology Berhad",
+        "sector": "Technology",
+        "current_price_rm": 1.85,
+        "composite_score": 6.60,
+        "fundamental_score": 8.2,
+        "rsi_14": 21.05,
+        "action": "WAIT - DO NOT BUY YET",
+        "urgency": "WAIT FOR STABILIZATION",
+        "current_status": "EXTREME OVERSOLD - NOT STABILIZED",
+        "target_entry_rm": "1.75-1.85 (AFTER RSI > 25)",
+        "required_stabilization": "RSI must recover above 25",
+        "target_allocation_rm": 2000,
+        "target_allocation_percent": 4,
+        "stop_loss_rm": 1.60,
+        "profit_target_rm": 2.25,
+        "key_reason": "EXTREME RSI 21.05 at critical 200-day SMA. Strong fundamentals (8.2 score, 19.5% CAGR) but panic continues. Wait for stabilization.",
+        "expected_return_12m": "20-25% (if entry after stabilization)",
+        "risk_level": "High (if bought now)",
+        "monitoring_trigger": "Set alert for RSI > 25 AND price holds above 1.70. Then consider entry.",
+        "critical_warning": "EXTREME OVERSOLD but still falling. RSI 21.05 indicates panic. Testing critical 200-day SMA. Wait for stabilization (RSI > 25) before entry. Could break down further."
+      }
+    ]
+  },
+
+  "category_4_avoided": {
+    "category": "AVOIDED - Not Suitable Now",
+    "count": 2,
+    "stocks": [
+      {
+        "symbol": "HLBANK.KL",
+        "company_name": "Hong Leong Bank Berhad",
+        "sector": "Finance",
+        "current_price_rm": 21.0,
+        "composite_score": 7.68,
+        "fundamental_score": 8.0,
+        "rsi_14": 52.56,
+        "action": "AVOID",
+        "reason": "LIQUIDITY RISK",
+        "details": "Strong fundamentals (8.0 score, best efficiency 38% C/I) and good uptrend. BUT extremely low liquidity (avg volume 1.57M shares). Difficult to enter/exit large positions. Limited to 2-3% allocation maximum if considered.",
+        "risk_level": "Medium (liquidity risk)",
+        "alternative": "Use PBBANK or MAYBANK instead for banking exposure with better liquidity"
+      },
+      {
+        "symbol": "YTLPOWR.KL",
+        "company_name": "YTL Power International Berhad",
+        "sector": "Utilities",
+        "current_price_rm": 3.83,
+        "composite_score": 6.56,
+        "fundamental_score": 7.4,
+        "rsi_14": 34.0,
+        "action": "AVOID",
+        "reason": "LOWER PRIORITY",
+        "details": "Diversified utility with renewable exposure. Decent fundamentals (7.4 score, 8.5% CAGR) and RSI 34 oversold. BUT higher leverage (1.45x D/E), lower ROE (7.8%), and ranked #14. Better opportunities available (PGAS, GASMSIA).",
+        "risk_level": "Medium",
+        "alternative": "Use PGAS or GASMSIA instead for better utility fundamentals"
+      }
+    ]
+  },
+
+  "watchlist_summary": {
+    "buy_now_count": 6,
+    "buy_now_allocation": "RM32,000 (64%)",
+    "scale_in_count": 3,
+    "scale_in_allocation": "RM6,000 (12%)",
+    "wait_pullback_count": 3,
+    "wait_pullback_reserved": "RM9,500 (19%)",
+    "avoided_count": 2,
+    "cash_reserve": "RM12,000 (24%)",
+    "total_capital": "RM50,000"
+  },
+
+  "priority_actions_nov_21": [
+    {
+      "priority": 1,
+      "action": "BUY PENTA at RM3.85",
+      "allocation": "RM4,000",
+      "rationale": "RSI recovered from EXTREME 8.11 to 31.9. TOP OPPORTUNITY. Outstanding fundamentals (8.6 score, 18.2% ROE). Act before RSI exceeds 40."
+    },
+    {
+      "priority": 2,
+      "action": "BUY GASMSIA at RM4.29",
+      "allocation": "RM3,000",
+      "rationale": "RSI 30.0 OVERSOLD entry. High volume (1.70x) accumulation. Solid fundamentals with 4.2% yield. Act before RSI exceeds 35."
+    },
+    {
+      "priority": 3,
+      "action": "BUY PBBANK at RM4.30",
+      "allocation": "RM6,500",
+      "rationale": "#1 ranked. Best banking fundamentals. Bullish MACD. 4.9% yield cushion. Core holding for portfolio."
+    },
+    {
+      "priority": 4,
+      "action": "BUY PGAS, MAYBANK, CIMB",
+      "allocation": "RM14,500 combined",
+      "rationale": "Quality holdings with good technicals. PGAS (defensive utility), MAYBANK (banking leader), CIMB (high yield 5.5%)."
+    },
+    {
+      "priority": 5,
+      "action": "SCALE IN INARI first tranche",
+      "allocation": "RM1,200 (40% of RM3,000)",
+      "rationale": "Best fundamental score (8.6). Begin accumulation at RM2.42. Scale in gradually on weakness."
+    }
+  ],
+
+  "monitoring_schedule": {
+    "daily_monitoring": [
+      "PENTA: Watch RSI - if drops back below 25, consider exit",
+      "GASMSIA: Watch RSI - take profit at RM4.75-4.80 if RSI > 65",
+      "MAXIS: Set alert for RSI < 65 and price 3.80-3.95",
+      "GREATEC: Set alert for RSI > 25 and price holds 1.70"
+    ],
+    "weekly_monitoring": [
+      "INARI: Scale in second tranche if drops to 2.30-2.35",
+      "UNISEM: Scale in first tranche at 3.15-3.19",
+      "VSOLAR: Watch for pullback to 2.80-2.95",
+      "Banking trio (PBBANK/MAYBANK/CIMB): Monitor for profit-taking opportunities"
+    ],
+    "portfolio_rebalancing": [
+      "Review allocation monthly",
+      "Take profits on stocks reaching profit targets",
+      "Redeploy cash into pullback opportunities (MAXIS, VSOLAR, GREATEC)",
+      "Maintain 15-20% cash reserve for opportunities"
+    ]
+  }
+}

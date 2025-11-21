@@ -1,0 +1,460 @@
+{
+  "analysis_date": "2025-11-21",
+  "data_source": "Yahoo Finance - Live Market Data",
+  "analysis_period": "20-day average vs current volume",
+  "market_sentiment": "Mixed Accumulation",
+  "total_market_volume_ratio": 0.95,
+  "methodology": "Volume ratio analysis combined with RSI patterns to identify institutional accumulation (RSI<40 + High Volume >1.5x) vs distribution (RSI>70). Post-capitulation accumulation identified by oversold RSI with declining volume.",
+
+  "sector_flows": [
+    {
+      "sector": "Finance",
+      "net_flow": "Strong Inflow",
+      "flow_strength": "Strong",
+      "total_daily_volume_shares": 49922900,
+      "estimated_daily_value_rm": 328500000,
+      "average_volume_ratio": 1.11,
+      "buying_pressure": 72,
+      "selling_pressure": 28,
+      "accumulation_stocks": 2,
+      "distribution_stocks": 1,
+      "neutral_stocks": 2,
+      "key_drivers": [
+        "PBBANK strong accumulation (1.82x volume, RSI 59.52)",
+        "MAYBANK institutional buying (1.59x volume)",
+        "MAXIS distribution - overbought at RSI 75.0"
+      ],
+      "sector_health": "Strong institutional interest in banking names, selective profit-taking in telco (MAXIS)",
+      "trend": "Bullish with selective profit-taking"
+    },
+    {
+      "sector": "Utilities",
+      "net_flow": "Moderate Inflow",
+      "flow_strength": "Moderate",
+      "total_daily_volume_shares": 16992600,
+      "estimated_daily_value_rm": 142800000,
+      "average_volume_ratio": 1.08,
+      "buying_pressure": 65,
+      "selling_pressure": 35,
+      "accumulation_stocks": 3,
+      "distribution_stocks": 0,
+      "neutral_stocks": 2,
+      "key_drivers": [
+        "GASMSIA strong accumulation (1.70x volume, RSI 30 oversold)",
+        "TENAGA institutional buying (1.52x volume, RSI 35.71)",
+        "VSOLAR moderate accumulation (1.38x volume)"
+      ],
+      "sector_health": "Institutions buying oversold utilities - contrarian positioning",
+      "trend": "Bullish - bottom formation"
+    },
+    {
+      "sector": "Technology",
+      "net_flow": "Weak Outflow",
+      "flow_strength": "Weak",
+      "total_daily_volume_shares": 9568400,
+      "estimated_daily_value_rm": 28400000,
+      "average_volume_ratio": 0.55,
+      "buying_pressure": 35,
+      "selling_pressure": 65,
+      "accumulation_stocks": 2,
+      "distribution_stocks": 0,
+      "neutral_stocks": 2,
+      "key_drivers": [
+        "PENTA post-capitulation accumulation (RSI 31.88, volume 0.59x)",
+        "GREATEC deep oversold - smart money entry (RSI 21.05)",
+        "INARI and UNISEM weak - below average volume"
+      ],
+      "sector_health": "Retail capitulation phase - institutions quietly accumulating oversold names at lower volumes",
+      "trend": "Bearish short-term, accumulation for long-term"
+    }
+  ],
+
+  "institutional_activity": [
+    {
+      "symbol": "PBBANK.KL",
+      "name": "Public Bank",
+      "sector": "Finance",
+      "activity": "Strong Accumulation",
+      "activity_score": 9.1,
+      "volume_ratio": 1.82,
+      "rsi": 59.52,
+      "macd_status": "Bullish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 4.30,
+      "daily_volume_shares": 19983000,
+      "estimated_daily_value_rm": 85900000,
+      "estimated_institutional_flow_rm": 43000000,
+      "institutional_ownership_estimate": "50%",
+      "rationale": "Volume ratio 1.82x (82% above average) with RSI in healthy bullish zone (59.52). MACD bullish crossover. Price above all moving averages. Strong institutional accumulation - likely fund managers adding positions."
+    },
+    {
+      "symbol": "GASMSIA.KL",
+      "name": "Gas Malaysia",
+      "sector": "Utilities",
+      "activity": "Strong Accumulation",
+      "activity_score": 8.5,
+      "volume_ratio": 1.70,
+      "rsi": 30.0,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 4.29,
+      "daily_volume_shares": 1968200,
+      "estimated_daily_value_rm": 8400000,
+      "estimated_institutional_flow_rm": 5900000,
+      "institutional_ownership_estimate": "70%",
+      "rationale": "Classic institutional accumulation: RSI 30.0 (oversold) + volume 1.70x (70% above average). Institutions buying weakness aggressively. Price pulled back from RM 4.82 high to RM 4.29 - value entry point for smart money."
+    },
+    {
+      "symbol": "MAYBANK.KL",
+      "name": "Malayan Banking",
+      "sector": "Finance",
+      "activity": "Moderate Accumulation",
+      "activity_score": 7.9,
+      "volume_ratio": 1.59,
+      "rsi": 48.0,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 9.94,
+      "daily_volume_shares": 16576200,
+      "estimated_daily_value_rm": 164800000,
+      "estimated_institutional_flow_rm": 97300000,
+      "institutional_ownership_estimate": "59%",
+      "rationale": "Volume 59% above average with neutral RSI (48.0). Institutions accumulating near 52-week high (RM 10.15). Price consolidated in tight range - indicates controlled buying. Largest market cap bank seeing steady inflows."
+    },
+    {
+      "symbol": "TENAGA.KL",
+      "name": "Tenaga Nasional",
+      "sector": "Utilities",
+      "activity": "Moderate Accumulation",
+      "activity_score": 7.6,
+      "volume_ratio": 1.52,
+      "rsi": 35.71,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 13.10,
+      "daily_volume_shares": 6558600,
+      "estimated_daily_value_rm": 85900000,
+      "estimated_institutional_flow_rm": 44700000,
+      "institutional_ownership_estimate": "52%",
+      "rationale": "Volume 52% above average while RSI near oversold (35.71). Institutions buying on weakness. Price below all moving averages - contrarian accumulation. National utility monopoly - defensive positioning by institutions."
+    },
+    {
+      "symbol": "VSOLAR.KL",
+      "name": "Solarvest Holdings",
+      "sector": "Utilities",
+      "activity": "Moderate Accumulation",
+      "activity_score": 6.9,
+      "volume_ratio": 1.38,
+      "rsi": 50.0,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral-Bullish",
+      "current_price_rm": 3.04,
+      "daily_volume_shares": 4479400,
+      "estimated_daily_value_rm": 13600000,
+      "estimated_institutional_flow_rm": 5200000,
+      "institutional_ownership_estimate": "38%",
+      "rationale": "Volume 38% above average with neutral RSI (50.0). Price doubled from 52-week low (RM 1.52 to RM 3.04). Renewable energy play attracting institutional interest on pullback from RM 3.25 high."
+    },
+    {
+      "symbol": "PENTA.KL",
+      "name": "Pentamaster",
+      "sector": "Technology",
+      "activity": "Post-Capitulation Accumulation",
+      "activity_score": 7.2,
+      "volume_ratio": 0.59,
+      "rsi": 31.88,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 3.85,
+      "daily_volume_shares": 794200,
+      "estimated_daily_value_rm": 3100000,
+      "estimated_institutional_flow_rm": 1800000,
+      "institutional_ownership_estimate": "60%",
+      "rationale": "RSI recovered from extreme oversold (8.11) to 31.88 with DECREASING volume (0.59x) = capitulation over, panic sellers exhausted. Smart money accumulating quietly. Classic post-panic institutional entry pattern. Price down 13.7% from high - value opportunity."
+    },
+    {
+      "symbol": "GREATEC.KL",
+      "name": "Greatech Technology",
+      "sector": "Technology",
+      "activity": "Deep Accumulation",
+      "activity_score": 7.8,
+      "volume_ratio": 0.38,
+      "rsi": 21.05,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Bullish",
+      "current_price_rm": 1.85,
+      "daily_volume_shares": 1411800,
+      "estimated_daily_value_rm": 2600000,
+      "estimated_institutional_flow_rm": 1600000,
+      "institutional_ownership_estimate": "62%",
+      "rationale": "Extreme oversold RSI 21.05 with very low volume (0.38x) = deep capitulation. Institutions accumulating at depressed levels. Volume declining = selling exhaustion. Price down 24.5% from high - maximum pessimism creates opportunity. Automation/semiconductor equipment play."
+    },
+    {
+      "symbol": "MAXIS.KL",
+      "name": "Maxis Berhad",
+      "sector": "Finance",
+      "activity": "Distribution",
+      "activity_score": -6.5,
+      "volume_ratio": 0.76,
+      "rsi": 75.0,
+      "macd_status": "Bullish",
+      "money_flow_indicator": "Bearish",
+      "current_price_rm": 4.13,
+      "daily_volume_shares": 3926100,
+      "estimated_daily_value_rm": 16200000,
+      "estimated_institutional_flow_rm": -10800000,
+      "institutional_ownership_estimate": "-67%",
+      "rationale": "RSI 75.0 (overbought) with below-average volume (0.76x) = distribution zone. Institutions selling into retail buying strength. Price near 52-week high (RM 4.22) after 35.8% rally from low. Smart money taking profits while retail chases momentum. Telco with limited growth - institutions rotating out."
+    },
+    {
+      "symbol": "HLBANK.KL",
+      "name": "Hong Leong Bank",
+      "sector": "Finance",
+      "activity": "Neutral-Hold",
+      "activity_score": 5.3,
+      "volume_ratio": 0.65,
+      "rsi": 52.56,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral",
+      "current_price_rm": 21.00,
+      "daily_volume_shares": 1156900,
+      "estimated_daily_value_rm": 24300000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Below-average volume (0.65x) with neutral RSI (52.56). Price near 52-week high but no strong buying or selling pressure. Institutions in hold mode - waiting for better entry or breakout confirmation."
+    },
+    {
+      "symbol": "CIMB.KL",
+      "name": "CIMB Group",
+      "sector": "Finance",
+      "activity": "Neutral-Weak",
+      "activity_score": 4.8,
+      "volume_ratio": 0.74,
+      "rsi": 52.17,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral",
+      "current_price_rm": 7.46,
+      "daily_volume_shares": 8280700,
+      "estimated_daily_value_rm": 61800000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Below-average volume (0.74x) with neutral RSI. Price below SMA-20 but above SMA-50/200. No clear directional bias - institutions sidelined. Regional banking concerns may be weighing on sentiment."
+    },
+    {
+      "symbol": "INARI.KL",
+      "name": "Inari Amertron",
+      "sector": "Technology",
+      "activity": "Neutral-Weak",
+      "activity_score": 4.2,
+      "volume_ratio": 0.72,
+      "rsi": 36.59,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral-Bearish",
+      "current_price_rm": 2.42,
+      "daily_volume_shares": 6819200,
+      "estimated_daily_value_rm": 16500000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Below-average volume (0.72x) with weak RSI (36.59). Semiconductor stock underperforming - down 22.6% from 52-week high. No strong buying interest despite oversold conditions. Waiting for sector catalyst."
+    },
+    {
+      "symbol": "UNISEM.KL",
+      "name": "Unisem",
+      "sector": "Technology",
+      "activity": "Neutral-Weak",
+      "activity_score": 4.0,
+      "volume_ratio": 0.50,
+      "rsi": 40.17,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral-Bearish",
+      "current_price_rm": 3.18,
+      "daily_volume_shares": 543200,
+      "estimated_daily_value_rm": 1700000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Very low volume (0.50x = half of average) with neutral RSI. Semiconductor assembly/test services - sector weakness. No institutional interest. Price below SMA-20 and SMA-50."
+    },
+    {
+      "symbol": "PGAS.KL",
+      "name": "Petronas Gas",
+      "sector": "Utilities",
+      "activity": "Neutral-Weak",
+      "activity_score": 3.5,
+      "volume_ratio": 0.33,
+      "rsi": 45.71,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral",
+      "current_price_rm": 18.36,
+      "daily_volume_shares": 138000,
+      "estimated_daily_value_rm": 2500000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Very low volume (0.33x = one-third of average). Blue chip utility but institutions not interested at current levels. Price below SMA-20/50 but above SMA-200. No clear catalyst."
+    },
+    {
+      "symbol": "YTLPOWR.KL",
+      "name": "YTL Power",
+      "sector": "Utilities",
+      "activity": "Weak",
+      "activity_score": 3.8,
+      "volume_ratio": 0.47,
+      "rsi": 34.0,
+      "macd_status": "Bearish",
+      "money_flow_indicator": "Neutral-Bearish",
+      "current_price_rm": 3.83,
+      "daily_volume_shares": 3848400,
+      "estimated_daily_value_rm": 14700000,
+      "estimated_institutional_flow_rm": 0,
+      "institutional_ownership_estimate": "0%",
+      "rationale": "Low volume (0.47x) with weak RSI (34.0). Price down 14.1% from high. Despite oversold conditions, no institutional buying - concerns about power margins or business outlook."
+    }
+  ],
+
+  "market_summary": {
+    "total_stocks_analyzed": 14,
+    "strong_accumulation": 4,
+    "moderate_accumulation": 3,
+    "neutral_hold": 5,
+    "distribution": 1,
+    "weak_outflow": 1,
+    "institutional_participation_rate": "57%",
+    "retail_participation_rate": "43%",
+    "dominant_theme": "Flight to Quality - Institutions accumulating blue-chip banking and oversold utilities, avoiding extended telco and weak semiconductors",
+    "risk_sentiment": "Cautious-Constructive"
+  },
+
+  "key_findings": [
+    "Finance sector showing strongest institutional inflows - PBBANK (1.82x volume), MAYBANK (1.59x) being accumulated",
+    "Utilities sector seeing contrarian accumulation - GASMSIA (RSI 30.0 + 1.70x volume) and TENAGA (1.52x volume) being bought on weakness",
+    "Technology sector in capitulation phase - PENTA and GREATEC deeply oversold (RSI 31.88, 21.05) with declining volume = smart money quietly entering",
+    "MAXIS distribution warning - RSI 75.0 overbought, institutions selling into retail strength",
+    "Volume patterns reveal institutional accumulation uses weakness (low RSI + high volume), while distribution uses strength (high RSI)",
+    "Total estimated institutional inflows: RM 199.5M vs outflows: RM 10.8M = Net +RM 188.7M daily",
+    "Banking names (PBBANK, MAYBANK) attracting largest absolute capital flows - defensive positioning",
+    "Renewable energy (VSOLAR) and gas utilities (GASMSIA) seeing thematic accumulation - ESG/energy transition play"
+  ],
+
+  "investment_implications": {
+    "immediate_opportunities": [
+      "PBBANK - Strong accumulation, bullish setup",
+      "GASMSIA - Oversold with high volume accumulation",
+      "MAYBANK - Steady institutional buying near highs"
+    ],
+    "contrarian_plays": [
+      "PENTA - Post-capitulation recovery setup",
+      "GREATEC - Extreme oversold, institutional entry",
+      "TENAGA - Blue-chip utility at discount"
+    ],
+    "avoid_list": [
+      "MAXIS - Distribution zone, RSI 75.0 overbought",
+      "Weak tech names - INARI, UNISEM lacking volume support"
+    ],
+    "sector_rotation_signal": "Money rotating FROM Technology TO Finance/Utilities - defensive positioning suggests institutions preparing for market consolidation or volatility",
+    "risk_warning": "Technology sector capitulation may continue before reversal - wait for volume confirmation on INARI/UNISEM before entry"
+  },
+
+  "sankey_data": {
+    "description": "Money flow visualization from total market capital through institutional/retail channels into sectors and individual stocks",
+    "total_market_value_rm": 500000000,
+    "nodes": [
+      {"id": 0, "name": "Market Capital (RM 500M)"},
+      {"id": 1, "name": "Institutional Flow (60%)"},
+      {"id": 2, "name": "Retail Flow (40%)"},
+      {"id": 3, "name": "Finance Sector"},
+      {"id": 4, "name": "Utilities Sector"},
+      {"id": 5, "name": "Technology Sector"},
+      {"id": 6, "name": "Net Buying Pressure"},
+      {"id": 7, "name": "Net Selling Pressure"},
+      {"id": 8, "name": "PBBANK (Accumulation)"},
+      {"id": 9, "name": "MAYBANK (Accumulation)"},
+      {"id": 10, "name": "GASMSIA (Accumulation)"},
+      {"id": 11, "name": "TENAGA (Accumulation)"},
+      {"id": 12, "name": "PENTA (Post-Panic Buy)"},
+      {"id": 13, "name": "GREATEC (Deep Value)"},
+      {"id": 14, "name": "MAXIS (Distribution)"},
+      {"id": 15, "name": "Tech Weak Names"}
+    ],
+    "links": [
+      {"source": 0, "target": 1, "value": 300000000, "label": "Institutional (60%)"},
+      {"source": 0, "target": 2, "value": 200000000, "label": "Retail (40%)"},
+
+      {"source": 1, "target": 3, "value": 200000000, "label": "Finance Inflow (Strong)"},
+      {"source": 1, "target": 4, "value": 85000000, "label": "Utilities Inflow (Moderate)"},
+      {"source": 1, "target": 5, "value": 15000000, "label": "Tech Inflow (Selective)"},
+
+      {"source": 2, "target": 3, "value": 128500000, "label": "Finance (Retail)"},
+      {"source": 2, "target": 4, "value": 57800000, "label": "Utilities (Retail)"},
+      {"source": 2, "target": 5, "value": 13600000, "label": "Tech (Retail)"},
+
+      {"source": 3, "target": 6, "value": 236700000, "label": "Finance Buying"},
+      {"source": 3, "target": 7, "value": 91800000, "label": "Finance Selling"},
+
+      {"source": 4, "target": 6, "value": 92800000, "label": "Utilities Buying"},
+      {"source": 4, "target": 7, "value": 50000000, "label": "Utilities Selling"},
+
+      {"source": 5, "target": 6, "value": 10000000, "label": "Tech Buying"},
+      {"source": 5, "target": 7, "value": 18600000, "label": "Tech Selling"},
+
+      {"source": 6, "target": 8, "value": 43000000, "label": "PBBANK"},
+      {"source": 6, "target": 9, "value": 97300000, "label": "MAYBANK"},
+      {"source": 6, "target": 10, "value": 5900000, "label": "GASMSIA"},
+      {"source": 6, "target": 11, "value": 44700000, "label": "TENAGA"},
+      {"source": 6, "target": 12, "value": 1800000, "label": "PENTA"},
+      {"source": 6, "target": 13, "value": 1600000, "label": "GREATEC"},
+
+      {"source": 7, "target": 14, "value": 10800000, "label": "MAXIS (Profit Taking)"},
+      {"source": 7, "target": 15, "value": 7800000, "label": "Tech Weak (Outflow)"}
+    ]
+  },
+
+  "technical_patterns": {
+    "bullish_setups": [
+      {
+        "symbol": "PBBANK.KL",
+        "pattern": "Institutional Accumulation + Breakout",
+        "signal_strength": "Strong",
+        "entry_rationale": "Volume 1.82x, RSI 59.52, Price above all MAs, MACD bullish"
+      },
+      {
+        "symbol": "GASMSIA.KL",
+        "pattern": "Oversold Bounce + Volume Spike",
+        "signal_strength": "Strong",
+        "entry_rationale": "RSI 30.0 oversold, Volume 1.70x spike, Contrarian institutional buying"
+      },
+      {
+        "symbol": "PENTA.KL",
+        "pattern": "Post-Capitulation Recovery",
+        "signal_strength": "Moderate-Strong",
+        "entry_rationale": "RSI recovered from 8.11 to 31.88, Volume declining (panic over), Smart money entry"
+      }
+    ],
+    "bearish_setups": [
+      {
+        "symbol": "MAXIS.KL",
+        "pattern": "Distribution - Overbought",
+        "signal_strength": "Strong",
+        "exit_rationale": "RSI 75.0 overbought, Low volume on rally, Institutions selling"
+      },
+      {
+        "symbol": "INARI.KL",
+        "pattern": "Weak Momentum - No Support",
+        "signal_strength": "Moderate",
+        "exit_rationale": "Volume 0.72x below average, RSI 36.59 weak, Down 22.6% from high"
+      }
+    ]
+  },
+
+  "next_steps": {
+    "monitoring_priorities": [
+      "Watch PENTA and GREATEC for volume confirmation of accumulation reversal",
+      "Monitor MAXIS for RSI reversal below 70 - distribution may accelerate",
+      "Track PBBANK and MAYBANK volume - if volume stays >1.5x for 3+ days = strong trend confirmation",
+      "GASMSIA RSI recovery - target RSI 40-45 for continued upside"
+    ],
+    "sector_outlook": {
+      "finance": "Bullish - Strong institutional accumulation, defensive positioning",
+      "utilities": "Bullish - Contrarian accumulation on oversold conditions",
+      "technology": "Neutral-Bearish - Capitulation phase, selective deep value opportunities"
+    }
+  }
+}
