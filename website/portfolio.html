@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tracker | Millionaire Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>💼 Portfolio Tracker</h1>
+                <span class="nav-subtitle">Track Holdings, Paper Gains/Losses & Daily Performance</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Dashboard</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="index.html#all-stocks">All Stocks</a>
+                <a href="index.html#search">Search</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Update Banner -->
+    <div class="update-banner">
+        <div class="container">
+            <span class="update-icon">💼</span>
+            <span class="update-text">Milestone 4: Portfolio Tracking | <strong>Capital: RM 50,000</strong> | Track your wealth growth!</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Portfolio Summary Cards -->
+        <section class="portfolio-section">
+            <h2 class="section-title">💰 Portfolio Overview</h2>
+            <div id="portfolio-summary">
+                <!-- Populated by JavaScript -->
+                <p class="loading">Loading portfolio data...</p>
+            </div>
+        </section>
+
+        <!-- Holdings Table -->
+        <section class="portfolio-section">
+            <h2 class="section-title">📊 Current Holdings</h2>
+            <div class="table-wrapper">
+                <div id="holdings-table">
+                    <!-- Populated by JavaScript -->
+                    <p class="loading">Loading holdings...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance Chart -->
+        <section class="portfolio-section">
+            <h2 class="section-title">📈 Performance Over Time</h2>
+            <div class="chart-container">
+                <div id="performance-chart">
+                    <!-- Populated by JavaScript -->
+                    <p class="loading">Loading performance chart...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transaction History -->
+        <section class="portfolio-section">
+            <h2 class="section-title">📝 Transaction History</h2>
+            <div id="transaction-history">
+                <!-- Populated by JavaScript -->
+                <p class="loading">Loading transactions...</p>
+            </div>
+        </section>
+
+        <!-- Quick Actions -->
+        <section class="portfolio-section">
+            <h2 class="section-title">🚀 Quick Actions</h2>
+            <div class="quick-actions">
+                <div class="action-card">
+                    <h3>📥 Execute Day 1 Trades</h3>
+                    <p>Buy Priority #1, #2, #3 stocks (PENTA, GASMSIA, PBBANK)</p>
+                    <code>python3 scripts/execute_day1_buys.py</code>
+                </div>
+
+                <div class="action-card">
+                    <h3>🔄 Fetch Current Prices</h3>
+                    <p>Get latest market data from Yahoo Finance</p>
+                    <code>python3 scripts/daily_data_fetcher.py</code>
+                </div>
+
+                <div class="action-card">
+                    <h3>📊 Mark Daily Performance</h3>
+                    <p>Update portfolio with current prices</p>
+                    <code>python3 scripts/portfolio_tracker.py mark --prices-file current_market_data.json</code>
+                </div>
+
+                <div class="action-card">
+                    <h3>💼 View Portfolio Status</h3>
+                    <p>Show holdings and performance in CLI</p>
+                    <code>python3 scripts/portfolio_tracker.py show</code>
+                </div>
+
+                <div class="action-card">
+                    <h3>📈 Buy Stock</h3>
+                    <p>Add new position to portfolio</p>
+                    <code>python3 scripts/portfolio_tracker.py buy --symbol PGAS.KL --shares 272 --price 18.36</code>
+                </div>
+
+                <div class="action-card">
+                    <h3>📉 Sell Stock</h3>
+                    <p>Close or reduce position</p>
+                    <code>python3 scripts/portfolio_tracker.py sell --symbol PENTA.KL --shares 500 --price 4.50</code>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentation Link -->
+        <section class="portfolio-section">
+            <div class="documentation-box">
+                <h3>📚 Need Help?</h3>
+                <p>Check out the complete Portfolio Tracking Guide for detailed instructions, examples, and best practices.</p>
+                <a href="../PORTFOLIO_TRACKING_GUIDE.md" target="_blank" class="btn btn-secondary">
+                    View Portfolio Tracking Guide
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>💼 Portfolio Tracking System | Milestone 4: Track Your Wealth Journey</p>
+            <p>Capital: RM 50,000 | Target Return: 14-17% (18-22% w/ dividends)</p>
+            <p class="disclaimer">⚠️ Paper gains/losses are unrealized. Only sell transactions create taxable events.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+  "portfolio_id": "main_portfolio_001",
+  "created_date": "2025-11-21",
+  "last_updated": "2025-11-21",
+
+  "capital": {
+    "initial_capital_rm": 50000.00,
+    "current_cash_rm": 50000.00,
+    "total_invested_rm": 0.00,
+    "total_portfolio_value_rm": 50000.00,
+    "total_paper_gain_loss_rm": 0.00,
+    "total_paper_gain_loss_percent": 0.00
+  },
+
+  "holdings": [],
+
+  "transaction_history": [],
+
+  "daily_performance": [],
+
+  "suggested_buys": [
+    {
+      "symbol": "PENTA.KL",
+      "company_name": "Pentamaster Corporation",
+      "suggested_date": "2025-11-21",
+      "priority": 1,
+      "suggested_price_rm": 3.85,
+      "suggested_allocation_rm": 4000.00,
+      "suggested_shares": 1038,
+      "reason": "Recovery play - RSI recovered from 8.11 to 31.88. Panic selling over. Expected return 25-30%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "GASMSIA.KL",
+      "company_name": "Gas Malaysia Berhad",
+      "suggested_date": "2025-11-21",
+      "priority": 2,
+      "suggested_price_rm": 4.29,
+      "suggested_allocation_rm": 3000.00,
+      "suggested_shares": 699,
+      "reason": "Oversold entry - RSI 30.0 + High volume 1.70x = Institutional accumulation. Expected return 15-18%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "PBBANK.KL",
+      "company_name": "Public Bank Berhad",
+      "suggested_date": "2025-11-21",
+      "priority": 3,
+      "suggested_price_rm": 4.30,
+      "suggested_allocation_rm": 6500.00,
+      "suggested_shares": 1511,
+      "reason": "#1 Ranked - Best banking fundamentals (8.5 score). Fortress balance sheet. Expected return 12-15%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "PGAS.KL",
+      "company_name": "Petronas Gas Berhad",
+      "suggested_date": "2025-11-21",
+      "priority": 4,
+      "suggested_price_rm": 18.36,
+      "suggested_allocation_rm": 5000.00,
+      "suggested_shares": 272,
+      "reason": "Quality utility with best fundamentals (8.5 score). Gas monopoly. Expected return 12-15%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "MAYBANK.KL",
+      "company_name": "Malayan Banking Berhad",
+      "suggested_date": "2025-11-21",
+      "priority": 5,
+      "suggested_price_rm": 9.94,
+      "suggested_allocation_rm": 5000.00,
+      "suggested_shares": 503,
+      "reason": "Banking leader with improving ROE. 5.2% dividend yield. ASEAN diversification. Expected return 12-15%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "CIMB.KL",
+      "company_name": "CIMB Group Holdings",
+      "suggested_date": "2025-11-21",
+      "priority": 6,
+      "suggested_price_rm": 7.46,
+      "suggested_allocation_rm": 4500.00,
+      "suggested_shares": 603,
+      "reason": "Highest dividend yield (5.5%) among peers. ASEAN banking exposure. Expected return 12-15%.",
+      "status": "pending"
+    },
+    {
+      "symbol": "INARI.KL",
+      "company_name": "Inari Amertron Berhad",
+      "suggested_date": "2025-11-21",
+      "priority": 7,
+      "suggested_price_rm": 2.42,
+      "suggested_allocation_rm": 3000.00,
+      "suggested_shares": 1239,
+      "reason": "SCALE IN - Highest fundamental score (8.6). 5G and data center beneficiary. Expected return 18-22%.",
+      "status": "pending",
+      "action_type": "scale_in",
+      "scale_in_tranches": [
+        {"tranche": 1, "allocation_rm": 1200.00, "shares": 495, "status": "pending"},
+        {"tranche": 2, "allocation_rm": 1200.00, "shares": 495, "status": "pending"},
+        {"tranche": 3, "allocation_rm": 600.00, "shares": 248, "status": "pending"}
+      ]
+    }
+  ],
+
+  "watchlist": [
+    {
+      "symbol": "MAXIS.KL",
+      "company_name": "Maxis Berhad",
+      "reason": "WAIT - Overbought RSI 75.0. Wait for pullback below RSI 65.",
+      "target_price_rm": 3.85,
+      "current_price_rm": 4.33,
+      "status": "waiting"
+    },
+    {
+      "symbol": "VSOLAR.KL",
+      "company_name": "Vortex Solar Berhad",
+      "reason": "WAIT - Extended rally +99%. Wait for 10-15% pullback to 2.80-2.95.",
+      "target_price_rm": 2.85,
+      "current_price_rm": 3.31,
+      "status": "waiting"
+    },
+    {
+      "symbol": "GREATEC.KL",
+      "company_name": "Greatech Technology",
+      "reason": "WAIT - Extreme oversold RSI 21.05. Wait for stabilization above RSI 25.",
+      "target_price_rm": 2.30,
+      "current_price_rm": 2.21,
+      "status": "waiting"
+    }
+  ],
+
+  "performance_summary": {
+    "total_return_rm": 0.00,
+    "total_return_percent": 0.00,
+    "best_performer": null,
+    "worst_performer": null,
+    "days_tracked": 0,
+    "win_rate": 0.00
+  },
+
+  "metadata": {
+    "investment_strategy": "Medium risk, 12-month horizon",
+    "target_return": "14-17% (18-22% with dividends)",
+    "risk_profile": "Medium with defensive bias",
+    "tracking_start_date": "2025-11-21",
+    "notes": "Following Milestone 2 high-return companies compilation. Portfolio built from 7 stocks with composite score >= 7.0."
+  }
+}
