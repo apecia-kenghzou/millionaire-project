@@ -1,23 +1,40 @@
 {
   "portfolio_id": "main_portfolio_001",
   "created_date": "2025-11-21",
-  "last_updated": "2025-11-21",
-
+  "last_updated": "2025-11-24 02:52:44",
   "capital": {
-    "initial_capital_rm": 50000.00,
-    "current_cash_rm": 50000.00,
-    "total_invested_rm": 0.00,
-    "total_portfolio_value_rm": 50000.00,
-    "total_paper_gain_loss_rm": 0.00,
-    "total_paper_gain_loss_percent": 0.00
+    "initial_capital_rm": 50000.0,
+    "current_cash_rm": 49615.0,
+    "total_invested_rm": 385.0,
+    "total_portfolio_value_rm": 50000.0,
+    "total_paper_gain_loss_rm": 0.0,
+    "total_paper_gain_loss_percent": 0.0
   },
-
-  "holdings": [],
-
-  "transaction_history": [],
-
+  "holdings": [
+    {
+      "symbol": "PENTA.KL",
+      "shares": 100,
+      "purchase_price_rm": 3.85,
+      "purchase_date": "2025-11-24",
+      "purchase_value_rm": 385.0,
+      "current_price_rm": 3.85,
+      "current_value_rm": 385.0,
+      "paper_gain_loss_rm": 0.0,
+      "paper_gain_loss_percent": 0.0
+    }
+  ],
+  "transaction_history": [
+    {
+      "type": "BUY",
+      "symbol": "PENTA.KL",
+      "shares": 100,
+      "price_rm": 3.85,
+      "total_rm": 385.0,
+      "date": "2025-11-24",
+      "timestamp": "2025-11-24 02:52:44"
+    }
+  ],
   "daily_performance": [],
-
   "suggested_buys": [
     {
       "symbol": "PENTA.KL",
@@ -25,10 +42,13 @@
       "suggested_date": "2025-11-21",
       "priority": 1,
       "suggested_price_rm": 3.85,
-      "suggested_allocation_rm": 4000.00,
+      "suggested_allocation_rm": 4000.0,
       "suggested_shares": 1038,
       "reason": "Recovery play - RSI recovered from 8.11 to 31.88. Panic selling over. Expected return 25-30%.",
-      "status": "pending"
+      "status": "executed",
+      "executed_date": "2025-11-24",
+      "executed_price": 3.85,
+      "executed_shares": 100
     },
     {
       "symbol": "GASMSIA.KL",
@@ -36,7 +56,7 @@
       "suggested_date": "2025-11-21",
       "priority": 2,
       "suggested_price_rm": 4.29,
-      "suggested_allocation_rm": 3000.00,
+      "suggested_allocation_rm": 3000.0,
       "suggested_shares": 699,
       "reason": "Oversold entry - RSI 30.0 + High volume 1.70x = Institutional accumulation. Expected return 15-18%.",
       "status": "pending"
@@ -46,8 +66,8 @@
       "company_name": "Public Bank Berhad",
       "suggested_date": "2025-11-21",
       "priority": 3,
-      "suggested_price_rm": 4.30,
-      "suggested_allocation_rm": 6500.00,
+      "suggested_price_rm": 4.3,
+      "suggested_allocation_rm": 6500.0,
       "suggested_shares": 1511,
       "reason": "#1 Ranked - Best banking fundamentals (8.5 score). Fortress balance sheet. Expected return 12-15%.",
       "status": "pending"
@@ -58,7 +78,7 @@
       "suggested_date": "2025-11-21",
       "priority": 4,
       "suggested_price_rm": 18.36,
-      "suggested_allocation_rm": 5000.00,
+      "suggested_allocation_rm": 5000.0,
       "suggested_shares": 272,
       "reason": "Quality utility with best fundamentals (8.5 score). Gas monopoly. Expected return 12-15%.",
       "status": "pending"
@@ -69,7 +89,7 @@
       "suggested_date": "2025-11-21",
       "priority": 5,
       "suggested_price_rm": 9.94,
-      "suggested_allocation_rm": 5000.00,
+      "suggested_allocation_rm": 5000.0,
       "suggested_shares": 503,
       "reason": "Banking leader with improving ROE. 5.2% dividend yield. ASEAN diversification. Expected return 12-15%.",
       "status": "pending"
@@ -80,7 +100,7 @@
       "suggested_date": "2025-11-21",
       "priority": 6,
       "suggested_price_rm": 7.46,
-      "suggested_allocation_rm": 4500.00,
+      "suggested_allocation_rm": 4500.0,
       "suggested_shares": 603,
       "reason": "Highest dividend yield (5.5%) among peers. ASEAN banking exposure. Expected return 12-15%.",
       "status": "pending"
@@ -91,19 +111,33 @@
       "suggested_date": "2025-11-21",
       "priority": 7,
       "suggested_price_rm": 2.42,
-      "suggested_allocation_rm": 3000.00,
+      "suggested_allocation_rm": 3000.0,
       "suggested_shares": 1239,
       "reason": "SCALE IN - Highest fundamental score (8.6). 5G and data center beneficiary. Expected return 18-22%.",
       "status": "pending",
       "action_type": "scale_in",
       "scale_in_tranches": [
-        {"tranche": 1, "allocation_rm": 1200.00, "shares": 495, "status": "pending"},
-        {"tranche": 2, "allocation_rm": 1200.00, "shares": 495, "status": "pending"},
-        {"tranche": 3, "allocation_rm": 600.00, "shares": 248, "status": "pending"}
+        {
+          "tranche": 1,
+          "allocation_rm": 1200.0,
+          "shares": 495,
+          "status": "pending"
+        },
+        {
+          "tranche": 2,
+          "allocation_rm": 1200.0,
+          "shares": 495,
+          "status": "pending"
+        },
+        {
+          "tranche": 3,
+          "allocation_rm": 600.0,
+          "shares": 248,
+          "status": "pending"
+        }
       ]
     }
   ],
-
   "watchlist": [
     {
       "symbol": "MAXIS.KL",
@@ -125,21 +159,19 @@
       "symbol": "GREATEC.KL",
       "company_name": "Greatech Technology",
       "reason": "WAIT - Extreme oversold RSI 21.05. Wait for stabilization above RSI 25.",
-      "target_price_rm": 2.30,
+      "target_price_rm": 2.3,
       "current_price_rm": 2.21,
       "status": "waiting"
     }
   ],
-
   "performance_summary": {
-    "total_return_rm": 0.00,
-    "total_return_percent": 0.00,
+    "total_return_rm": 0.0,
+    "total_return_percent": 0.0,
     "best_performer": null,
     "worst_performer": null,
     "days_tracked": 0,
-    "win_rate": 0.00
+    "win_rate": 0.0
   },
-
   "metadata": {
     "investment_strategy": "Medium risk, 12-month horizon",
     "target_return": "14-17% (18-22% with dividends)",
