@@ -9,6 +9,7 @@ echo ""
 echo "Starting local web server..."
 echo ""
 echo "🌐 Dashboard will be available at: http://localhost:8000"
+echo "    (Auto-redirects to /website/)"
 echo ""
 echo "Features:"
 echo "  ✅ Top 3 High-Return Opportunities (PENTA 🔥, GASMSIA 💰, PBBANK ⭐)"
@@ -24,8 +25,9 @@ echo ""
 echo "======================================================================"
 echo ""
 
-# Change to website directory
-cd "$(dirname "$0")"
+# Change to project root (parent of website directory)
+cd "$(dirname "$0")/.."
 
-# Start Python HTTP server
-python3 -m http.server 8000
+# Start Python HTTP server from project root
+# This allows access to both website/ and analysis/ folders
+python3 -m http.server 8000 --directory .
