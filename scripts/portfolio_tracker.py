@@ -16,7 +16,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 class PortfolioTracker:
     """Manage portfolio tracking with paper gains/losses"""
 
-    def __init__(self, portfolio_file: str = "portfolio.json"):
+    def __init__(self, portfolio_file: str = "website/data/portfolio.json"):
         self.portfolio_file = Path(portfolio_file)
         self.portfolio = self._load_portfolio()
 

@@ -40,7 +40,7 @@ class PortfolioDecisionEngine:
 
     def _load_portfolio(self) -> Dict:
         """Load current portfolio"""
-        portfolio_file = Path('portfolio.json')
+        portfolio_file = Path('website/data/portfolio.json')
         if not portfolio_file.exists():
             print("❌ Portfolio not found")
             sys.exit(1)
