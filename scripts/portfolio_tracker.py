@@ -469,7 +469,7 @@ def main():
                 # Extract prices from current_market_data.json format
                 prices = {}
                 for stock in data.get('stocks', []):
-                    prices[stock['symbol']] = stock['current_price']
+                    prices[stock['symbol']] = stock['current_price_rm']
                 tracker.mark_daily_performance(prices, args.date)
         else:
             print("❌ --prices-file required for mark action")
