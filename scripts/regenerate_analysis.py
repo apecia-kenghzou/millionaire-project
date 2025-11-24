@@ -34,7 +34,8 @@ class PortfolioDecisionEngine:
         with open(data_file, 'r') as f:
             data = json.load(f)
 
-        print(f"✅ Loaded market data from {data['timestamp']}")
+        timestamp = data.get('fetch_date') or data.get('timestamp') or 'Unknown'
+        print(f"✅ Loaded market data from {timestamp}")
         return data
 
     def _load_portfolio(self) -> Dict:
@@ -52,9 +53,21 @@ class PortfolioDecisionEngine:
 
     def _get_stock_data(self, symbol: str) -> Dict:
         """Get stock data from market data"""
+        # Remove .KL suffix if present for matching
+        symbol_clean = symbol.replace('.KL', '')
+
         for stock in self.market_data['stocks']:
-            if stock['symbol'] == symbol:
+            # Try matching yahoo_symbol (e.g., "PENTA.KL" or "0166.KL")
+            if stock.get('yahoo_symbol') == symbol:
                 return stock
+            # Try matching simple symbol (e.g., "PENTA")
+            if stock.get('symbol') == symbol_clean:
+                return stock
+            # Try matching yahoo_symbol without .KL
+            yahoo_sym = stock.get('yahoo_symbol', '').replace('.KL', '')
+            if yahoo_sym == symbol_clean:
+                return stock
+
         return None
 
     def analyze_holding(self, holding: Dict) -> Dict:
@@ -323,10 +336,12 @@ class PortfolioDecisionEngine:
         capital = self.portfolio['capital']
         cash = capital['current_cash_rm']
 
+        timestamp = self.market_data.get('fetch_date') or self.market_data.get('timestamp') or 'Unknown'
+
         report = f"""# 📊 Portfolio Decision Report - {self.date}
 
 **Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-**Market Data:** {self.market_data['timestamp']}
+**Market Data:** {timestamp}
 
 ---
 
