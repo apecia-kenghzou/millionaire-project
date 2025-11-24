@@ -1,0 +1,26 @@
+{
+  "validation_date": "2025-11-24",
+  "total_predictions": 1,
+  "active_positions": 1,
+  "completed_positions": 0,
+  "agents": {
+    "FundamentalAnalyzer": {
+      "avg_score": 8.6,
+      "avg_return": 0.0,
+      "accuracy": "pending",
+      "note": "Need 5 more completed trades to calculate accuracy"
+    },
+    "TechnicalAnalyzer": {
+      "avg_score": 4.5,
+      "avg_return": 0.0,
+      "accuracy": "pending",
+      "note": "Need 5 more completed trades to calculate accuracy"
+    },
+    "RankingEngine": {
+      "avg_rank": 11.0,
+      "avg_return": 0.0,
+      "rank_effectiveness": "pending",
+      "note": "Need 5 more completed trades to validate rankings"
+    }
+  }
+}

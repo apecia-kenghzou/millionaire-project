@@ -1,0 +1,65 @@
+{
+  "tracking_start_date": "2025-11-24",
+  "description": "Tracks all agent predictions against actual performance to enable continuous improvement",
+  "predictions": [
+    {
+      "stock": "PENTA.KL",
+      "company_name": "Pentamaster Corporation",
+      "prediction_date": "2025-11-21",
+      "entry_date": "2025-11-24",
+      "predicted_return_range": "25-30%",
+      "predicted_timeframe_months": 12,
+      "entry_price_rm": 3.85,
+      "current_price_rm": 3.85,
+      "stop_loss_rm": 3.5,
+      "target_price_rm": 4.81,
+      "status": "holding",
+      "days_held": 0,
+      "agent_scores": {
+        "fundamental_score": 8.6,
+        "technical_score": 4.5,
+        "composite_score": 6.55,
+        "original_rank": 11,
+        "priority_assigned": 1,
+        "rank_vs_priority_mismatch": true
+      },
+      "prediction_rationale": "Recovery play - RSI recovered from 8.11 to 31.88. Panic selling over. Strong fundamentals (18.2% ROE, 0.08x debt)",
+      "key_signals": {
+        "rsi_current": 31.88,
+        "rsi_previous_low": 8.11,
+        "recovery_signal": true,
+        "fundamental_quality": "excellent",
+        "technical_setup": "oversold_recovery"
+      },
+      "actual_performance": {
+        "current_return_pct": 0.0,
+        "current_return_rm": 0.0,
+        "peak_price_rm": 3.85,
+        "peak_return_pct": 0.0,
+        "trough_price_rm": 3.85,
+        "max_drawdown_pct": 0.0,
+        "1_week_return": null,
+        "1_month_return": null,
+        "3_month_return": null,
+        "6_month_return": null,
+        "12_month_return": null,
+        "final_return": null,
+        "current_price_rm": 3.85,
+        "days_held": 0
+      },
+      "lessons": [
+        "\u2705 On track: 0.0% vs 0.0% expected after 0 days"
+      ],
+      "last_updated": "2025-11-24"
+    }
+  ],
+  "portfolio_summary": {
+    "total_predictions": 1,
+    "active_positions": 1,
+    "closed_positions": 0,
+    "avg_return_active": 0.0,
+    "avg_return_closed": null,
+    "win_rate": null,
+    "last_validation": "2025-11-24 03:33:40"
+  }
+}

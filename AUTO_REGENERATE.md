@@ -21,6 +21,39 @@
 
 ---
 
+### STEP 0: Validate Agent Predictions (MILESTONE 6 - NEW!)
+
+**Action:** Track how well our agents predicted stock performance vs reality.
+
+```bash
+python3 scripts/validate_predictions.py
+```
+
+**What this does:**
+- ✅ Updates prediction tracking with actual returns
+- ✅ Calculates agent accuracy metrics
+- ✅ Generates lessons learned from wins/losses
+- ✅ Identifies which agent signals work best
+
+**Review outputs:**
+```bash
+# Check prediction tracking
+cat predictions_tracking.json | jq '.predictions[] | {stock, predicted: .predicted_return_range, actual: .actual_performance.current_return_pct}'
+
+# Check agent performance
+cat reports/agent_performance.json
+```
+
+**Key insights to note:**
+- Are high fundamental scores beating low scores?
+- Are oversold recovery signals (RSI <30) working?
+- Is our ranking system effective (#1 > #5 > #10)?
+- Which predictions are on track vs behind?
+
+**Use these insights:** Adjust strategy based on what's working!
+
+---
+
 ### STEP 1: Fetch Fresh Market Data
 
 **Action:** Run the data fetcher to get current prices, RSI, MACD, and volume data.
