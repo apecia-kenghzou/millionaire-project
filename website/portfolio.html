@@ -38,7 +38,12 @@
 
         <!-- Portfolio Summary Cards -->
         <section class="portfolio-section">
-            <h2 class="section-title">💰 Portfolio Overview</h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h2 class="section-title">💰 Portfolio Overview</h2>
+                <button onclick="loadPortfolioData()" style="padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: transform 0.2s;">
+                    🔄 Refresh Data
+                </button>
+            </div>
             <div id="portfolio-summary">
                 <!-- Populated by JavaScript -->
                 <p class="loading">Loading portfolio data...</p>

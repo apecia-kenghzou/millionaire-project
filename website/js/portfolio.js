@@ -5,12 +5,20 @@ let portfolioData = null;
 // Load portfolio data
 async function loadPortfolioData() {
     try {
-        const response = await fetch('data/portfolio.json');
+        // Add cache-busting timestamp to force fresh data
+        const timestamp = new Date().getTime();
+        const response = await fetch(`data/portfolio.json?t=${timestamp}`);
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         portfolioData = await response.json();
-        console.log('Portfolio data loaded');
+        console.log('Portfolio data loaded:', portfolioData);
         renderPortfolio();
     } catch (error) {
         console.error('Error loading portfolio data:', error);
+        showErrorMessage('Failed to load portfolio data. Please refresh the page.');
     }
 }
 
@@ -20,10 +28,23 @@ function renderPortfolio() {
         return;
     }
 
+    console.log('Rendering portfolio with', portfolioData.holdings.length, 'holdings');
     renderPortfolioSummary();
     renderHoldingsTable();
     renderPerformanceChart();
     renderTransactionHistory();
+}
+
+function showErrorMessage(message) {
+    const summaryEl = document.getElementById('portfolio-summary');
+    if (summaryEl) {
+        summaryEl.innerHTML = `
+            <div style="padding: 2rem; text-align: center; background: #fee; border-radius: 10px; color: #c33;">
+                <h3>❌ Error</h3>
+                <p>${message}</p>
+            </div>
+        `;
+    }
 }
 
 function renderPortfolioSummary() {
