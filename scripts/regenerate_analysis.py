@@ -89,10 +89,10 @@ class PortfolioDecisionEngine:
 
         # Get key metrics
         purchase_price = holding['purchase_price_rm']
-        current_price = stock_data['current_price']
-        rsi = stock_data.get('rsi_14', 50)
-        macd_status = stock_data.get('macd_histogram', 0)
-        volume_ratio = stock_data.get('volume_ratio', 1.0)
+        current_price = stock_data['current_price_rm']
+        rsi = stock_data.get('momentum_indicators', {}).get('rsi_14', 50)
+        macd_histogram = stock_data.get('momentum_indicators', {}).get('histogram', 0)
+        volume_ratio = stock_data.get('volume_analysis', {}).get('volume_ratio', 1.0)
 
         # Calculate performance
         price_change_pct = ((current_price - purchase_price) / purchase_price) * 100
@@ -107,7 +107,7 @@ class PortfolioDecisionEngine:
             current_price=current_price,
             price_change_pct=price_change_pct,
             rsi=rsi,
-            macd_status=macd_status,
+            macd_histogram=macd_histogram,
             volume_ratio=volume_ratio,
             stop_loss=stop_loss,
             holding=holding,
@@ -130,7 +130,7 @@ class PortfolioDecisionEngine:
         return stop_losses.get(symbol, 0)
 
     def _make_decision(self, symbol, purchase_price, current_price, price_change_pct,
-                      rsi, macd_status, volume_ratio, stop_loss, holding, stock_data) -> Dict:
+                      rsi, macd_histogram, volume_ratio, stop_loss, holding, stock_data) -> Dict:
         """Apply decision logic"""
 
         # SELL CONDITIONS
@@ -192,7 +192,7 @@ class PortfolioDecisionEngine:
                 'note': f'Average down from RM {purchase_price:.2f} to lower cost basis'
             }
 
-        if volume_ratio > 1.5 and 30 < rsi < 40 and macd_status > 0:
+        if volume_ratio > 1.5 and 30 < rsi < 40 and macd_histogram > 0:
             # High volume accumulation at good price
             suggested_shares = int(500 / current_price)
             return {
@@ -260,9 +260,9 @@ class PortfolioDecisionEngine:
                 continue  # Skip stocks we already hold
 
             # Get key metrics
-            rsi = stock.get('rsi_14', 50)
-            volume_ratio = stock.get('volume_ratio', 1.0)
-            current_price = stock['current_price']
+            rsi = stock.get('momentum_indicators', {}).get('rsi_14', 50)
+            volume_ratio = stock.get('volume_analysis', {}).get('volume_ratio', 1.0)
+            current_price = stock['current_price_rm']
 
             # Simple scoring (in real version, use proper fundamental analysis)
             # For now, use basic technical signals
