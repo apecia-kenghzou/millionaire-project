@@ -203,10 +203,10 @@ function showStockDetail(symbolOrCode) {
 
         <!-- Analysis File Link -->
         <div style="margin-top: 2rem; text-align: center;">
-            <a href="/analysis/2025-11-21/${stock.sector?.toLowerCase()}/${shortSymbol}.md"
+            <a href="/website/viewer.html?file=/analysis/2025-11-21/${stock.sector?.toLowerCase()}/${shortSymbol}.md"
                target="_blank"
-               style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-weight: 600;">
-                📄 View Complete Analysis Report
+               style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
+                📄 View Beautiful Analysis Report
             </a>
         </div>
     `;

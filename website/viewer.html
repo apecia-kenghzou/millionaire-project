@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Report | Millionaire Dashboard</title>
+    <link rel="stylesheet" href="css/viewer.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="viewer-header">
+        <div class="container">
+            <a href="/website/index.html" class="back-button">
+                ← Back to Dashboard
+            </a>
+            <div class="header-title">
+                <h1>📊 Stock Analysis Report</h1>
+                <p id="file-path" class="file-path"></p>
+            </div>
+            <button id="print-btn" class="print-button" onclick="window.print()">
+                🖨️ Print
+            </button>
+        </div>
+    </header>
+
+    <!-- Loading State -->
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Loading analysis...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="error-container" style="display: none;">
+        <div class="error-content">
+            <h2>❌ Error Loading Analysis</h2>
+            <p id="error-message"></p>
+            <a href="/website/index.html" class="button">Back to Dashboard</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="viewer-container">
+        <article id="markdown-content" class="markdown-body">
+            <!-- Markdown content will be rendered here -->
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="viewer-footer">
+        <div class="container">
+            <p>💰 Millionaire Stock Dashboard | Generated from AI-powered analysis</p>
+            <p class="footer-note">Last updated: <span id="last-updated"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/viewer.js"></script>
+</body>
+</html>
