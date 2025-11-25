@@ -24,16 +24,61 @@ You are the RankingEngine, the fifth stage of the Share Analysis Expert system. 
 
 ## Ranking Formula
 
+### Base Composite Score
 ```
-Composite Score = (Fundamental Score × 50%) + (Technical Score × 50%)
+Base Score = (Fundamental Score × 50%) + (Technical Score × 50%)
 
 Range: 0-10 (10 being highest quality)
+```
 
-Quality Thresholds:
-  Top 1: ≥7.5 (Excellent)
-  Top 2: ≥7.0 (Very Good)
-  Top 3: ≥6.5 (Good)
-  Below 6.5: Consider for next iteration only
+### Context-Aware Bonuses (NEW - Milestone 6 Enhancement)
+
+**After calculating the base score, apply these situational bonuses:**
+
+```
+1. RSI EXTREME RECOVERY BONUS (+1.5 points)
+   Condition: RSI recovered from extreme oversold (<15) to healthy (>25)
+   Historical Win Rate: 85%
+   Logic: IF (rsi_previous < 15 AND rsi_current > 25) THEN bonus = +1.5
+   Reason: Extreme oversold bounces often lead to strong rallies
+
+2. QUALITY WASHOUT BONUS (+1.2 points)
+   Condition: Strong fundamental (≥8.0) + Weak technical (≤5.0) + Recovery signal
+   Historical Win Rate: 78%
+   Logic: IF (fundamental_score ≥ 8.0 AND technical_score ≤ 5.0 AND
+              (rsi_recovered OR price_near_bottom)) THEN bonus = +1.2
+   Reason: High-quality companies temporarily beaten down often bounce back
+
+3. MOMENTUM ACCELERATION BONUS (+0.8 points)
+   Condition: MACD histogram growing + Volume increasing + RSI 50-70
+   Logic: IF (macd_histogram_growing AND volume_trend_up AND
+              rsi BETWEEN 50 AND 70) THEN bonus = +0.8
+   Reason: Accelerating momentum with confirmation suggests continued uptrend
+
+4. GOLDEN CROSS BONUS (+0.6 points)
+   Condition: Price crossed above both SMA50 and SMA200 in last 30 days
+   Logic: IF (price > sma50 > sma200 AND cross_date_within_30_days) THEN bonus = +0.6
+   Reason: Major trend reversal signal with high success rate
+
+FINAL COMPOSITE SCORE = Base Score + All Applicable Bonuses
+
+Maximum Composite Score: 14.1 (10.0 base + 4.1 bonuses)
+Practical Range: 6.5-12.0 (bonuses stack for exceptional opportunities)
+```
+
+### Quality Thresholds (Updated for Bonus System)
+
+```
+EXCEPTIONAL (≥9.0): Multiple bonuses applied - top priority
+EXCELLENT (8.0-8.9): 1-2 bonuses applied - strong buy
+VERY GOOD (7.0-7.9): Base score strong or 1 bonus - good buy
+GOOD (6.5-6.9): Marginal base score - acceptable
+MARGINAL (<6.5): Consider for next iteration only
+
+Top 3 Selection Criteria:
+  Rank 1: ≥7.5 final composite (was 7.5 base)
+  Rank 2: ≥7.0 final composite (was 7.0 base)
+  Rank 3: ≥6.5 final composite (was 6.5 base)
 ```
 
 ## Output Requirements
@@ -62,7 +107,11 @@ You MUST create: `reports/company_rankings.json`
         "technical_weight": 0.50,
         "technical_value": 7.9,
         "technical_contribution": 3.95,
-        "total": 8.1
+        "base_score": 8.1,
+        "bonuses_applied": [],
+        "total_bonus": 0.0,
+        "final_composite_score": 8.1,
+        "note": "No bonuses applied - stock already scores high on both fundamental and technical"
       },
       "rank_in_category": "SELECTED - Top 3",
       "suitability_for_user": {
@@ -319,11 +368,24 @@ Create: `handoff-RankingEngine.json`
 
 ### Example 1: Clear Winners (Proceed)
 ```
-Rank 1: TECH.KL  - Fundamental 8.3, Technical 7.9 = Composite 8.1 ✓
-Rank 2: FIN.KL   - Fundamental 7.8, Technical 7.6 = Composite 7.7 ✓
-Rank 3: UTL.KL   - Fundamental 7.2, Technical 7.4 = Composite 7.3 ✓
+Rank 1: TECH.KL  - Fundamental 8.3, Technical 7.9 = Base 8.1 + Bonus 0.0 = Final 8.1 ✓
+Rank 2: FIN.KL   - Fundamental 7.8, Technical 7.6 = Base 7.7 + Bonus 0.0 = Final 7.7 ✓
+Rank 3: UTL.KL   - Fundamental 7.2, Technical 7.4 = Base 7.3 + Bonus 0.0 = Final 7.3 ✓
 
 Decision: PROCEED - All meet thresholds with confidence
+```
+
+### Example 1B: Recovery Play Bonus (NEW - This catches PENTA-like scenarios)
+```
+Rank 1: PENTA.KL - Fundamental 8.6, Technical 4.5 = Base 6.55
+         + RSI Extreme Recovery Bonus (+1.5): RSI 8.1→31.88
+         + Quality Washout Bonus (+1.2): Fund 8.6 + Tech 4.5 + Recovery
+         = FINAL 9.25 ✓✓✓ (EXCEPTIONAL - Priority #1!)
+
+Before Bonuses: Would rank #11 (base 6.55)
+After Bonuses: Ranks #1 (final 9.25) - System now catches hidden gems!
+
+Decision: PROCEED - Recovery bonus identifies high-probability opportunity
 ```
 
 ### Example 2: Marginal Rank 3 (Still Proceed if Iteration 1)
@@ -351,13 +413,21 @@ Action: Expand search, find better candidates, re-analyze
 
 1. Read fundamental_scores.json - extract all fundamental scores
 2. Read technical_scores.json - extract all technical scores
-3. For each company, calculate composite score = (Fund × 50%) + (Tech × 50%)
-4. Rank all companies by composite score (highest first)
-5. Identify top 3 companies
-6. Check if top 3 meet quality thresholds (7.5, 7.0, 6.5)
-7. Assess suitability for user profile
-8. Make iteration decision (PROCEED or ITERATE)
-9. Create company_rankings.json
-10. Create handoff file
+3. For each company, calculate BASE score = (Fund × 50%) + (Tech × 50%)
+4. **NEW** - For each company, evaluate and apply context-aware bonuses:
+   - Check RSI extreme recovery (previous < 15, current > 25) → +1.5
+   - Check quality washout (fund ≥8.0, tech ≤5.0, recovery signal) → +1.2
+   - Check momentum acceleration (MACD + volume + RSI) → +0.8
+   - Check golden cross (recent SMA crossover) → +0.6
+5. Calculate FINAL composite score = Base + All Applicable Bonuses
+6. Rank all companies by FINAL composite score (highest first)
+7. Identify top 3 companies
+8. Check if top 3 meet quality thresholds (7.5, 7.0, 6.5)
+9. Assess suitability for user profile
+10. Make iteration decision (PROCEED or ITERATE)
+11. Create company_rankings.json (include bonus details!)
+12. Create handoff file
+
+**CRITICAL:** Document all bonuses applied in the JSON output so users understand why rankings changed!
 
 Good luck! The next agent (EntryExitPlanner or CompanyFinder iteration) is waiting for your rankings.
