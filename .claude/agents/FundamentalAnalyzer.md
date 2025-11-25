@@ -340,7 +340,75 @@ Create: `handoff-FundamentalAnalyzer.json`
 
 ## Data Collection Tips
 
-### Where to Find Reports
+### ⭐ PREFERRED METHOD: Automated Financial Data (NEW!)
+
+**Use the automated financial data fetcher for 100% FREE, automated data collection!**
+
+**Pre-requisite:** Run this command BEFORE analysis:
+```bash
+python3 scripts/fetch_financial_data.py --file portfolio.json
+# Or for specific symbols:
+python3 scripts/fetch_financial_data.py --symbols PBBANK.KL,GASMSIA.KL,PENTA.KL
+```
+
+**Data Location:**
+- Fetched files are stored in: `data/financial_reports/{symbol}_financials.json`
+- Example: `data/financial_reports/PBBANK_financials.json`
+
+**What's Included:**
+- ✅ Annual Income Statements (last 3-5 years)
+- ✅ Annual Balance Sheets (last 3-5 years)
+- ✅ Annual Cash Flow Statements (last 3-5 years)
+- ✅ Quarterly Income Statements (last 4-8 quarters)
+- ✅ Quarterly Balance Sheets (last 4-8 quarters)
+- ✅ Quarterly Cash Flow Statements (last 4-8 quarters)
+- ✅ Pre-calculated metrics (Revenue growth, margins, ROE, debt ratios)
+
+**Data Source:** Yahoo Finance API (free, reliable, updated within 24-48 hours of company filings)
+
+**How to Use:**
+1. Check if pre-fetched data exists: `ls data/financial_reports/`
+2. If exists, read from JSON files: `cat data/financial_reports/PBBANK_financials.json`
+3. Extract metrics directly from `calculated_metrics` section
+4. Use `annual_income_statement`, `annual_balance_sheet`, `annual_cashflow` for detailed analysis
+
+**Example Data Structure:**
+```json
+{
+  "symbol": "PBBANK.KL",
+  "company_name": "Public Bank Berhad",
+  "annual_income_statement": {
+    "2024-12-31": {"Total Revenue": 25500000000, "Net Income": 7200000000},
+    "2023-12-31": {"Total Revenue": 24200000000, "Net Income": 6800000000}
+  },
+  "calculated_metrics": {
+    "metrics": {
+      "latest_revenue": 25500000000,
+      "net_profit_margin_pct": 28.24,
+      "roe_pct": 16.0,
+      "debt_to_equity": 0.27,
+      "yoy_revenue_growth_pct": 5.2,
+      "quarterly_momentum": "improving"
+    }
+  }
+}
+```
+
+**Benefits:**
+- ✅ No manual downloads
+- ✅ 100% FREE (no API keys needed)
+- ✅ Consistent data format
+- ✅ Pre-calculated metrics save time
+- ✅ Quarterly momentum already analyzed
+
+**See:** `FINANCIAL_DATA_COLLECTION_GUIDE.md` for complete documentation
+
+---
+
+### Alternative: Manual Data Collection
+
+If automated data is unavailable or you need to verify numbers:
+
 1. **Bursa Malaysia Announcements**
    - www.bursamalaysia.com → Company announcements
    - Search for each stock symbol
@@ -381,15 +449,27 @@ Create: `handoff-FundamentalAnalyzer.json`
 
 ## Start Execution
 
-1. Read the company candidates list
-2. For each of 12 companies, retrieve their latest 3 years of financial reports
-3. Calculate the 6 key metrics (revenue growth, profitability, ROE, debt, dividend, cash flow)
-4. Score each metric 0-10 scale
-5. Calculate composite score (weighted average of 6 metrics)
-6. Analyze latest quarterly results for momentum
-7. Identify key strengths and concerns
-8. Create fundamental_scores.json with all analysis
-9. Create handoff file
-10. Run validation command
+1. Read the company candidates list from CompanyFinder output
+2. **Check for automated financial data:**
+   - Look for files in `data/financial_reports/{symbol}_financials.json`
+   - If exists, use pre-fetched data (faster, more reliable)
+   - If missing, use alternative methods (web search, manual download)
+3. For each of 12 companies, extract financial data:
+   - **If using automated data:** Read from JSON, use `calculated_metrics` for quick access
+   - **If manual:** Download from Bursa Malaysia or financial websites
+4. Calculate the 6 key metrics (revenue growth, profitability, ROE, debt, dividend, cash flow)
+   - Many metrics pre-calculated if using automated data
+   - Otherwise calculate from raw financial statements
+5. Score each metric 0-10 scale using the framework above
+6. Calculate composite score (weighted average of 6 metrics)
+7. Analyze latest quarterly results for momentum
+   - Check `quarterly_momentum` field if using automated data
+   - Compare latest quarter vs previous quarter and YoY
+8. Identify key strengths and concerns for each company
+9. Create fundamental_scores.json with all analysis
+10. Create handoff file
+11. Run validation command
+
+**IMPORTANT:** Always prefer automated data when available. It's faster, more consistent, and reduces errors!
 
 Good luck! The TechnicalAnalyzer is waiting for these fundamental scores.
